@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
+<task id="task_swl_p5f_23">
+    <title>Write upwards from small parts rather than divide a large document down into small
+        parts</title>
+    <shortdesc>Writng using DITA allows you to construct your document from smaller parts that you
+        can assemble usiing a map.Although it requires a bit more forethrought, it will make tha
+        document much easier to maintain and allow the smaller parts to be reused in related
+        documents.</shortdesc>
+    <taskbody>
+        <section/>
+    </taskbody>
+</task>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>How to write and maintain structured policy and procedure documents using DITA XML</title>
+ <topicmeta>
+  <author>John Tait</author>
+  <copyright>
+   <copyryear year="2012-2013"/>
+   <copyrholder>John Tait</copyrholder>
+  </copyright>
+  <keywords>
+   <keyword>DITA</keyword>
+   <keyword>XML</keyword>
+   <keyword>policy</keyword>
+   <keyword>procedure</keyword>
+   <keyword>standard</keyword>
+   <keyword>process</keyword>
+   <keyword>structured writing</keyword>
+   <keyword>technical writing</keyword>
+   <keyword>technical authoring</keyword>
+   <keyword>technical editing</keyword>
+   <keyword>knowledge management</keyword>
+   <keyword>information management</keyword>
+   <keyword>documents</keyword>
+   <indexterm/>
+  </keywords>
+ </topicmeta>
+ <topicref href="introduction.xml" collection-type="unordered">
+  <topicref href="preface.xml"/>
+  <topicref href="source_material_for_this_book.xml"/>
+  <topicref href="write_upwards_from_small_parts.xml"/>
+  <topicref href="advantages_of_using_DITA.xml"/>
+  <topicref href="knowledge_management_of_clause_numbering.xml"/>
+  <topicref href="naming_files_and_folders.xml"/>
+  <topicref href="GNU_free_document_licence.xml"/>
+ </topicref>
+</map>

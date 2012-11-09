@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
+<task id="task_oyp_3wf_23">
+    <title>Naming files and folders</title>
+    <shortdesc>Give special attention to the names of files and folders. These will be used in your
+        maps, and with allow your maps to be read like tables of contents, making your work much
+        easier.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm>naming<indexterm>files</indexterm><indexterm>folders</indexterm></indexterm>
+                <indexterm>folders<indexterm>naming</indexterm></indexterm>
+                <indexterm>files<indexterm>naming</indexterm></indexterm>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <section>
+            <p>Use lower case except when it would be perverse not to do so, e.g. in organzation
+                names.</p>
+        </section>
+    </taskbody>
+</task>

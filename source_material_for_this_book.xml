@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
+<task id="task_nhg_mhg_23">
+    <title>Source material for this book</title>
+    <shortdesc>The book will evolve online.</shortdesc>
+    <taskbody>
+        <section>
+            <p> I’ll sell it on Amazon sometime early next year. The DITA source up for anyone to
+                use on Github.</p>
+        </section>
+    </taskbody>
+</task>
