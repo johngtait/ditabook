@@ -30,8 +30,16 @@
   <topicref href="source_material_for_this_book.xml"/>
   <topicref href="write_upwards_from_small_parts.xml"/>
   <topicref href="advantages_of_using_DITA.xml"/>
+  <topicref href="DITA_is_a_safe_and_future-proof_format.xml"/>
   <topicref href="knowledge_management_of_clause_numbering.xml"/>
+  <topicref href="related_technologies_to_DITA.xml"/>
+  <topicref href="alternative_structured_documentation_technologies.xml"/>
+  <topicref href="content_management_systems.xml"/>
   <topicref href="naming_files_and_folders.xml"/>
+  <topicref href="conditional_profiling.xml"/>
+  <topicref href="simple_CSS_stylesheet_customizations.xml"/>
+  <topicref href="working_groups.xml"/>
+  <topicref href="formally_review_the_content.xml"/>
   <topicref href="GNU_free_document_licence.xml"/>
  </topicref>
 </map>

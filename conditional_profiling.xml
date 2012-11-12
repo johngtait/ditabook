@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
+<task id="task_f41_vzd_f3">
+    <title>Conditional profiling</title>
+    <shortdesc>DITA allows conditional profiling. It's possible to use conditional profiling "out of
+        the box" using the computer documentation defaults, but any more advanced profiling with
+        require specialization of the DITA Open Toolkit.</shortdesc>
+    <taskbody>
+        <section>
+            <title>The default come from the computer documentation tradition</title>
+        </section>
+    </taskbody>
+</task>

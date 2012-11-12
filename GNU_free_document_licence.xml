@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_irh_dxf_23">
     <title>GNU Free Documentation License</title>
-    <shortdesc>This book and its DITA source material is licenced under the GNU Free
+    <shortdesc xtrf="">This book and its DITA source material is licenced under the GNU Free
         Documentation License. The source is available from Github.</shortdesc>
     <prolog>
         <metadata>

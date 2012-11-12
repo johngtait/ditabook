@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
+<task id="task_fmq_blb_f3">
+    <title>Simple CSS stylesheet customisations</title>
+    <shortdesc>Updating the CSS stylesheet is the simplest way to customize your output. You can add
+        an additional stylesheet rather than modify the standard DITA-OT one.</shortdesc>
+    <taskbody>
+        <section>
+            <title>Emphasising the Short Description</title>
+            <p>It's often worth emphasising the Short Description if you are using it as a STOP
+                thesis sentence. Add this to your custom CSS:</p>
+            <codeblock>p.shortdesc { font-weight: bold }</codeblock>
+            <p>This will emphasise the text in th topic itself. It will appear as plain text as
+                usual under titles on nested topics.</p>
+        </section>
+        <section>
+            <title>Using the Outputclass attribute for addtional styling</title>
+        </section>
+    </taskbody>
+</task>

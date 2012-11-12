@@ -1,0 +1,91 @@
+
+/* .note { margin-top: 1em; margin-bottom : 1em; color:#228B22 ; background-color: #F1FFF1 ; font-style: italic ; font-weight: 500} */
+
+/* .important { margin-top: 1em; margin-bottom : 1em; color:#228B22 ; background-color: #F1FFF1 ; font-style: italic ; font-weight: 500;} */
+
+/* .ragred { color:#A00000 ; background-color: #FFF3F0 ; font-weight: bold ; }  */
+
+/* .raggreen { color:#228B22 ; background-color: #F1FFF1 ; font-style: italic ; font-weight: 500 ;} */
+
+
+
+/* .ragamber {
+
+margin-top: 1em; margin-bottom : 1em;  color: yellow; border-left:solid 2px;
+
+padding:2px;
+
+border-radius:5px;
+
+} */
+
+
+p.shortdesc { font-weight: bold }
+
+.ragred {
+
+border:solid red 2px;
+
+padding:2px;
+
+border-radius:5px;
+
+color: black;
+
+}
+
+
+.raggreen {
+
+
+margin-top: 1em; margin-bottom : 1em;  color: green; border-left:dotted 2px;
+
+padding:2px;
+
+border-radius:5px;
+
+
+}
+
+
+.note {
+
+
+margin-top: 1em; margin-bottom : 1em;  color: green; border-left:dotted 2px;
+
+padding:2px;
+
+border-radius:5px;
+
+
+}
+
+
+
+/* .ragamber { background-color: #FFFFE0 ;} */
+
+
+/* body {
+  background-image:url('shared/background.png');
+}
+
+*/
+
+
+
+
+
+
+
+
+.important {
+
+border:solid red 2px;
+
+padding:2px;
+
+border-radius:5px;
+
+color: black;
+
+}

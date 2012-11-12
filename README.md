@@ -15,6 +15,6 @@ I'm using the file extension .xml rather than .dita for the topic files to enabl
 License
 -------
 
-(C) John Tait. Licensed under the GNU Free Document License: http://www.gnu.org/copyleft/fdl.html
+(C) 2012 John Gordon Tait. Licensed under the GNU Free Documentation License: http://www.gnu.org/copyleft/fdl.html
 
 

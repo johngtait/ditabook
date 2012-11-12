@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
+<task id="task_ijp_rwd_f3">
+    <title>Working groups</title>
+    <shortdesc>Policy and procedure documents are often written by working groups composed of
+        subject matter experts ("SMEs"). Even if you are responsible for writing the content,
+        putting working group together is the most effective way of getting corrent
+        content.</shortdesc>
+    <taskbody>
+        <section>
+            <title>Use a large screen of a projector to permt authors to focus on the actual
+                content</title>
+        </section>
+        <section>
+            <title>Resist the temptatation to discuss content by email</title>
+        </section>
+        <section>
+            <title>Bring the documents along to short, informal meetings</title>
+        </section>
+    </taskbody>
+</task>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
+<task id="task_cbz_lmb_f3">
+    <title>Other structured and modular documentation technologies</title>
+    <shortdesc>Alternatives include Org-mode, LaTeX (and LyX),  LibreOffice and help authoring
+        tools.</shortdesc>
+    <taskbody>
+        <section/>
+        <section>
+            <title>Using Word and PDF documents in a modular way</title>
+            <p>The STOP report was a modular technique that dudn't use technologiy at all. The
+                collabartion technique was a wall, and it worked very well. Therefore, it's possible
+                to undertake a modular approach using your exisitng tools.</p>
+        </section>
+    </taskbody>
+</task>
