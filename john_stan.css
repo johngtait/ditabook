@@ -20,7 +20,7 @@ border-radius:5px;
 } */
 
 
-p.shortdesc { font-weight: bold }
+p.shortdesc { font-weight: bold; color: blue; }
 
 .ragred {
 

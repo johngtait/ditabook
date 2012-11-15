@@ -17,8 +17,32 @@
     </prolog>
     <taskbody>
         <section>
-            <p>Use lower case except when it would be perverse not to do so, e.g. in organzation
+            <title>Use lower case rather than upper case and use the underscore character rather
+                than a space</title>
+            <p>Use lower case except when it would be perverse not to do so, e.g. in organization
                 names.</p>
+            <p>For example, the name of the source file for this DITA topic is
+                    <codeph>naming_files_and_folders.xml</codeph>.</p>
+        </section>
+        <section>
+            <title>Put legacy structurall features at the end of titles, in brackets</title>
+            <p>In migration projectjs, it's quite possible that you will want to keep a record of
+                original titles. This might help to to complte a migration, or it might help
+                existing readers who are used to referring to a document called "PROC 1234", or an
+                appendix called "Appendix A".</p>
+            <p>Try to be helpful to your readers.</p>
+            <p>For example, as a topic title or the title of a map.</p>
+            <lq>How to clear a spill (PROC 1234)</lq>
+            <p>For example, in an appendix:</p>
+            <lq>How to apply for a deviation (Appendix A)</lq>
+            <p>This has the triple purpose of:<ul id="ul_icl_f1x_f3">
+                    <li>deprecating these structural elements, when all you really want to worry
+                        about is topic title and maps</li>
+                    <li>maintain a record of where the topic or section element came from, visible
+                        even in the map (for topcv titles)</li>
+                    <li>allowing you to quietly drop the strucral element in the future withour
+                        significantly altering the title</li>
+                </ul></p>
         </section>
     </taskbody>
 </task>

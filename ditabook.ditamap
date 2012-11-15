@@ -28,18 +28,53 @@
  <topicref href="introduction.xml" collection-type="unordered">
   <topicref href="preface.xml"/>
   <topicref href="source_material_for_this_book.xml"/>
+ </topicref>
+ <topichead navtitle="Writing in a structured way" collection-type="unordered">
+  <topicref href="two_meanings_of_structure.xml"/>
   <topicref href="write_upwards_from_small_parts.xml"/>
+  <topicref href="disadvantages_of_large_word_documents.xml"/>
+ </topichead>
+ <topichead navtitle="Introduction to DITA">
   <topicref href="advantages_of_using_DITA.xml"/>
   <topicref href="DITA_is_a_safe_and_future-proof_format.xml"/>
+  <topicref href="other_publications.xml"/>
+  <topicref href="looking_at_XML.xml"/>
+  <topicref href="rendering_output_to_different_formats.xml"/>
   <topicref href="knowledge_management_of_clause_numbering.xml"/>
-  <topicref href="related_technologies_to_DITA.xml"/>
+  <topicref href="related_techniques_to_DITA.xml"/>
   <topicref href="alternative_structured_documentation_technologies.xml"/>
   <topicref href="content_management_systems.xml"/>
+ </topichead>
+ <topichead navtitle="Writing and migrating policy and procdure documents in DITA">
+  <topicref href="converting_legacy_content_into_DITA_topics.xml"/>
+  <topicref href="general_task.xml"/>
   <topicref href="naming_files_and_folders.xml"/>
+  <topicref href="cross-referencing_content.xml"/>
+  <topicref href="terms_and_definitions_conrefs.xml"/>
   <topicref href="conditional_profiling.xml"/>
   <topicref href="simple_CSS_stylesheet_customizations.xml"/>
+ </topichead>
+ <topichead navtitle="Mangaging structured policy and procedure documents ">
   <topicref href="working_groups.xml"/>
   <topicref href="formally_review_the_content.xml"/>
-  <topicref href="GNU_free_document_licence.xml"/>
- </topicref>
+ </topichead>
+ <topicref href="GNU_free_document_licence.xml"/>
+ <reltable title="Links">
+  <relrow>
+   <relcell>
+    <topicref href="preface.xml"/>
+   </relcell>
+   <relcell>
+    <topicref href="GNU_free_document_licence.xml"/>
+   </relcell>
+  </relrow>
+  <relrow>
+   <relcell/>
+   <relcell/>
+  </relrow>
+  <relrow>
+   <relcell/>
+   <relcell/>
+  </relrow>
+ </reltable>
 </map>

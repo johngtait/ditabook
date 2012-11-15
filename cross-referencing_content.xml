@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
+<task id="task_afk_41x_f3">
+    <title>Cross-referencing content</title>
+    <shortdesc>Without numbering, or where final numbering isn't going to be available to you as an
+        author, focus on the names of elements you will refer to a reference those.</shortdesc>
+    <taskbody>
+        <section>
+            <title>Refer to cross-referenced tables and figures by their name</title>
+            <title>Give tables and figures useful, long, unique names</title>
+        </section>
+    </taskbody>
+</task>

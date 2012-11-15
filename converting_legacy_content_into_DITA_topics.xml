@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
+<task id="task_zlj_wv3_f3">
+    <title>Converting legacy documents into DITA topics</title>
+    <shortdesc>Creating DITA topics from existing content is best done by hand rather than machine
+        tools. This is because a "content analysis" step need to be done, it it can be done at the
+        same time as conversion to XML.</shortdesc>
+    <taskbody>
+        <section>
+            <title>Follow the STOP report</title>
+            <p>Written half a century ago, created for technical proposal in large teams, and using
+                physical cut-and-paste methods, the STOP Reoprt still provides the best "topicising"
+                instructions I've seem.</p>
+        </section>
+        <section>
+            <title>Always analyse the content first</title>
+        </section>
+        <section>
+            <title>Export the content without line breaks</title>
+        </section>
+    </taskbody>
+</task>

@@ -2,28 +2,24 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_smw_dhg_23">
     <title>Advantages of using DITA for policy and procedure documents</title>
-    <shortdesc>Many companies have a vast number of their documents, many of which have
-        significantly overlapping concepts. Efforts to write a policy or procedure the traditional
-        way can be thwarted by questions like “where does this information really belong?” It’s a
-        question that just goes away when you can reassemble a document using a disposable map, then
-        assemble another manual later using some of the same bits.</shortdesc>
+    <shortdesc>Many companies have a vast number of documents, many of which have significantly
+        overlapping concepts. Efforts to write a policy or procedure the traditional way can be
+        thwarted by questions like “where does this information really belong?” It’s a question that
+        just goes away when you can reassemble a document using a disposable map, then assemble
+        another manual later using some of the same bits.</shortdesc>
     <taskbody>
-        <section>
-            <p>Localisation and translation isn’t at all of interest in engineering, nor really is
-                the whole genre of product information, which is where DITA’s core support seems to
-                reside  </p>
-            <p>Many companies have a vast number of their documents, many of which have
-                significantly overlapping concepts.</p>
-            <p>Specific systems can fundamentally cut across disciplines (track, signals, etc.) It
-                would be a simple (very big, but simple) exercise to cut the material up and
-                reassemble it cleanly into manuals using DITA.</p>
-            <p>Efforts to write a manual the traditional way can be thwarted by questions like
-                “where does this information really belong?” It’s a question that just goes away
-                when you can reassemble a document using a disposable map, then assemble another
-                manual later using some of the same bits.</p>
-            <p>I personally suspect that there a vast underworld of unmaintained policy and
-                procedure documents in lots of big companies and government organisations that I
-                know DITA could make a real difference with. </p>
-        </section>
+        <section><p>Most reference works to DITA have a slant towards localisation and translation
+                costs. Localisation and translation isn’t usually of interest when writing policy
+                and procedure documents. Other DITA refernce works expects the content to be in the
+                genre of product information, where DITA’s core support seems to reside
+             </p>Specific systems can fundamentally cut across disciplines (track, signals, etc.) It
+            would be a simple (very big, but simple) exercise to cut the material up and reassemble
+            it cleanly into manuals using DITA.<p>Efforts to write a manual the traditional way can
+                be thwarted by questions like “where does this information really belong?” It’s a
+                question that just goes away when you can reassemble a document using a disposable
+                map, then assemble another manual later using some of the same bits.</p><p>I
+                personally suspect that there a vast underworld of unmaintained policy and procedure
+                documents in lots of big companies and government organisations that I know DITA
+                could make a real difference with. </p></section>
     </taskbody>
 </task>

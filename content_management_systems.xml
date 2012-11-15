@@ -7,8 +7,48 @@
         consider carefully if one is really needed. For new authors, modular writing, XML, DITA, and
         XML editors such as oXygen already provide a significant learning curve.</shortdesc>
     <taskbody>
+        <section><title>Lock metadata safely inside the topics</title><p>Most (all?) content managment
+            system have some kinds of metadata associated with each fil such as owner, permissions,
+            audience, creatiion and review dates etc. These are generally held in a database and are
+            not part of this file itself.</p>
+            <p>Content management systems buiilt around DITA will modify metadata inside the DITA
+                maps and topics, where the metadata will be held, i.e. you use the CMS interface to
+                change the file.</p>
+            <p>However, it's very easy to just add the metada in yourself using your text editor.
+                The metadata will be held inside the file, will be permenently associated with it,
+                and will be easily adjustable and visible.</p>
+            <p>CMS can do something unqiue, which is to report where DITA topic files are referred
+                to in maps. (Presumably oXygen's Map Metrics Report might be able to do something
+                like this one day, but not yet.) Apart from this, I'm not yet totally convinced that
+                a dedicated CMS is really needed for say, around 100 documents constructed of a few
+                hundred topics.</p>
+            <p>The advantage with an open standard like DITA is that if you want to introduce one
+                later, or if an amazing product comes of the market of is available on the web, your
+                content will already be prepared in be imported.</p></section>
+ 
         <section>
-            <title>Lock metadata safely inside the topics</title>
+            <title>Corporate shared drives are usualy backed up</title>
+        </section>
+        <section>
+            <title>DITA are just text files, so consider a coder's solution</title>
+            <p>DITA files are plan text XML files and are the type of file than developers are used
+                to mamaging. Often, coders have deveoped better solutions to mamaging content than
+                the corporate documentation world.</p>
+            <p>I project mamaged this book using a program called git. Git is probablythe most
+                powerful software I know of for mamaging a book, and it's way overkill, but it's
+                also easy to use.</p>
+            <p>In your project file, type</p>
+            <codeblock>git init</codeblock>
+            <p>This creates a file called <codeph>.git</codeph> that tracks all the changes. You can
+                delte whole subfolders and files, and switch new ones in, and git will work it all
+                out on your bahelf. Great when on the move.</p>
+            <p>When you want to commit ("save") your work, type:</p>
+            <codeblock>git add .</codeblock>
+            <p>where the dot means everything in the folder, then</p>
+            <codeblock>git commit -m 'write a small message about the changes'</codeblock>
+            <p>then, to get it online</p>
+            <codeblock>git push origin master</codeblock>
+            <p>Then you just in username a password an it's done.</p>
         </section>
     </taskbody>
 </task>

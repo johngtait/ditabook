@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
+<task id="task_ccf_tt3_f3">
+    <title>Rendering output to PDF, EPUB, XHTML and oXygen's webhelp</title>
+    <shortdesc>The DITA-OT (with the DITAforPublishers plug in) can render to common formats out of
+        the box. At the time of writing, the PDF output is underwhleming but useable. EPUB files are
+        suitable for ereaders, and web-based output are suitable for browsers.</shortdesc>
+    <taskbody>
+        <section>
+            <title>How to render different output formats</title>
+        </section>
+        <section>
+            <title>PDF output</title>
+        </section>
+        <section>
+            <title>EPUB output and ereaders</title>
+            <p>Currnently, <keyword>ereaders</keyword> are </p>
+        </section>
+        <section>
+            <title>XHTML output</title>
+        </section>
+        <section>
+            <title>oXygen's webhelp output</title>
+        </section>
+    </taskbody>
+</task>

@@ -2,11 +2,16 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_nhg_mhg_23">
     <title>Source material for this book</title>
-    <shortdesc>The book will evolve online.</shortdesc>
+    <shortdesc>The DITA source XML code is available online on collaborative code hosting website
+        Github.</shortdesc>
     <taskbody>
         <section>
-            <p> I’ll sell it on Amazon sometime early next year. The DITA source up for anyone to
-                use on Github.</p>
+            <p> Download the DITA source from <xref href="https://github.com/johngtait/ditabook"
+                    format="html"/>. Please use the source in any of your own learning materials and
+                improve it as you need to.</p>
+            <p>I hesitate to say "study it", because this book isn't designed as an exemplar of good
+                DITA coding style. Instead, use the source to learn the basics or to provide basics
+                to others.</p>
         </section>
     </taskbody>
 </task>

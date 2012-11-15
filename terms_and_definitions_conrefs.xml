@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
+<task id="task_ov2_kzj_f3">
+    <title>Terms and definitions lists</title>
+    <shortdesc>Use content references to manage lists of terms and definitions.</shortdesc>
+    <taskbody>
+        <section>
+            <title>Introduction to content references ("conrefs")</title>
+        </section>
+        <section>
+            <title>Are lists of terms and definitions actually needed?</title>
+            <p>Don't add abbreviations to these lists.</p>
+        </section>
+    </taskbody>
+</task>
