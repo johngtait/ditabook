@@ -6,12 +6,14 @@
     <shortdesc>Most policy and procedure documents are extensively numbered. This provides for
         simple cross-referencing, but creates a massive overhead for maintainability of the whole
         document and, particuarly, reuse of the smaller parts in other related.</shortdesc>
+    <prolog>
+        <author>John Gordon Tait</author>
+        <copyright>
+            <copyryear year="2012"/>
+            <copyrholder>John Gordon Tait</copyrholder>
+        </copyright>
+    </prolog>
     <taskbody>
-        <section>
-            <p>There is an obvious cost in ease of reference for particular sections. This might
-                cause some difficulty with claiming compliance with particular sections.</p>
-            <p>There seems to be no real reason whyDITA processing tools could provide optional
-                numbering on the output, but this doesn't seem to be a priority.</p>
-        </section>
+ 
     </taskbody>
 </task>

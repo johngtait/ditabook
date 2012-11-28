@@ -5,18 +5,33 @@
     <shortdesc>Structure can mean the assembly of documents from small building blocks called
         "topics", and also a consistent internal structure using a text mark-up
         language.</shortdesc>
+    <prolog>
+        <author>John Gordon Tait</author>
+        <copyright>
+            <copyryear year="2012"/>
+            <copyrholder>John Gordon Tait</copyrholder>
+        </copyright>
+    </prolog>
     <taskbody>
         <section>
-            <title>Mark up separares meaning from presentation</title>
+            <title>Mark up separates meaning from presentation</title>
             <p>It can be difficult to adject to this, particulary when you are used to having easy
                 control of document presentatin with a word proessor, and especially when the output
                 is <i>less</i> satidfactory than you can acheive with one.</p>
             <p>Nevertheless, after time, it does become much simper to just open a file and start
                 work without being botherede by page layout, margins, and font size.</p>
-            <p>In DITA, there is still some structure to consider. Italics and bold are there. (LaTe
+            <p>In DITA, there is still some structure to consider. Italics and bold are there. (LaTeX
                 uses markup "emph" for emphasis, which is more ideally presentation free) and images
                 need to be given a size for PDF output, or they spill overthe page. It's still much,
                 much less than you will find with a word processor.</p>
+            <p>Nevertheless, It's easy to emphasise how you ot you writers will spend less time
+                worrying about structre and more time worrying about appearance. In fact, DITA users
+                are very intersted in the appreance of their documents. You'll need to learn CSS, or
+                [deal with XSL for PDF output.</p>
+            <p>Large Word documents are unwieldly, inconsistent, and tend to die after 50 pages.</p>
+            <p>The real proble with Word documents is that they just don't scale. There's many way
+                to acheive the same thing.</p>
+            
         </section>
     </taskbody>
 </task>

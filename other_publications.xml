@@ -3,6 +3,13 @@
 <task id="task_ypm_1bk_f3">
     <title>Other publications you should be aware of</title>
     <shortdesc>There are some great technical books on DITA. Have them to hand.</shortdesc>
+    <prolog>
+        <author>John Gordon Tait</author>
+        <copyright>
+            <copyryear year="2012"/>
+            <copyrholder>John Gordon Tait</copyrholder>
+        </copyright>
+    </prolog>
     <taskbody>
         <context>
             <p>Context for the current task</p>

@@ -6,6 +6,13 @@
         projects. However, due to the medium-term lifespan of policy and procedure documents,
         consider carefully if one is really needed. For new authors, modular writing, XML, DITA, and
         XML editors such as oXygen already provide a significant learning curve.</shortdesc>
+    <prolog>
+        <author>John Gordon Tait</author>
+        <copyright>
+            <copyryear year="2012"/>
+            <copyrholder>John Gordon Tait</copyrholder>
+        </copyright>
+    </prolog>
     <taskbody>
         <section><title>Lock metadata safely inside the topics</title><p>Most (all?) content managment
             system have some kinds of metadata associated with each fil such as owner, permissions,

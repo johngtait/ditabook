@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_gd3_xlb_f3">
-    <title>Related techniques to DITA and what you can learn from them</title>
+    <title>Related techniques and technologies to DITA and what you can learn from them</title>
     <shortdesc>It's worth lookng at precursors to DITA and what they where for. There are related
         subject such as minimalism, the Hughes Aircraft STOP report, and Edmund Weiss' computer
         documentation books.</shortdesc>
+    <prolog>
+        <author>John Gordon Tait</author>
+        <copyright>
+            <copyryear year="2012"/>
+            <copyrholder>John Gordon Tait</copyrholder>
+        </copyright>
+    </prolog>
     <taskbody>
         <section>
             <title>Comparing the methodologies</title>
@@ -78,5 +85,49 @@
                 </tgroup>
             </table>
         </section>
+        <section>
+            <title>Org-mode</title>
+            <p>The Emacs text edior </p>
+        </section>
+        <section>
+            <title>LaTex and LyX</title>
+        </section>
+        <section>
+            <title>GNU texinfo</title>
+        </section>
+        <section>
+            <title>LibreOffice</title>
+            <p>LibreOffice (and its cousin, OpenOffice) has a conditional text feature than
+                <i>Word</i> just doesn't have.</p>
+        </section>
+        <section>
+            <title>Help authoring tools</title>
+            <p>If you are from the computer documentation tradition, it's likely that you have used
+                or at least heard of the "help authoring tools". If not, it's unlikely that you've
+                come across them.</p>
+        </section>
+        <section>
+            <title>Using Word and PDF documents in a modular way</title>
+            <p>The STOP report was a modular technique that dudn't use technologiy at all. The
+                collabartion technique was a wall, and it worked very well. Therefore, it's possible
+                to undertake a modular approach using your exisitng tools.</p>
+            <p>In fact, if you create a series of short self-contained documents, each with a
+                helpful headline style title and a useful thesis sentence, you can create a very
+                good basis for managing procedure and policy documentation. It is easy to, say,
+                convert  <i>Word </i> documents written this way to PDF using Adobe <i>Writer</i>,
+                and compile the PDF documents into custom manuals as required. You can mange the
+                source <i>Word</i> documents and PDF outputs using your existing systems. You can,
+                this way, get much of the value of using DITA with none of the learning curves
+                associated with learning XML mark up and new kinds of software.</p>
+            <p>One main hurdle why this isn't likely to be as successful as it might appear is
+                cultural rather than technological. People simply aren't used to using <i>Word</i>
+                this way. There's almost an expectation that <i>Word</i> documents need to be big,
+                divided down into sections and subsections, and cross-referenced--this is almost the
+                mark of a serious, respectable <i>Word</i> document. Couple this with the tradtional
+                BSI/ISO standards model, and you might find that it's too hard to manage authors
+                this way. <i>Word</i> has simply been around too long.</p>
+        </section>
+        
+        
     </taskbody>
 </task>

@@ -5,6 +5,13 @@
     <shortdesc>DITA allows conditional profiling. It's possible to use conditional profiling "out of
         the box" using the computer documentation defaults, but any more advanced profiling with
         require specialization of the DITA Open Toolkit.</shortdesc>
+    <prolog>
+        <author>John Gordon Tait</author>
+        <copyright>
+            <copyryear year="2012"/>
+            <copyrholder>John Gordon Tait</copyrholder>
+        </copyright>
+    </prolog>
     <taskbody>
         <section>
             <title>The default come from the computer documentation tradition</title>

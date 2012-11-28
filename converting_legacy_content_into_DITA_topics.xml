@@ -5,12 +5,112 @@
     <shortdesc>Creating DITA topics from existing content is best done by hand rather than machine
         tools. This is because a "content analysis" step need to be done, it it can be done at the
         same time as conversion to XML.</shortdesc>
+    <prolog>
+        <author>John Gordon Tait</author>
+        <copyright>
+            <copyryear year="2012"/>
+            <copyrholder>John Gordon Tait</copyrholder>
+        </copyright>
+        <metadata>
+            <keywords>
+                <indexterm>naming<indexterm>files</indexterm><indexterm>folders</indexterm></indexterm>
+                <indexterm>folders<indexterm>naming</indexterm></indexterm>
+                <indexterm>files<indexterm>naming</indexterm></indexterm>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
     <taskbody>
+        <section>
+            <title>Topic type matters less in policy and procedure documents</title>
+            <p>Texinfo, DITA and DocBook assume you are writing about some form of computer
+                application. Although theey can all be used for any purpose, all have cultural
+                baggage.</p>
+        </section>
+        <section>
+            <title>General task topics contact section titles, which ar every useful for migrating
+                content</title>
+        </section>
+        <section>
+            <title>Section titles allow looser writing like the STOP Report</title>
+            <p>In fact, consider the Texinfo gernated copy lie [scheme-manual], which puts
+                everything on one page.</p>
+        </section>
+        <section>
+            <title>You only need to specialise the one topic type you will use the most</title>
+            <p>The specialmised topic for profiling will need to be maintained if you update your
+                version of oXygen (always a good idea, since the features and the webhelp options
+                are continually improving. Although specialising the topic type is a strightforward,
+                mechanical expersice, it's still unpleasant and will involve testing. It's just
+                uncessecary work to specialise topics that you won't use, and neater and cheaper as
+                well.</p>
+        </section>
+        <section>
+            <title>Make a topic about 1000 words, the length of a couple of pages, or the length of
+                a couple of screens</title>
+        </section>
+        <section>
+            <title>Avoid minialism</title>
+            <lq>This uses the "topic" topic, because the specialised tpoics are associated with the
+                computer document tradition. THe computer document tradiation incorporates ideads
+                like minimlaism, which is unsutalbe for our procedures and policies because it
+                actively encourages experimentation rather than compliance. It has a different
+                purpose.</lq>
+            <lq>We will use the "topic" topic until such time as we write out own specialised
+                topic.</lq>
+        </section>
         <section>
             <title>Follow the STOP report</title>
             <p>Written half a century ago, created for technical proposal in large teams, and using
                 physical cut-and-paste methods, the STOP Reoprt still provides the best "topicising"
-                instructions I've seem.</p>
+                instructions I've seen.</p>
+        </section>
+        <section><title>Tiny topics <i>don't</i> help readers</title><p route="">Small topics will mean a
+                small amont of information is displayed on a web page rendering. This won't help the
+                reader <i>one bit</i>, and will likely irritate them. Following STOP, common sense,
+                and common experience of reading all kinds of web-sites and blogs, what really works
+                is a coherent and complete two or three screens of text.</p><p>Resist the urge to
+                topicise everything down to the smallest chunks you can. It doesn't really help
+                anyone (inlcuding writers and reviewer), given you more to manage, and doesn't serve
+                the reader. Why do it?</p><p>It's important to realise thatthe literature on DITA
+                usually assumes that you are manamging a team of writers to manage documetation to a
+                product. There might be variants to the product, and the products might need to be
+                documented in different lanaguages. Because translation is expensive, there is a
+                move towards translating as little unique content as possible. That is, DITA can be
+                used to keep <i>costs</i> down.</p>DITA content written this way has an unsettling
+            look and feel that is quite apart from the DITA-OT. It seems choppy, disconnected, and
+            somehow inauthentic, like spam email.<p>None of this is needed or necessary when written
+                policy and procedire </p></section>
+        <section/>
+        <section/>
+        <section/>
+        <section>
+            <title>Use lower case rather than upper case and use the underscore character rather
+                than a space</title>
+            <p>Use lower case except when it would be perverse not to do so, e.g. in organization
+                names.</p>
+            <p>For example, the name of the source file for this DITA topic is
+                <codeph>naming_files_and_folders.xml</codeph>.</p>
+        </section>
+        <section>
+            <title>Put legacy structurall features at the end of titles, in brackets</title>
+            <p>In migration projectjs, it's quite possible that you will want to keep a record of
+                original titles. This might help to to complte a migration, or it might help
+                existing readers who are used to referring to a document called "PROC 1234", or an
+                appendix called "Appendix A".</p>
+            <p>Try to be helpful to your readers.</p>
+            <p>For example, as a topic title or the title of a map.</p>
+            <lq>How to clear a spill (PROC 1234)</lq>
+            <p>For example, in an appendix:</p>
+            <lq>How to apply for a deviation (Appendix A)</lq>
+            <p>This has the triple purpose of:<ul id="ul_icl_f1x_f3">
+                <li>deprecating these structural elements, when all you really want to worry
+                    about is topic title and maps</li>
+                <li>maintain a record of where the topic or section element came from, visible
+                    even in the map (for topcv titles)</li>
+                <li>allowing you to quietly drop the strucral element in the future withour
+                    significantly altering the title</li>
+            </ul></p>
         </section>
         <section>
             <title>Always analyse the content first</title>

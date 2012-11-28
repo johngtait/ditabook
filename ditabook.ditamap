@@ -3,10 +3,10 @@
 <map>
  <title>How to write and maintain structured policy and procedure documents using DITA XML</title>
  <topicmeta>
-  <author>John Tait</author>
+  <author>John Gordon Tait</author>
   <copyright>
-   <copyryear year="2012-2013"/>
-   <copyrholder>John Tait</copyrholder>
+   <copyryear year="2012"/>
+   <copyrholder>John Gordon Tait</copyrholder>
   </copyright>
   <keywords>
    <keyword>DITA</keyword>
@@ -32,23 +32,17 @@
  <topichead navtitle="Writing in a structured way" collection-type="unordered">
   <topicref href="two_meanings_of_structure.xml"/>
   <topicref href="write_upwards_from_small_parts.xml"/>
-  <topicref href="disadvantages_of_large_word_documents.xml"/>
  </topichead>
  <topichead navtitle="Introduction to DITA">
   <topicref href="advantages_of_using_DITA.xml"/>
-  <topicref href="DITA_is_a_safe_and_future-proof_format.xml"/>
   <topicref href="other_publications.xml"/>
   <topicref href="looking_at_XML.xml"/>
   <topicref href="rendering_output_to_different_formats.xml"/>
-  <topicref href="knowledge_management_of_clause_numbering.xml"/>
   <topicref href="related_techniques_to_DITA.xml"/>
-  <topicref href="alternative_structured_documentation_technologies.xml"/>
   <topicref href="content_management_systems.xml"/>
  </topichead>
  <topichead navtitle="Writing and migrating policy and procdure documents in DITA">
   <topicref href="converting_legacy_content_into_DITA_topics.xml"/>
-  <topicref href="general_task.xml"/>
-  <topicref href="naming_files_and_folders.xml"/>
   <topicref href="cross-referencing_content.xml"/>
   <topicref href="terms_and_definitions_conrefs.xml"/>
   <topicref href="conditional_profiling.xml"/>

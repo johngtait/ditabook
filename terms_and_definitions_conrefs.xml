@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_ov2_kzj_f3">
-    <title>Terms and definitions lists</title>
+    <title>Using content references</title>
     <shortdesc>Use content references to manage lists of terms and definitions.</shortdesc>
+    <prolog>
+        <author>John Gordon Tait</author>
+        <copyright>
+            <copyryear year="2012"/>
+            <copyrholder>John Gordon Tait</copyrholder>
+        </copyright>
+    </prolog>
     <taskbody>
         <section>
             <title>Introduction to content references ("conrefs")</title>

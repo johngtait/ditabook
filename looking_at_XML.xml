@@ -5,6 +5,13 @@
     <shortdesc>XML has its roots as a document markup language. Nevertheless, it's ugly and you'll
         need an XML editor to ease your eyes from the angle brackets and to avoid typing closing
         tags elements.</shortdesc>
+    <prolog>
+        <author>John Gordon Tait</author>
+        <copyright>
+            <copyryear year="2012"/>
+            <copyrholder>John Gordon Tait</copyrholder>
+        </copyright>
+    </prolog>
     <taskbody>
         <section>
             <title>oXygen is a deservedly popular XML editor</title>
@@ -15,10 +22,24 @@
                 purportedly makes the author's life easier.</p>
             <p>At times, it's simpler to drop into the raw XML when the editor doesn't behave as
                 expected, or it's just simpler. For example, editing file extensions in DITA maps is
-                much easier using the Text view rather than the Author view</p>
+                much easier using the Text view rather than the Author view.</p>
+            <p>The existing literature also assumes a solid IT support network.</p>
+            <p>Instead, it's worth considering oXygen as a nuclear-powered <i>Word</i> processor
+                that can be used as a stand-alone application to get things done. It can produce
+                web-sites and documents.</p>
+            <p>The one cavaet is that, in other to conditionally filter content, you're going to
+                have to specialise the DITA open toolkit. This means edit a few lines in a text
+                file, and create a new text file as well. It's not pleasant, but it's useful because
+                you can them filter out content to suit. This can minimise the number of actual
+                files you need to maintain.</p>
+            <p>DITA proponents will stress topicising into small topics, when in fact it make
+                managing things harder. Conditonal text is one idea that DITA really get right,
+                becuase it <i>reduces </i> the number of files you'll ned to manage.  </p>
         </section>
         <section>
             <title>Use a programmer's text editor like Emacs for small edits and corrections</title>
+            <p>It's also useful to edit topic unrealted to the main project that you're working on,
+                an the openied file won't get jumbled with your project files in oXygen.</p>
         </section>
     </taskbody>
 </task>
