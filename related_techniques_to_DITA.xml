@@ -108,9 +108,9 @@
         </section>
         <section>
             <title>Using Word and PDF documents in a modular way</title>
-            <p>The STOP report was a modular technique that dudn't use technologiy at all. The
-                collabartion technique was a wall, and it worked very well. Therefore, it's possible
-                to undertake a modular approach using your exisitng tools.</p>
+            <p>The STOP report was a modular technique that didn't use technology at all. The
+                collaboration technique was a wall, and it worked very well. Therefore, it's
+                possible to undertake a modular approach using your exisitng tools.</p>
             <p>In fact, if you create a series of short self-contained documents, each with a
                 helpful headline style title and a useful thesis sentence, you can create a very
                 good basis for managing procedure and policy documentation. It is easy to, say,
@@ -126,6 +126,9 @@
                 mark of a serious, respectable <i>Word</i> document. Couple this with the tradtional
                 BSI/ISO standards model, and you might find that it's too hard to manage authors
                 this way. <i>Word</i> has simply been around too long.</p>
+        </section>
+        <section>
+            <title>Very useful documentation</title>
         </section>
         
         

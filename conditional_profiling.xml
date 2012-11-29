@@ -3,8 +3,8 @@
 <task id="task_f41_vzd_f3">
     <title>Conditional profiling</title>
     <shortdesc>DITA allows conditional profiling. It's possible to use conditional profiling "out of
-        the box" using the computer documentation defaults, but any more advanced profiling with
-        require specialization of the DITA Open Toolkit.</shortdesc>
+        the box" using the computer documentation defaults. Any more advanced profiling will require
+        specialization of the DITA Open Toolkit.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>

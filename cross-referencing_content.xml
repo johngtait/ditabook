@@ -3,10 +3,14 @@
 <task id="task_afk_41x_f3">
     <title>Cross-referencing content, knowledge management implications of managing section numbering and other kinds of
         sequential numbering</title>
+    <titlealts>
+        <navtitle>Cross-referencing content and numbering</navtitle>
+    </titlealts>
     <shortdesc>Most policy and procedure documents are extensively numbered. This provides for
         simple cross-referencing, but creates a massive overhead for maintainability of the whole
-        document and, particuarly, reuse of the smaller parts in other related. Without numbering, or where final numbering isn't going to be available to you as an
-        author, focus on the names of elements you will refer to a reference those.</shortdesc>
+        document and, particularly, reuse of the smaller parts in other related documents. Without
+        numbering, or where final numbering isn't going to be available to you as an author, focus
+        on the names of elements you will refer to and reference those.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
@@ -18,7 +22,7 @@
         <section>
             <p>There is an obvious cost in ease of reference for particular sections. This might
                 cause some difficulty with claiming compliance with particular sections.</p>
-            <p>There seems to be no real reason whyDITA processing tools could provide optional
+            <p>There seems to be no real reason why DITA processing tools could not provide optional
                 numbering on the output, but this doesn't seem to be a priority.</p>
         </section>
         <section>

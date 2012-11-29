@@ -3,10 +3,10 @@
 <task id="task_smw_dhg_23">
     <title>Advantages of using DITA for policy and procedure documents</title>
     <shortdesc>Many companies have a vast number of documents, many of which have significantly
-        overlapping concepts. Efforts to write a policy or procedure the traditional way can be
-        thwarted by questions like “where does this information really belong?” It’s a question that
-        just goes away when you can reassemble a document using a disposable map, then assemble
-        another manual later using some of the same bits.</shortdesc>
+        overlapping concepts. Efforts to write a policy or procedure the traditional ("bottom down")
+        way can be thwarted by questions like “where does this information really belong?” It’s a
+        question that just goes away when you can reassemble a document using a disposable map, then
+        assemble another manual later using some of the same bits.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
@@ -17,24 +17,26 @@
     <taskbody>
         
         <section>
+            <p>Specific subject areas can fundamentally cut across disciplines. For example,
+                engineering standards can be presented according to the asset owner, or the asset
+                lifecycle, or from a systems view, or from the perspective of risk. None of these is
+                definitively better than another. It would be a simple (very big, but simple)
+                exercise to cut this kind of material up and reassemble it cleanly into manuals
+                using DITA.</p>
+            <p>The point is this you know need to know in advance how to best present it, and you
+                can change your mind. Or, if you team or organisation changes and has different
+                priorities, you can create a new map without rewriting (much). </p>
             <p>Most reference works to DITA have a slant towards localisation and translation costs.
                 Localisation and translation isn’t usually of interest when writing policy and
-                procedure documents. Other DITA refernce works expects the content to be in the
+                procedure documents. Other DITA reference works expects the content to be in the
                 genre of product information, where DITA’s core support seems to reside. </p>
-            <p>Specific systems can fundamentally cut across disciplines (track, signals, etc.) It
-                would be a simple (very big, but simple) exercise to cut the material up and
-                reassemble it cleanly into manuals using DITA.</p>
-            <p>Efforts to write a manual the traditional way can be thwarted by questions like
-                “where does this information really belong?” It’s a question that just goes away
-                when you can reassemble a document using a disposable map, then assemble another
-                manual later using some of the same bits.</p>
             <p>I personally suspect that there a vast underworld of unmaintained policy and
                 procedure documents in lots of big companies and government organisations that I
                 know DITA could make a real difference with.</p>
             <p>DITA is actually designed as a general purpose information interechange format.
-                Structured documents is just one of the things it can currently do. It is proably
+                Structured documents is just one of the things it can currently do. It is probably
                 the most future-proof format you can write documents in, and is a safe format for
-                long-lived documents</p>
+                long-lived documents.</p>
         </section>
     </taskbody>
 </task>

@@ -13,12 +13,11 @@
     </prolog>
     <taskbody>
         <section>
-            <p> Download the DITA source from <xref href="https://github.com/johngtait/ditabook"
-                    format="html"/>. Please use the source in any of your own learning materials and
-                improve it as you need to.</p>
-            <p>I hesitate to say "study it", because this book isn't designed as an exemplar of good
-                DITA coding style. Instead, use the source to learn the basics or to provide basics
-                to others.</p>
+            <p>Download the DITA source from <xref href="https://github.com/johngtait/ditabook"
+                    format="html"/>. You're free to use the source in any of your own materials and
+                change it if you need to. This DITA code isn't designed as an exemplar of good DITA
+                coding style, but could use it to learn the basics or to provide basics to
+                others.</p>
         </section>
     </taskbody>
 </task>

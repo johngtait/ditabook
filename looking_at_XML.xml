@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_o4x_sw3_f3">
-    <title>Looking at XML for technical authors</title>
-    <shortdesc>XML has its roots as a document markup language. Nevertheless, it's ugly and you'll
-        need an XML editor to ease your eyes from the angle brackets and to avoid typing closing
-        tags elements.</shortdesc>
+    <title>Looking at XML (for technical authors)</title>
+    <shortdesc>XML has its roots as a document markup language. Nevertheless, it's not pretty and
+        you'll need an XML editor to ease your eyes from the angle brackets and to avoid typing
+        closing element tags.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
@@ -15,7 +15,6 @@
     <taskbody>
         <section>
             <title>oXygen is a deservedly popular XML editor</title>
-            <p>It comes recommended by Elior Kimber/</p>
             <p>Using an XML editor like oXygen can be unsettling for a technical author. There are
                 many open windows displaying lots of technical options.</p>
             <p>Nevertheless, I would resist using a <i>Word</i>-based tool or any other tools that
@@ -27,7 +26,7 @@
             <p>Instead, it's worth considering oXygen as a nuclear-powered <i>Word</i> processor
                 that can be used as a stand-alone application to get things done. It can produce
                 web-sites and documents.</p>
-            <p>The one cavaet is that, in other to conditionally filter content, you're going to
+            <p>The one caveat is that, in other to conditionally-filter content, you're going to
                 have to specialise the DITA open toolkit. This means edit a few lines in a text
                 file, and create a new text file as well. It's not pleasant, but it's useful because
                 you can them filter out content to suit. This can minimise the number of actual
@@ -38,8 +37,8 @@
         </section>
         <section>
             <title>Use a programmer's text editor like Emacs for small edits and corrections</title>
-            <p>It's also useful to edit topic unrealted to the main project that you're working on,
-                an the openied file won't get jumbled with your project files in oXygen.</p>
+            <p>It's also useful to edit topic unrelated to the main project that you're working on,
+                as the opened file won't get jumbled with your project files in oXygen.</p>
         </section>
     </taskbody>
 </task>

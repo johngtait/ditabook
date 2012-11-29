@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>How to write and maintain structured policy and procedure documents using DITA XML</title>
+ <title>How to write and maintain structured policy and procedure standards documents using DITA XML
+  (the easy way)</title>
  <topicmeta>
   <author>John Gordon Tait</author>
   <copyright>
@@ -35,7 +36,6 @@
  </topichead>
  <topichead navtitle="Introduction to DITA">
   <topicref href="advantages_of_using_DITA.xml"/>
-  <topicref href="other_publications.xml"/>
   <topicref href="looking_at_XML.xml"/>
   <topicref href="rendering_output_to_different_formats.xml"/>
   <topicref href="related_techniques_to_DITA.xml"/>
@@ -48,7 +48,7 @@
   <topicref href="conditional_profiling.xml"/>
   <topicref href="simple_CSS_stylesheet_customizations.xml"/>
  </topichead>
- <topichead navtitle="Mangaging structured policy and procedure documents ">
+ <topichead navtitle="Managing structured policy and procedure documents ">
   <topicref href="working_groups.xml"/>
   <topicref href="formally_review_the_content.xml"/>
  </topichead>
@@ -61,14 +61,6 @@
    <relcell>
     <topicref href="GNU_free_document_licence.xml"/>
    </relcell>
-  </relrow>
-  <relrow>
-   <relcell/>
-   <relcell/>
-  </relrow>
-  <relrow>
-   <relcell/>
-   <relcell/>
   </relrow>
  </reltable>
 </map>

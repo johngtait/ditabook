@@ -10,14 +10,5 @@
             <copyrholder>John Gordon Tait</copyrholder>
         </copyright>
     </prolog>
-    <taskbody>
-        <context>
-            <p>Context for the current task</p>
-        </context>
-        <steps>
-            <step>
-                <cmd>Task step.</cmd>
-            </step>
-        </steps>
-    </taskbody>
+    <taskbody/>
 </task>
