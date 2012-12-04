@@ -33,10 +33,36 @@
             <p>I personally suspect that there a vast underworld of unmaintained policy and
                 procedure documents in lots of big companies and government organisations that I
                 know DITA could make a real difference with.</p>
-            <p>DITA is actually designed as a general purpose information interechange format.
+            <p>DITA is actually designed as a general purpose information interchange format.
                 Structured documents is just one of the things it can currently do. It is probably
                 the most future-proof format you can write documents in, and is a safe format for
                 long-lived documents.</p>
+            <p>DITA has three, powerful features that make it worth considering.<ul
+                    id="ul_uqy_2mf_l3">
+                    <li>Documents can be assembled from smaller parts called <i>topics</i>. This
+                        feature is hardly unique to DITA, but DITA has been explicitly designed to
+                        support it. Documents are built up in a clean way using <i>maps</i> from a
+                        selection of your topics, and can include other smaller <i>maps</i> as
+                        well.</li>
+                    <li>Selections from the maps can be filtered in or out in a technique called
+                            <i>conditional profiling.</i> Again, this isn't at all unique to DITA.
+                        There are three general approachs to this, all of them useful:<ol
+                            id="ol_tsz_xmf_l3">
+                            <li>You can display only certain pieces of text in a custom document
+                                aimed at a particular audience (or other profiling attribute). You
+                                do this by hiding all the text aimed at different audiences then
+                                pulling forward the text aimed at the audience you want. This allows
+                                you to produce multiple documents from a single map.</li>
+                            <li>You can just hide text aimed at audiences you want to miss out.</li>
+                            <li>You can flag up (display an image or use a particular piece of text
+                                beside) text aimed at a particular audience. This is useful if you
+                                want to produce a general document that different audiences can use
+                                easily.</li>
+                        </ol></li>
+                    <li>You can pull text from other topics into your topics using <i>content
+                            references</i> (or <i>conrefs</i>. This is very powerful and is probably
+                        DITA's killer feature.</li>
+                </ul></p>
         </section>
     </taskbody>
 </task>

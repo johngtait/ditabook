@@ -16,5 +16,17 @@
         <section>
             <title>The default come from the computer documentation tradition</title>
         </section>
+        <section>
+            <title>Use the DITA Map Manager</title>
+            <p>To enable integration with Subject Scheme maps (and other features like "Search
+                References" for conrefs, keep your top level map open in DITA Maps Manager. (Open
+                the window is <menucascade>
+                    <uicontrol>Window</uicontrol>
+                    <uicontrol>Show View</uicontrol>
+                    <uicontrol/>
+                    <uicontrol>DITA Maps Manager</uicontrol>
+                </menucascade>. (You'll need to do this even if you've opened up the top levle map
+                in Author mode.</p>
+        </section>
     </taskbody>
 </task>

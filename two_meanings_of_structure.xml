@@ -15,19 +15,29 @@
     <taskbody>
         <section>
             <title>Mark up separates meaning from presentation</title>
+            <p>As well as writing in mark up (where the effects of the mark up might not be very
+                apparent), you will also have little direct control of the appearance of the output.
+                This includes important aspects line page breaks and the appearance of tables.</p>
             <p>It can be difficult to adjust to this, particulary when you are used to having easy
-                control of document presentatin with a word processor, and especially when the
+                control of document presentation with a word processor, and especially when the
                 output is <i>less</i> satisfactory than you can acheive with one.</p>
-            <p>Nevertheless, after time, it does become much simpler to just open a file and start
+            <p>Nevertheless, after time, it does become much simpler to just open a map and start
                 work without being bothered by page layout, margins, and font size.</p>
             <p>In DITA, there is still some presentational structure to consider. Italics and bold
                 are there, and images need to be given a (e.g <codeph>width</codeph>) size for PDF
                 output (or they can spill over the page). It's still much, much less than you will
                 find with a word processor.</p>
             <p>Nevertheless, It's easy to emphasise how you or your writers will spend less time
-                worrying about structre and more time worrying about appearance. In fact, DITA users
-                are very interested in the appreance of their documents. You'll need to learn CSS,
-                or [deal with XSL for PDF output].</p>
+                worrying about structure and more time worrying about appearance. In fact, DITA
+                users are very interested in the appearance of their documents.</p>
+            <p>You can have some direct control of the appearance of XHTML output (and by extention
+                EPUB and oXygen's WebHelp by configuring the appearance with cascading style sheets
+                (CSS). CSS provides a template-like way of altering the appearance. It's faily easy
+                to learn the basics (the web is full of tutorials) and it's well integreated woth
+                DITA and oXygen.</p>
+            <p>PDF output is much, much harder to customise.You add some images to flag up parts of
+                text in conditional processing, but that's about it for thr DITA-OT unless you are
+                or can call upon the skills of a developer.</p>
             <p>Large Word documents are unwieldly, inconsistent, and tend to die after 50 pages.</p>
             <p>A real problem with Word documents is that they just don't scale. There's many way to
                 acheive the same thing.</p>

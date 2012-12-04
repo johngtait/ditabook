@@ -15,6 +15,10 @@
     <taskbody>
         <section>
             <title>How to render different output formats</title>
+            <p>To generate the output, make sure you have displayed the top elvle map in the Author
+                view. If you are viewing a topic rather than a map, you'll just render the topic
+                with a choice of only PDF or XHTML (plus other projects that you've made
+                yourself).</p>
         </section>
         <section>
             <title>PDF output</title>

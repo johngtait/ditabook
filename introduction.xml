@@ -23,13 +23,14 @@
     <li>originators and implementators of the DITA specification, who are perhaps not aware of the
      specific needs of <i>standards</i> authors</li>
     <li>consultants of various kinds, who might emphasise some of the benefits and less of the
-     disadvantages, and who also try to solve unnecessary technical problems</li>
-    <li>technical writers in the specific fields of product documentation and, more especially
-     computer software documentation. This is quite a different genre from standards, and focussed
-     on irrelevant and (controversially) unhelpful techniques.</li>
+     disadvantages, and who also might try to solve unnecessary technical problems</li>
+    <li>technical writers in the specific fields of product documentation and, more especially,
+     computer software documentation. This is quite a different genre from standards, and might be
+     focussed on irrelevant and (controversially) unhelpful techniques.</li>
    </ul></p>
-  <p>This short book was written in DITA. It was easy to write using DITA, but it made me aware of
-   DITA's limitations too. Let's explore how it might, or might not help.</p>
+  <p>This short book was written in DITA using an XML editor called oXygen Author. It was easy to
+   write using DITA, but it made me aware of DITA's limitations too. Let's explore how DITA might,
+   or might not help you to write policy and procedure standards documents..</p>
   <p> </p>
  </conbody>
 </concept>

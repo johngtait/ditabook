@@ -16,8 +16,8 @@
             <p>Download the DITA source from <xref href="https://github.com/johngtait/ditabook"
                     format="html"/>. You're free to use the source in any of your own materials and
                 change it if you need to. This DITA code isn't designed as an exemplar of good DITA
-                coding style, but could use it to learn the basics or to provide basics to
-                others.</p>
+                coding style, but you could also use it to learn the basics or to provide some
+                examples of the basics to others.</p>
         </section>
     </taskbody>
 </task>

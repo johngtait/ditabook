@@ -3,7 +3,7 @@
 <task id="task_zlj_wv3_f3">
     <title>Converting legacy documents into DITA topics</title>
     <shortdesc>Creating DITA topics from existing content is best done by hand rather than machine
-        tools. This is because a "content analysis" step need to be done, it it can be done at the
+        tools. This is because a "content analysis" step needs to be done, and it can be done at the
         same time as conversion to XML.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
@@ -50,7 +50,7 @@
                 a couple of screens</title>
         </section>
         <section>
-            <title>Avoid minialism</title>
+            <title>Avoid minimalism</title>
             <lq>This uses the "topic" topic, because the specialised topics are associated with the
                 computer document tradition. The computer document tradiation incorporates ideads
                 like minimlaism, which is unsuitable for our procedures and policies because it

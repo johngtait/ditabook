@@ -14,7 +14,7 @@
     </prolog>
     <taskbody>
         <section>
-            <title>oXygen is a deservedly popular XML editor</title>
+            <title>oXygen Author is a deservedly popular XML editor</title>
             <p>Using an XML editor like oXygen can be unsettling for a technical author. There are
                 many open windows displaying lots of technical options.</p>
             <p>Nevertheless, I would resist using a <i>Word</i>-based tool or any other tools that
@@ -31,9 +31,22 @@
                 file, and create a new text file as well. It's not pleasant, but it's useful because
                 you can them filter out content to suit. This can minimise the number of actual
                 files you need to maintain.</p>
-            <p>DITA proponents will stress topicising into small topics, when in fact it make
-                managing things harder. Conditonal text is one idea that DITA really get right,
-                becuase it <i>reduces </i> the number of files you'll ned to manage.  </p>
+            <p>DITA proponents will stress topicising into small topics, when in fact it makes
+                managing things harder. Conditonal text is one idea that DITA really gets right,
+                becuase it <i>reduces </i> the number of files you'll ned to manage.</p>
+        </section>
+        <section>
+            <title>Getting oXygen Author</title>
+            <p>At the time of writing, oXygen is available on a cheap academic/personal license. The
+                Synco Soft team are also happy to send a no-charge time-limited license. I've also
+                found the Syncro Soft team very helpful in responding dorectliy to techincal
+                queries.</p>
+            <p>Oxygen works with Windows and Ubuntu. (I've tried both, and the license permits
+                this.) For some reason, I was able to install oXygen on a work laptop without the
+                usual administrator rights hassle.</p>
+            <p>There are two other versions of oXygen, but Author is the one to get for writing.
+                It's got Author mode, comes integrated with the DITA-OT, and doesn't have too many
+                unnecessary developer features that'll make you feel like a noob forever.</p>
         </section>
         <section>
             <title>Use a programmer's text editor like Emacs for small edits and corrections</title>

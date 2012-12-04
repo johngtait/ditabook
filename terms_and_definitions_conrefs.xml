@@ -12,7 +12,8 @@
     </prolog>
     <taskbody>
         <section>
-            <title>Introduction to content references ("conrefs")</title>
+            <title>Introduction to content references</title>
+            <p>I think content references ("conrefs") are DITA's killer feature.</p>
         </section>
         <section>
             <title>Are lists of terms and definitions actually needed?</title>
