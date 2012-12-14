@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_gpb_hwf_23">
- <title>Introduction</title>
+ <title>About this book</title>
  <shortdesc>Structured documents provide the best, simplest and most reliable tools to write policy and procedure documents.</shortdesc>
  <prolog>
   <author>John Gordon Tait</author>
@@ -12,21 +12,44 @@
  </prolog>
  <conbody>
   <p>This book is written for someone writing or managing policy and procedure documents, and
-   standards documents of any kind. (I use these terms interchangeably.)</p>
+   standards documents of any kind. (I will use these terms interchangeably.)</p>
   <p>These documents are usually managed by small dedicated teams. The content comes from experts in
    their fields. These subject matter experts usually don't care too much about documentation
    because their expertise lies in other areas.</p>
+  <p>Standards are designed to be <i>complied</i> with, or they specify that a process or item
+    <i>conforms</i> to it. They are usually written as instructions, or might use the words "shall"
+   and "should" to specify a requirement or guidance, respectively.</p>
+  <p>It is the nature of this type of work to go out of date as organisations and roles change, and
+   new processes need documented. Because standards are complex (made of many parts) and complicated
+   (full of specialist technical material), maintaining these documents is difficult and time
+   consuming.</p>
+  <p>Standards can have multiple authors for their different parts, and the different parts can be
+   updated at different times. The entire document will usually need to be reviewed formally by
+   multiple stakeholders, and their comments somehow incorporated into this complex document.</p>
+  <p>To help navigate these documents, they usually contain cross-references to other parts of the
+   document. These cross-references will themselves need to be updated manually, or at least checked
+   manually because, as different authors add and remove different sections, there to no guarantee
+   that the document will still hang together. Cross-references, while useful to the reader, also
+   bring their own burden of page-turning and sense-making.</p>
+  <p>Standards documents are also usually part of a wider set or family of other documents which can
+   cite each other using references. Standards authors will need to check these each time.
+   References <i>to</i> other standards can be checked by following the reference, and refererence
+    <i>from</i> other standards will require some knowledge of the subject matter.</p>
+  <p>Standards processes work because they are collaborative and tested with their stakeholders. But
+   the traditional processes for developing them is labour intensive and prone to mistakes without a
+   diligent manager and editorial team.</p>
   <p>Can the technology and technique called DITA help? Well, perhaps.</p>
   <p>There are some very real advantages to trying DITA for this purpose, and some real problems. If
    you are involved in managing standards, I think it could be well worth trying, but the existing
    literature seems to be written by<ul id="ul_tdm_4xr_h3">
     <li>originators and implementators of the DITA specification, who are perhaps not aware of the
      specific needs of <i>standards</i> authors</li>
-    <li>consultants of various kinds, who might emphasise some of the benefits and less of the
-     disadvantages, and who also might try to solve unnecessary technical problems</li>
+    <li>consultants of various kinds, who might quite naturally emphasise some of the benefits and
+     less of the disadvantages, and who also might try to solve unnecessary technical problems</li>
     <li>technical writers in the specific fields of product documentation and, more especially,
-     computer software documentation. This is quite a different genre from standards, and might be
-     focussed on irrelevant and (controversially) unhelpful techniques.</li>
+     computer software documentation. This is a quite different genre from standards. These writers
+     might be focussed on less relevant and (controversially) unhelpful techniques when applied
+     specifically to standards.</li>
    </ul></p>
   <p>This short book was written in DITA using an XML editor called oXygen Author. It was easy to
    write using DITA, but it made me aware of DITA's limitations too. Let's explore how DITA might,

@@ -14,6 +14,9 @@
     </prolog>
     <taskbody>
         <section>
+            <title>Standards are <i>important</i></title>
+        </section>
+        <section>
             <title>Mark up separates meaning from presentation</title>
             <p>As well as writing in mark up (where the effects of the mark up might not be very
                 apparent), you will also have little direct control of the appearance of the output.
@@ -32,16 +35,26 @@
                 users are very interested in the appearance of their documents.</p>
             <p>You can have some direct control of the appearance of XHTML output (and by extention
                 EPUB and oXygen's WebHelp by configuring the appearance with cascading style sheets
-                (CSS). CSS provides a template-like way of altering the appearance. It's faily easy
-                to learn the basics (the web is full of tutorials) and it's well integreated woth
-                DITA and oXygen.</p>
-            <p>PDF output is much, much harder to customise.You add some images to flag up parts of
-                text in conditional processing, but that's about it for thr DITA-OT unless you are
-                or can call upon the skills of a developer.</p>
+                (CSS). CSS provides a template-like way of altering the appearance. It's fairly easy
+                to learn the basics (the web is not short of CSS tutorials) and it's well integrated
+                woth DITA and oXygen.</p>
+            <p>PDF output is much, much harder to customise. You can add some images to flag up
+                parts of text in conditional processing, but that's about it for the DITA-OT unless
+                you are or can call upon the skills of a developer.</p>
             <p>Large Word documents are unwieldly, inconsistent, and tend to die after 50 pages.</p>
             <p>A real problem with Word documents is that they just don't scale. There's many way to
-                acheive the same thing.</p>
+                achieve the same thing.</p>
             
+        </section>
+        <section>
+            <title>Authors can use different <i>Word</i> template and can have different
+                styles</title>
+        </section>
+        <section>
+            <title>Authors manage sequential numbering as well as the content and appearance</title>
+        </section>
+        <section>
+            <title>Structural writing means the <i>computer</i> takes some of the strain</title>
         </section>
     </taskbody>
 </task>

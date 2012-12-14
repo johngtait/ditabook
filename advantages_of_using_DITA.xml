@@ -46,7 +46,7 @@
                         well.</li>
                     <li>Selections from the maps can be filtered in or out in a technique called
                             <i>conditional profiling.</i> Again, this isn't at all unique to DITA.
-                        There are three general approachs to this, all of them useful:<ol
+                        There are three general way to approach this, all of them useful:<ol
                             id="ol_tsz_xmf_l3">
                             <li>You can display only certain pieces of text in a custom document
                                 aimed at a particular audience (or other profiling attribute). You
@@ -60,8 +60,11 @@
                                 easily.</li>
                         </ol></li>
                     <li>You can pull text from other topics into your topics using <i>content
-                            references</i> (or <i>conrefs</i>. This is very powerful and is probably
-                        DITA's killer feature.</li>
+                            references</i> or <i>conrefs</i>. This is very powerful and is probably
+                        DITA's killer feature. (The technical word for this is "transclusion".)
+                        Transcluded text is much neater and help than just cutting and pasting
+                        because, if the transcluded text changes, all instances where the text
+                        appears will change too. </li>
                 </ul></p>
         </section>
     </taskbody>

@@ -33,17 +33,17 @@
         </section>
         <section>
             <title>Section titles allow looser writing like the STOP Report</title>
-            <p>In fact, consider the Texinfo gernated copy lie [scheme-manual], which puts
+            <p>In fact, consider the Texinfo generated copy lie [scheme-manual], which puts
                 everything on one page.</p>
         </section>
         <section>
             <title>You only need to specialise the one topic type you will use the most</title>
             <p>Your specialised topic for profiling will need to be maintained if you update your
                 version of oXygen (always a good idea, since the features and the webhelp options
-                are continually improving. Although specialising the topic type is a strightforward,
-                mechanical expersice, it's still unpleasant and will involve testing. It's just
-                unessecary work to specialise topics that you won't use, and neater and cheaper as
-                well.</p>
+                are continually improving. Although specialising the topic type is a
+                straightforward, mechanical experience, it's still unpleasant and will involve
+                testing. It's just unecessary work to specialise topics that you won't use, and
+                neater and cheaper not to as well.</p>
         </section>
         <section>
             <title>Make a topic about 1000 words, the length of a couple of pages, or the length of
@@ -52,8 +52,8 @@
         <section>
             <title>Avoid minimalism</title>
             <lq>This uses the "topic" topic, because the specialised topics are associated with the
-                computer document tradition. The computer document tradiation incorporates ideads
-                like minimlaism, which is unsuitable for our procedures and policies because it
+                computer document tradition. The computer document tradition incorporates ideas like
+                minimalism. Minimalism is unsuitable for our procedures and policies because it
                 actively encourages experimentation rather than compliance. It has a different
                 purpose.</lq>
             <lq>We will use the "topic" topic until such time as we write out own specialised
@@ -72,15 +72,45 @@
                 is a coherent and complete two or three screens of text.</p><p>Resist the urge to
                 topicise everything down to the smallest chunks you can. It doesn't really help
                 anyone (including writers and reviewer), gives you more to manage, and doesn't serve
-                the reader. Why do it?</p><p>It's important to realise thatthe literature on DITA
-                usually assumes that you are manamging a team of writers to manage documetation to a
+                the reader. Why do it?</p><p>It's important to realise that the literature on DITA
+                usually assumes that you are managing a team of writers to manage documentation to a
                 product. There might be variants to the product, and the products might need to be
                 documented in different lanaguages. Because translation is expensive, there is a
                 move towards translating as little unique content as possible. That is, DITA can be
                 used to keep <i>costs</i> down.</p>DITA content written this way has an unsettling
             look and feel that is quite apart from the DITA-OT. It seems choppy, disconnected, and
             somehow inauthentic, like spam email.<p>None of this is needed or necessary when writtng
-                policies and procedures. </p></section>
+                policies and procedures.</p><p>Consider using the <codeph>chunk</codeph> attribute
+                with <codeph>select branch</codeph> to group topics together in DiTA-OT XHTML
+                renderings. This works well with topics grouped under a <codeph>topichead</codeph>
+                element.</p></section>
+        <section>
+            <title>Every page is <i>not</i> page one</title>
+            <p>An expression "every page is page one" refers to the idea that a reader can read any
+                part of the document first. It's an idea applicable to the web (and hypertext in
+                general), and actually to any reference material that can be searched by a page
+                turn, word search, index, tag, or search engine reference.</p>
+            <p>It's a good idea to some extent, because expecting a reader to sit down with a
+                standard (even a mandatory one) and read it in sequence is unrealistic. Like many
+                ideas, though, it starts to break down when taken beyond practical or common sense
+                limits.</p>
+            <p>There is always going to be an inevitable gap between a comprehensive and complete
+                documentation set, and one that is easily usable. There needs to be some kind of
+                management descision backed up with any combination of search tools, briefing
+                material, and training to bridge this. It needs to be an ongoing question.</p>
+            <p>It isn't solved by fragmenting the content to such an extent that <i>no</i> prior
+                knowldege is assumed, or that there isn't some kind of progression to the
+                material.</p>
+            <p>Whether your material is in a sequence of process steps, conceptual understanding,
+                technical difficulty, importance (e.g. with guidance material appearing after
+                mandatory), etc. your material is going to be in <i>some</i> kind of order. It will
+                most likely be in a mixture.</p>
+            <p>This might seem obvious if you are an experienced writer, but it's different to some
+                of the expectations that technical writers working on product documentation are used
+                to dealing with.</p>
+            <p>As before, "reasonably self-contained topics that could be read out-of-sequence" is
+                probably the most practical and realistic approach.</p>
+        </section>
         <section>
             <title>Use lower case rather than upper case and use the underscore character rather
                 than a space</title>
@@ -92,7 +122,7 @@
         <section>
             <title>Put legacy structurall features at the end of titles, in brackets</title>
             <p>In migration projects, it's quite possible that you will want to keep a record of
-                original titles. This might help to to complte a migration, or it might help
+                original titles. This might help to to complete a migration, or it might help
                 existing readers who are used to referring to a document called "PROC 1234", or an
                 appendix called "Appendix A".</p>
             <p>Try to be helpful to your readers.</p>

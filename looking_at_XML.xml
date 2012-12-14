@@ -26,24 +26,24 @@
             <p>Instead, it's worth considering oXygen as a nuclear-powered <i>Word</i> processor
                 that can be used as a stand-alone application to get things done. It can produce
                 web-sites and documents.</p>
-            <p>The one caveat is that, in other to conditionally-filter content, you're going to
+            <p>The one caveat is that, in order to conditionally-filter content, you're going to
                 have to specialise the DITA open toolkit. This means edit a few lines in a text
                 file, and create a new text file as well. It's not pleasant, but it's useful because
                 you can them filter out content to suit. This can minimise the number of actual
                 files you need to maintain.</p>
             <p>DITA proponents will stress topicising into small topics, when in fact it makes
-                managing things harder. Conditonal text is one idea that DITA really gets right,
+                managing things harder. Conditional text is one idea that DITA really gets right,
                 becuase it <i>reduces </i> the number of files you'll ned to manage.</p>
         </section>
         <section>
             <title>Getting oXygen Author</title>
             <p>At the time of writing, oXygen is available on a cheap academic/personal license. The
-                Synco Soft team are also happy to send a no-charge time-limited license. I've also
+                SyncRO Soft team are also happy to send a no-charge time-limited license. I've also
                 found the Syncro Soft team very helpful in responding dorectliy to techincal
                 queries.</p>
-            <p>Oxygen works with Windows and Ubuntu. (I've tried both, and the license permits
-                this.) For some reason, I was able to install oXygen on a work laptop without the
-                usual administrator rights hassle.</p>
+            <p>Oxygen works with Windows and Ubuntu (I've tried both, and the license permits this.)
+                and more. For some reason, I was able to install oXygen on a Windows work laptop
+                without the usual administrator rights prompts.</p>
             <p>There are two other versions of oXygen, but Author is the one to get for writing.
                 It's got Author mode, comes integrated with the DITA-OT, and doesn't have too many
                 unnecessary developer features that'll make you feel like a noob forever.</p>

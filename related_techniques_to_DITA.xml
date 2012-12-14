@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_gd3_xlb_f3">
-    <title>Related techniques and technologies to DITA and what you can learn from them</title>
+    <title>Related techniques and technologies to DITA</title>
     <shortdesc>It's worth lookng at precursors to DITA and what they where for. There are related
         subject such as minimalism, the Hughes Aircraft STOP report, and Edmund Weiss' computer
         documentation books.</shortdesc>
@@ -123,9 +123,9 @@
                 cultural rather than technological. People simply aren't used to using <i>Word</i>
                 this way. There's almost an expectation that <i>Word</i> documents need to be big,
                 divided down into sections and subsections, and cross-referenced--this is almost the
-                mark of a serious, respectable <i>Word</i> document. Couple this with the tradtional
-                BSI/ISO standards model, and you might find that it's too hard to manage authors
-                this way. <i>Word</i> has simply been around too long.</p>
+                mark of a serious, respectable <i>Word</i> document. Couple this with the
+                traditional BSI/ISO standards model, and you might find that it's too hard to manage
+                authors this way. <i>Word</i> has simply been around too long.</p>
         </section>
         <section>
             <title>Very useful documentation</title>

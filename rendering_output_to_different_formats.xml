@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_ccf_tt3_f3">
-    <title>Rendering output to PDF, EPUB, XHTML and oXygen's webhelp</title>
+    <title>Rendering output to PDF, EPUB, XHTML and oXygen's WebHelp</title>
     <shortdesc>The DITA-OT (with the DITAforPublishers plug in) can render to common formats out of
-        the box. At the time of writing, the PDF output is underwhleming. EPUB files are suitable
+        the box. At the time of writing, the PDF output is underwhelming. EPUB files are suitable
         for ereaders, and web-based output are suitable for browsers.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
@@ -22,7 +22,7 @@
         </section>
         <section>
             <title>PDF output</title>
-            <p>PDF output is quite poor, and is somwhat controversial. Lookng at the rendering for
+            <p>PDF output is quite poor, and is somewhat controversial. Lookng at the rendering for
                 the first time, it doesn't seem so bad. Problems start if you want to improve
                 it.</p>
             <p>Tables are particularly poor.</p>
@@ -56,8 +56,10 @@
         </section>
         <section>
             <title>XHTML output</title>
-            <p>The DITA-OT generates farly ordinary thml hypertext. DITA is a reasonably
-                straightforard technique to produce vanilla hypertext. </p>
+            <p>The DITA-OT generates ordinary XHTML hypertext. DITA is a reasonably straightforward
+                technique to produce vanilla hypertext.</p>
+            <p>It is suitable for passing onto professional web developers for further processing
+                and professional styling.</p>
         </section>
         <section>
             <title>oXygen's WebHelp output</title>
