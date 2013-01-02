@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map chunk="">
+<map chunk="by-document to-content">
  <title>How to write and maintain structured policy and procedure standards documents using DITA XML
   (the easy way)</title>
  <topicmeta>
@@ -26,15 +26,15 @@
    <indexterm/>
   </keywords>
  </topicmeta>
- <topicref href="introduction.xml" collection-type="unordered" chunk="select-branch to-content to-navigation">
+ <topicref href="introduction.xml" collection-type="unordered">
   <topicref href="preface.xml"/>
   <topicref href="source_material_for_this_book.xml"/>
  </topicref>
- <topichead navtitle="Part 1: Writing in a structured way" collection-type="unordered" chunk="select-branch to-content to-navigation">
+ <topichead navtitle="Part 1: Writing in a structured way" collection-type="unordered">
   <topicref href="two_meanings_of_structure.xml"/>
   <topicref href="write_upwards_from_small_parts.xml"/>
  </topichead>
- <topichead navtitle="Part 2: Introduction to DITA for policy and procedure authors" chunk="select-branch to-content to-navigation">
+ <topichead navtitle="Part 2: Introduction to DITA for policy and procedure authors">
   <topicref href="advantages_of_using_DITA.xml"/>
   <topicref href="looking_at_XML.xml"/>
   <topicref href="rendering_output_to_different_formats.xml"/>
@@ -43,7 +43,7 @@
   <topicref href="working_groups.xml"/>
   <topicref href="formally_review_the_content.xml"/>
  </topichead>
- <topichead navtitle="Part 3: Writing and migrating policy and procedure documents in DITA" chunk="select-branch to-content to-navigation">
+ <topichead navtitle="Part 3: Writing and migrating policy and procedure documents in DITA">
   <topicref href="converting_legacy_content_into_DITA_topics.xml"/>
   <topicref href="cross-referencing_content.xml"/>
   <topicref href="terms_and_definitions_conrefs.xml"/>
