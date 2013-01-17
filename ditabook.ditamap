@@ -31,6 +31,7 @@
   <topicref href="source_material_for_this_book.xml"/>
  </topicref>
  <topichead navtitle="Part 1: Writing in a structured way" collection-type="unordered">
+  <topicref href="solving_using_structure.xml"/>
   <topicref href="two_meanings_of_structure.xml"/>
   <topicref href="write_upwards_from_small_parts.xml"/>
  </topichead>

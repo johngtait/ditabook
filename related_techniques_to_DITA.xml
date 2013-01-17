@@ -15,6 +15,11 @@
     <taskbody>
         <section>
             <title>Comparing the methodologies</title>
+            <p>DITA doesn't exist in a vacuum - there are other related techniques and technologies
+                that are worth being aware of.</p>
+            <p>DITA has a big advantage in that it has a truely heavyweight heritage: Created by
+                IBM, maintained by OASIS, and based-on (corporate-friendly) XML which will at least
+                give it a chance to be accepted by an organisation.</p>
             <table frame="all" id="table_fj3_5dx_f3">
                 <title>Compring the methodologies</title>
                 <tgroup cols="3">
@@ -29,82 +34,79 @@
                         </row>
                     </thead>
                     <tbody>
+
                         <row>
-                            <entry/>
-                            <entry/>
-                            <entry/>
+                            <entry><cite>STOP (Sequential Thematic Organization of
+                                    Publications)</cite>, the Huhes Aircraft Approach</entry>
+                            <entry>Excellent introduction to topic-based writing. Aimed at solving
+                                problems with collaboratively-written document.</entry>
+                            <entry>Scissors and wall technique. Focus on page layout as well as
+                                content.</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry/>
-                            <entry/>
+                            <entry>Edmund Weiss, <cite>How to Write Usuble User Documentation</cite>
+                            </entry>
+                            <entry>Relates John Carrolls' minimalism to topic-based writing
+                                directly. Excellemt example of STOP approach in practise. Bridges
+                                the gap between STOP and DITA.</entry>
+                            <entry>Computer documentation tradition - not directly relevant to
+                                policy and procedures.</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry/>
-                            <entry/>
-                        </row>
-                        <row>
-                            <entry>STOP</entry>
-                            <entry/>
-                            <entry>Scissors and wall technique</entry>
-                        </row>
-                        <row>
-                            <entry>Weiss computer docs</entry>
-                            <entry>Relates John Carolls' minimalism to topic based writing
-                                directly</entry>
-                            <entry>COmputer documentation tradition</entry>
-                        </row>
-                        <row>
-                            <entry morerows="1">standards house style</entry>
-                            <entry>Mature consultation process. Have format review meetings. </entry>
+                            <entry morerows="1">Standards house style</entry>
+                            <entry>Mature consultation process. Have formal review meetings than
+                                achieves buy-in and consensus.</entry>
                             <entry>BSI and ISO sell bif documents for a living. Process generates
-                                large. documents</entry>
+                                large documents</entry>
                         </row>
                         <row>
                             <entry>Well understood house style</entry>
-                            <entry>Wedded to standard expository model, with a broadly scoped
-                                documents split into nested subsections.</entry>
+                            <entry>Wedded to standard expository mode (top-down approach)l, with a
+                                broadly scoped documents split into nested subsections.</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry/>
-                            <entry/>
+                            <entry>DocBook</entry>
+                            <entry>Mature, well supported and well documents XML standard.</entry>
+                            <entry>Lots to learn. Doesn't have modularity as a design goal.</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry/>
-                            <entry/>
+                            <entry>Help authoring tools (HATs)</entry>
+                            <entry>Tools that generate sotware help. Often similar in approach to
+                                DITA.</entry>
+                            <entry>Computer documentation tradition - not directly relevant to
+                                policy and procedures.</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry/>
-                            <entry/>
+                            <entry>LyX, document processor</entry>
+                            <entry>Excellent front-end to LaTeX. Used for typesetting complex
+                                technical documents. Has conditional text and modularity.</entry>
+                            <entry>Looks like a word processor but doesn't behave as one. Not likely
+                                to get corporate buy-in.</entry>
+                        </row>
+                        <row>
+                            <entry>LibreOffice</entry>
+                            <entry>Open source alternative to Word. Has conditional text and
+                                relibble modularity.</entry>
+                            <entry>Not likely to get corporate buy-in. Word processing habits likely
+                                to be retained.</entry>
+                        </row>
+                        <row>
+                            <entry>GNU Texinfo</entry>
+                            <entry>GNU project documentation. Uses friendly @ signs insted of ugly
+                                XML angle brackets. SIngle source. Topic-based writing. .Conditional
+                                text. Excellent documentation. Can generate very high quality
+                                LaTeX.</entry>
+                            <entry>Niche. Not likely to get corporate buy-in.</entry>
+                        </row>
+                        <row>
+                            <entry>Emacs org-mode</entry>
+                            <entry>Wonderful tool that can be used for single source and topic-based
+                                authoring. Can generate LaTeX.</entry>
+                            <entry>Niche. Highly unlikley to get corporate buy-in.</entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
-        </section>
-        <section>
-            <title>Org-mode</title>
-            <p>The Emacs text edior </p>
-        </section>
-        <section>
-            <title>LaTex and LyX</title>
-        </section>
-        <section>
-            <title>GNU texinfo</title>
-        </section>
-        <section>
-            <title>LibreOffice</title>
-            <p>LibreOffice (and its cousin, OpenOffice) has a conditional text feature than
-                <i>Word</i> just doesn't have.</p>
-        </section>
-        <section>
-            <title>Help authoring tools</title>
-            <p>If you are from the computer documentation tradition, it's likely that you have used
-                or at least heard of the "help authoring tools". If not, it's unlikely that you've
-                come across them.</p>
         </section>
         <section>
             <title>Using Word and PDF documents in a modular way</title>
@@ -126,9 +128,6 @@
                 mark of a serious, respectable <i>Word</i> document. Couple this with the
                 traditional BSI/ISO standards model, and you might find that it's too hard to manage
                 authors this way. <i>Word</i> has simply been around too long.</p>
-        </section>
-        <section>
-            <title>Very useful documentation</title>
         </section>
         
         

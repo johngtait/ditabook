@@ -7,7 +7,7 @@
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
-            <copyryear year="2012"/>
+            <copyryear year="2012-2013"/>
             <copyrholder>John Gordon Tait</copyrholder>
         </copyright>
     </prolog>
@@ -15,6 +15,19 @@
         <section>
             <title>Send out a comments form to allow compilation of comments and prevent annotated
                 drafts</title>
+            <p>Reviewers (sometimes called stakeholders) can't really be expected to understand DITA
+                code or work within a content management system. The <i>ad hoc</i> nature of
+                standards, which means that new writers are always involved,  is amplified when
+                stakeholders are involved. New stakeholders will probably be uninterested.</p>
+            <p>Possibly the simplest way to review a standard is to circulate a draft PDF with an
+                editable comments form. Comments forms can be easily collated (with comments
+                arranged by clause number, etc.) to allow them to be reviewed in sequence.</p>
+            <p>This isn't any different from the conventional way of drafting standards, i.e. the
+                underlying DITA code ought to be invisible to the reader.</p>
+            <p>If the authors and stakeholders are drawn from the same small team, it might be
+                possible to get a technological solution working instead, but in practice it'd
+                better to drop the barrier to entry for the stakeholders to get as many
+                contributions as possible.</p>
         </section>
     </taskbody>
 </task>

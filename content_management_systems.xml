@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_ef3_wxd_f3">
-    <title>Content management systems</title>
+    <title>Content management</title>
     <shortdesc>Content management systems are probably required for mature, large, established
         projects. However, due to the medium-term lifespan of policy and procedure documents,
         consider carefully if one is really needed. For new authors, modular writing, XML, DITA, and
@@ -9,38 +9,48 @@
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
-            <copyryear year="2012"/>
+            <copyryear year="2012-2013"/>
             <copyrholder>John Gordon Tait</copyrholder>
         </copyright>
     </prolog>
     <taskbody>
-        <section><title>Lock metadata safely inside the topics</title><p>Most  content management system have some kinds of metadata associated with each file such as
+        <section><title>Lock metadata safely inside the topics</title>
+            <p>The existing DITA literature assumes a solid IT support network. If you are a member
+                of a small team managing standards, it's unlikely that you'll have one that is
+                optimised for DITA. Corporate content mamagement  systems are usually based around
+                the content of the document, not the file.</p><p>Most content management systems have some kinds of metadata associated with each file such as
                 owner, permissions, audience, creation and review dates, etc. These are generally
-                held in a database and are not part of this file itself.</p>
+                held in a database and are not part of the file itself.</p>
             <p>Content management systems built around DITA will modify metadata inside the DITA
                 maps and topics, where the metadata will be held, i.e. you use the CMS interface to
                 change the file.</p>
-            <p>However, it's very easy to just add the metadata in yourself using your text editor.
-                The metadata will be held inside the file, will be permenently associated with it,
-                and will be easily adjustable and visible.</p>
+            <p>However, it's very easy to just add the metadata in yourself using oXygen or another
+                text editor. The metadata will be held inside the file, will be permenently
+                associated with it, and will be easily adjustable and visible.</p>
             <p>A CMS can report where DITA topic files are referred to in maps. If you use your map
                 in oXygen's DITA Maps Manager, you can do much this same thing by opening the
                 context menu ("right clicking" and choosing "Search References". In you've referred
-                to this by a conref, oXy gen will report this at the bottom of the screen. This
-                gives you an excellent two-way view of the material, i.e. you can see in your topics
-                the transcluded material, and you can view where transcluded material is used.</p>
+                to this by a conref, oXygen will report this at the bottom of the screen. This gives
+                you an excellent two-way view of the material, i.e. you can see in your topics the
+                transcluded material, and you can view where transcluded material is used.</p>
             <p>(This is simillar functionality to the requirements tool IBM DOORS, but DITA has far
                 better publishing abilities. DOORS can't transclude text; it can just link to
                 it.)</p>
+            <p>oXygen's has an excellent "Find/Replace in files" tool which can quickly search
+                through your entire content.</p>
             <p>I'm not yet totally convinced that a dedicated CMS is really needed for say, around
-                100 documents constructed of a few hundred topics. OXygen and DITA is <i>itself</i>
-                a content management system, albeit one that needs some kind of file back-up.</p>
+                100 documents constructed of a few hundred topics. The combination of oXygen and
+                DITA is <i>itself</i> a content management system, albeit one that needs some kind
+                of file back-up.</p>
             <p>The advantage with an open standard like DITA is that if you want to introduce a
-                formal web-based CMS later, or if an amazing product comes of the market or is
+                formal web-based CMS later, or if an amazing product comes on the market or is
                 available on the web, your content will already be prepared to be imported.</p>
             <p>Try out a CMS if a time-limited trial is available to you. But also consider if the
                 sum of learning XML, DITA, modular writing and single sourcing is enough to handle
-                without introducing a major software project like a CMS as well.</p></section>
+                without introducing a major software project like a CMS as well.</p>
+            <p>if you are on a corporate shared drive, they are usually backed up anyway and you can
+                recover lost folders if you happen to ruin your work. It might be worth checking
+                what data recovery processes your organisation already has.</p></section>
         <section>
             <title>View DITA as a text-based database</title>
             <p>Another reason why a CMS might not be necessary is that you can consdier DITA files
@@ -54,18 +64,6 @@
             <p>The renderings of the files (html, PDF, etc.) are necessarily static, but that is
                 what is expected with published standards anyway: they are relied on to have stable
                 content and simple versioning and publication dates.</p>
-        </section>
- 
-        <section>
-            <title>Corporate shared drives might be enough</title>
-            <p>Speaking of backing up, if you are on a corporate shared drive, they are usually
-                backed up anyway and you can recover lost folders if you happen to ruin your work.
-                It might be worth checking what data recovery processes your organisation already
-                has.</p>
-        </section>
-        <section>
-            <title>Find in files</title>
-            <p>OXygen's "Find in files" is excellent.</p>
         </section>
         <section>
             <title>DITA are just text files, so consider a coder's solution</title>

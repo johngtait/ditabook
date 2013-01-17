@@ -19,5 +19,16 @@
             <title>Are lists of terms and definitions actually needed?</title>
             <p>Don't add abbreviations to these lists.</p>
         </section>
+        <section>
+            <title>What to conref</title>
+            <p>You can conref whole <codeph>section</codeph> elements. This probably isn't te
+                canonical way of using conrefs, because the computer documentation tradition seems
+                to require much more of the alteration of sentence and meaning rather than pulling
+                whole paragraphs across.</p>
+            <p>For standards, this mechanism allows simple and predictable transclusion for smallish
+                packets of text, with might or might not have titles.</p>
+            <p>Conref <codeph>phrase</codeph> elements.</p>
+            <p><codeph>Resource-only</codeph> attribute</p>
+        </section>
     </taskbody>
 </task>

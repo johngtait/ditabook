@@ -2,7 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_gpb_hwf_23">
  <title>About this book</title>
- <shortdesc>Structured documents provide the best, simplest and most reliable tools to write policy and procedure documents.</shortdesc>
+ <shortdesc>Structured documents can provide a simple and reliable way to write and manage policy
+  and procedure documents.</shortdesc>
  <prolog>
   <author>John Gordon Tait</author>
   <copyright>
@@ -38,10 +39,10 @@
   <p>Standards processes work because they are collaborative and tested with their stakeholders. But
    the traditional processes for developing them is labour intensive and prone to mistakes without a
    diligent manager and editorial team.</p>
-  <p>Can the technology and technique called DITA help? Well, perhaps.</p>
-  <p>There are some very real advantages to trying DITA for this purpose, and some real problems. If
-   you are involved in managing standards, I think it could be well worth trying, but the existing
-   literature seems to be written by<ul id="ul_tdm_4xr_h3">
+  <p>Can the technology and technique called DITA help? Well, perhaps. There are some very real
+   advantages to trying DITA for this purpose, and some problems. If you are involved in managing
+   standards, I think it could be well worth trying.</p>
+  <p>The existing literature on DITA seems to be written by<ul id="ul_tdm_4xr_h3">
     <li>originators and implementators of the DITA specification, who are perhaps not aware of the
      specific needs of <i>standards</i> authors</li>
     <li>consultants of various kinds, who might quite naturally emphasise some of the benefits and
@@ -52,8 +53,8 @@
      specifically to standards.</li>
    </ul></p>
   <p>This short book was written in DITA using an XML editor called oXygen Author. It was easy to
-   write using DITA, but it made me aware of DITA's limitations too. Let's explore how DITA might,
-   or might not help you to write policy and procedure standards documents..</p>
+   write using DITA. Let's explore how DITA might, or might not help you to write policy and
+   procedure standards documents..</p>
   <p> </p>
  </conbody>
 </concept>

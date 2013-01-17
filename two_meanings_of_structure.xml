@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_ckg_pjy_f3">
-    <title>Two meanings of "structure"</title>
+    <title>Writing standards on a structured way</title>
     <shortdesc>Structure can mean the assembly of documents from small building blocks called
         "topics", and also a consistent internal structure using a text mark-up
         language.</shortdesc>
@@ -13,9 +13,6 @@
         </copyright>
     </prolog>
     <taskbody>
-        <section>
-            <title>Standards are <i>important</i></title>
-        </section>
         <section>
             <title>Mark up separates meaning from presentation</title>
             <p>As well as writing in mark up (where the effects of the mark up might not be very
