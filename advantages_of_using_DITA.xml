@@ -23,18 +23,19 @@
                 definitively better than another. It would be a simple (very big, but simple)
                 exercise to cut this kind of material up and reassemble it cleanly into manuals
                 using DITA.</p>
-            <p>The point is this you know need to know in advance how to best present it, and you
-                can change your mind. Or, if you team or organisation changes and has different
-                priorities, you can create a new map without rewriting (much). </p>
+            <p>The point is this you <i>don't</i> need to know in advance how to best present it,
+                and you can change your mind. Or, if you team or organisation changes and has
+                different priorities, you can create a new map without rewriting (much). </p>
             <p>Most reference works to DITA have a slant towards localisation and translation costs.
                 Localisation and translation isn’t usually of interest when writing policy and
-                procedure documents. Other DITA reference works expects the content to be in the
-                genre of product information, where DITA’s core support seems to reside. </p>
+                procedure documents. Other DITA reference works expect the content to be in the
+                genre of product information, where DITA’s core support and communities seems to
+                reside. </p>
             <p>I personally suspect that there a vast underworld of unmaintained policy and
                 procedure documents in lots of big companies and government organisations that I
-                know DITA could make a real difference with.</p>
+                think a structured approach could make a real diference to.</p>
             <p>DITA is actually designed as a general purpose information interchange format.
-                Structured documents is just one of the things it can currently do. It is probably
+                Structured documents is just one of the things it can be applied to. It is probably
                 the most future-proof format you can write documents in, and is a safe format for
                 long-lived documents.</p>
             <p>DITA has three, powerful features that make it worth considering.<ul
@@ -46,7 +47,7 @@
                         well.</li>
                     <li>Selections from the maps can be filtered in or out in a technique called
                             <i>conditional profiling.</i> Again, this isn't at all unique to DITA.
-                        There are three general way to approach this, all of them useful:<ol
+                        There are three general ways to approach this, all of them useful:<ol
                             id="ol_tsz_xmf_l3">
                             <li>You can display only certain pieces of text in a custom document
                                 aimed at a particular audience (or other profiling attribute). You

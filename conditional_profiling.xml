@@ -15,7 +15,7 @@
     <taskbody>
         <section>
             <title>The default come from the computer documentation tradition</title>
-            <p>In order to conditionally-filter content susing your own profiling attributes, you're
+            <p>In order to conditionally-filter content using your own profiling attributes, you're
                 going to have to specialise the DITA open toolkit. This means edit a few lines in a
                 text file, and create a new text file as well. It's not pleasant, but it's useful
                 because you can them filter out content to suit. This can minimise the number of
@@ -28,9 +28,8 @@
                 the window is <menucascade>
                     <uicontrol>Window</uicontrol>
                     <uicontrol>Show View</uicontrol>
-                    <uicontrol/>
                     <uicontrol>DITA Maps Manager</uicontrol>
-                </menucascade>. (You'll need to do this even if you've opened up the top levle map
+                </menucascade>. (You'll need to do this even if you've opened up the top level map
                 in Author mode.</p>
         </section>
     </taskbody>

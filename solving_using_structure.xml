@@ -2,10 +2,12 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_ayn_d15_w3">
     <title>Solving authoring problems using structured documents</title>
-    <shortdesc>Standards are usually written using common Office tools such as <tm tmtype="tm">Microsoft Word</tm>.</shortdesc>
+    <shortdesc>Standards are usually written using common Office tools such as <tm tmtype="tm"
+            >Microsoft Word</tm>. This short book is a manifesto for an alternative approach for
+        standards bodies.</shortdesc>
     
     <taskbody>
-        <section><title>Common problems using <tm tmtype="tm">Word</tm></title>
+        <section><title>Common problems using word processors such as <tm tmtype="tm">Word</tm></title>
            <p><tm tmtype="tm">Word</tm> is easy to use, but managing a suite of inter-related
                 standards using <tm tmtype="tm">Word</tm> doesn't scale well, because these
                 documents are unstructured.</p>
@@ -28,7 +30,7 @@
                 </ul></p>
             <p>These aren't really faults with <tm tmtype="tm">Word</tm>. It's just not what it is
                 designed to do. On the other hand though, it's what document authors and managers
-                really need.</p></section>
+                often really need.</p></section>
         <section>
             <title>Using a structured authoring technique: DITA</title>
             <p>DITA (DITA Information Typing Architecture) is an open standard based on XML
@@ -56,30 +58,30 @@
         <section>
             <title>Using oXygen Author to produce DITA content</title>
             <p>DITA is a standard, not a product, and there are many ways to produce and manage DITA
-                content. Some of thee would require considerable investment an configuration.</p>
+                content. Some of thee would require considerable investment and configuration.</p>
             <p>This book has "the easy way" in the title. Rather than explore all the options
-                available, I'll limit it to a single product: &lt;oXygen> XML Author (which I'll
+                available, I'll limit it to a single product: &lt;oXygen/> XML Author (which I'll
                 call "oXygen"). oXygen comes bundled and preconfigured which the DITA-OT, which is
                 an open source package that serves as a reference implementation (sp?) for DITA. It
                 also comes which the DITA for Publishers EPUB plugin, which allows easy production
                 of ebooks.</p>
-            <p> it's worth considering oXygen as a nuclear-powered word-processor that can be used
-                as a stand-alone application to get things done. It can produce web-sites and
-                documents.</p>
+            <p>It's worth considering oXygen as a high powered word-processor for information
+                professionals that can be used as a stand-alone application to get things done. It
+                can produce web-sites and documents.</p>
         </section>
         <section>
             <title>Essential reading</title>
             <p>This book won't discuss how to produce DITA content in much technical detail. This
-                material is covered elsewhere in some excellent DITA reference material:</p>
+                material is covered elsewhere in some excellent DITA reference material. I highly
+                recommend the following:</p>
             <p>
                 <ul id="ul_orv_djb_x3">
                     <li>
-                        <cite>DITA Best Practices</cite>, produced by DITA-originators IBM,
-                            contains an excellent introduction and example specifically aimed at
-                            authors. It assumes you are writing product help, but otherwise is very
-                            helpful. Much of it's material is avialble elswehere, but it's an
-                            excellent, portable summary and is an essential purchase.
-                    </li>
+                        <cite>DITA Best Practices</cite>, produced by DITA-originators IBM, contains
+                        an excellent introduction and examples specifically aimed at authors. It
+                        assumes you are writing product help, but otherwise is very helpful. Much of
+                        its material is availlable elswehere, but this is an excellent, portable
+                        summary and is an essential purchase. </li>
                     <li>
                         <cite>DITA for Practicioners Volume 1</cite> (sp.) is an advanced DITA
                             book by Eliot Kimber, and serves as natural further reading after
@@ -104,8 +106,7 @@
                     </li>
                 </ul>
             </p>
-            <p/>
-            <p>This book will cover some of the aras not specifically addresssed in the above
+            <p>This book will cover some of the areas not specifically addresssed in the above
                 list.</p>
         </section>
     </taskbody>

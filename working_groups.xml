@@ -5,7 +5,8 @@
     <shortdesc>Policy and procedure documents are often written by working groups composed of
         subject matter experts ("SMEs"). Even if you are responsible for writing the content,
         putting working groups together is the most effective way of getting corrent
-        content.</shortdesc>
+        content. Unlike computer help or product information, policy and procedure documents will
+        almost always need to be formally reviewed.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
@@ -23,6 +24,23 @@
         </section>
         <section>
             <title>Bring the documents along to short, informal meetings</title>
+        </section>
+        <section>
+            <title>Send out a comments form to allow compilation of comments and prevent annotated
+                drafts</title>
+            <p>Reviewers (sometimes called stakeholders) can't really be expected to understand DITA
+                code or work within a content management system. The <i>ad hoc</i> nature of
+                standards, which means that new writers are always involved,  is amplified when
+                stakeholders are involved. New stakeholders will probably be uninterested.</p>
+            <p>Possibly the simplest way to review a standard is to circulate a draft PDF with an
+                editable comments form. Comments forms can be easily collated (with comments
+                arranged by clause number, etc.) to allow them to be reviewed in sequence.</p>
+            <p>This isn't any different from the conventional way of drafting standards, i.e. the
+                underlying DITA code ought to be invisible to the reader.</p>
+            <p>If the authors and stakeholders are drawn from the same small team, it might be
+                possible to get a technological solution working instead, but in practice it'd
+                better to drop the barrier to entry for the stakeholders to get as many
+                contributions as possible.</p>
         </section>
     </taskbody>
 </task>

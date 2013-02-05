@@ -2,9 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_gd3_xlb_f3">
     <title>Related techniques and technologies to DITA</title>
-    <shortdesc>It's worth lookng at precursors to DITA and what they where for. There are related
-        subject such as minimalism, the Hughes Aircraft STOP report, and Edmund Weiss' computer
-        documentation books.</shortdesc>
+    <shortdesc>In order to understand DITA, it's worth lookng at precursors to DITA and what they
+        were for. There are related subject such as minimalism, the Hughes Aircraft STOP report, and
+        Edmund Weiss' computer documentation books.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
@@ -14,12 +14,12 @@
     </prolog>
     <taskbody>
         <section>
-            <title>Comparing the methodologies</title>
+            <title>Comparing the methodologie</title>
             <p>DITA doesn't exist in a vacuum - there are other related techniques and technologies
                 that are worth being aware of.</p>
-            <p>DITA has a big advantage in that it has a truely heavyweight heritage: Created by
-                IBM, maintained by OASIS, and based-on (corporate-friendly) XML which will at least
-                give it a chance to be accepted by an organisation.</p>
+            <p>DITA has a big advantage in that it has a truly heavyweight heritage: Created by IBM,
+                maintained by OASIS, and based-on (corporate-friendly) XML which will at least give
+                it a chance to be accepted by an organisation.</p>
             <table frame="all" id="table_fj3_5dx_f3">
                 <title>Compring the methodologies</title>
                 <tgroup cols="3">
@@ -56,17 +56,18 @@
                             <entry morerows="1">Standards house style</entry>
                             <entry>Mature consultation process. Have formal review meetings than
                                 achieves buy-in and consensus.</entry>
-                            <entry>BSI and ISO sell bif documents for a living. Process generates
+                            <entry>BSI and ISO sell big documents for a living. Process generates
                                 large documents</entry>
                         </row>
                         <row>
                             <entry>Well understood house style</entry>
-                            <entry>Wedded to standard expository mode (top-down approach)l, with a
-                                broadly scoped documents split into nested subsections.</entry>
+                            <entry>Wedded to standard expository mode (top-down approach), with a
+                                broadly scoped document split into nested subsections.</entry>
                         </row>
                         <row>
                             <entry>DocBook</entry>
-                            <entry>Mature, well supported and well documents XML standard.</entry>
+                            <entry>Mature, popular, well supported and well documented XML standard
+                                for technical authoring</entry>
                             <entry>Lots to learn. Doesn't have modularity as a design goal.</entry>
                         </row>
                         <row>
@@ -93,7 +94,7 @@
                         <row>
                             <entry>GNU Texinfo</entry>
                             <entry>GNU project documentation. Uses friendly @ signs insted of ugly
-                                XML angle brackets. SIngle source. Topic-based writing. .Conditional
+                                XML angle brackets. Single source. Topic-based writing. .Conditional
                                 text. Excellent documentation. Can generate very high quality
                                 LaTeX.</entry>
                             <entry>Niche. Not likely to get corporate buy-in.</entry>
@@ -102,7 +103,7 @@
                             <entry>Emacs org-mode</entry>
                             <entry>Wonderful tool that can be used for single source and topic-based
                                 authoring. Can generate LaTeX.</entry>
-                            <entry>Niche. Highly unlikley to get corporate buy-in.</entry>
+                            <entry>Niche. Highly unlikely to get corporate buy-in.</entry>
                         </row>
                     </tbody>
                 </tgroup>
@@ -116,18 +117,19 @@
             <p>In fact, if you create a series of short self-contained documents, each with a
                 helpful headline style title and a useful thesis sentence, you can create a very
                 good basis for managing procedure and policy documentation. It is easy to, say,
-                convert  <i>Word </i> documents written this way to PDF using Adobe <i>Writer</i>,
-                and compile the PDF documents into custom manuals as required. You can mange the
-                source <i>Word</i> documents and PDF outputs using your existing systems. You can,
-                this way, get much of the value of using DITA with none of the learning curves
-                associated with learning XML mark up and new kinds of software.</p>
+                convert <i>Word </i> documents written this way to PDF using Adobe Acrobat, and
+                compile the PDF documents into custom manuals as required. You can mange the source
+                    <i>Word</i> documents and PDF outputs using your existing systems.</p>
+            <p>You can, this way, get much of the value of using DITA with none of the learning
+                curves associated with learning XML mark up and new kinds of software.</p>
             <p>One main hurdle why this isn't likely to be as successful as it might appear is
                 cultural rather than technological. People simply aren't used to using <i>Word</i>
-                this way. There's almost an expectation that <i>Word</i> documents need to be big,
-                divided down into sections and subsections, and cross-referenced--this is almost the
-                mark of a serious, respectable <i>Word</i> document. Couple this with the
-                traditional BSI/ISO standards model, and you might find that it's too hard to manage
-                authors this way. <i>Word</i> has simply been around too long.</p>
+                this way.</p>
+            <p>There's almost an expectation that <i>Word</i> documents need to be big, divided down
+                into sections and subsections, and cross-referenced: this is almost the mark of a
+                serious, respectable <i>Word</i> document. Couple this with the traditional BSI/ISO
+                standards model, and you might find that it's too hard to manage authors this way.
+                    <i>Word</i> has simply been around too long.</p>
         </section>
         
         

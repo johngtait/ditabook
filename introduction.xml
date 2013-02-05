@@ -7,7 +7,7 @@
  <prolog>
   <author>John Gordon Tait</author>
   <copyright>
-   <copyryear year="2012"/>
+   <copyryear year="2012-2013"/>
    <copyrholder>John Gordon Tait</copyrholder>
   </copyright>
  </prolog>
@@ -52,9 +52,11 @@
      might be focussed on less relevant and (controversially) unhelpful techniques when applied
      specifically to standards.</li>
    </ul></p>
-  <p>This short book was written in DITA using an XML editor called oXygen Author. It was easy to
-   write using DITA. Let's explore how DITA might, or might not help you to write policy and
-   procedure standards documents..</p>
+  <p>This book argues the case for using DITA. It doesn't contain many technical details, because
+   these are available elsewhere by people far better qualified than me.</p>
+  <p>It was written in DITA using an XML editor called oXygen Author. It was easy to write using
+   DITA. Let's explore how DITA might, or might not help you to write policy and procedure standards
+   documents..</p>
   <p> </p>
  </conbody>
 </concept>

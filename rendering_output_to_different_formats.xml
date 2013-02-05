@@ -2,13 +2,14 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_ccf_tt3_f3">
     <title>Rendering output to PDF, EPUB, XHTML and oXygen's WebHelp</title>
-    <shortdesc>The DITA-OT (with the DITAforPublishers plug in) can render to common formats out of
-        the box. At the time of writing, the PDF output is underwhelming. EPUB files are suitable
-        for ereaders, and web-based output are suitable for browsers.</shortdesc>
+    <shortdesc>OXygen Author comes with the open source DITA Open Toolkit (DITA-OT). The DITA-OT
+        (with the DITAforPublishers plug in) can render to common formats out of the box. At the
+        time of writing, the PDF output is underwhelming. EPUB files are suitable for ereaders, and
+        web-based output are suitable for browsers.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
-            <copyryear year="2012"/>
+            <copyryear year="2012-2013"/>
             <copyrholder>John Gordon Tait</copyrholder>
         </copyright>
     </prolog>

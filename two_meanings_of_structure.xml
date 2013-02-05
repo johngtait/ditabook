@@ -53,5 +53,13 @@
         <section>
             <title>Structural writing means the <i>computer</i> takes some of the strain</title>
         </section>
+        <section>
+            <title>Write upward from small parts rather than divide downwards</title>
+            <p>A document written from the bottom up can <i>look</i> similar to a document split
+                into sections and subsections ("clauses" and "subclauses" in standards), but they
+                are quite different regarding their maintainabilty and (less visibly but not less
+                true), sometimes their ability to be understood by their reader.</p>
+            <p>(STOP technique)</p>
+        </section>
     </taskbody>
 </task>
