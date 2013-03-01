@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_gd3_xlb_f3">
     <title>Related techniques and technologies to DITA</title>
-    <shortdesc>In order to understand DITA, it's worth lookng at precursors to DITA and what they
+    <shortdesc>In order to understand DITA, it's worth looking at precursors to DITA and what they
         were for. There are related subject such as minimalism, the Hughes Aircraft STOP report, and
         Edmund Weiss' computer documentation books.</shortdesc>
     <prolog>
@@ -14,21 +14,21 @@
     </prolog>
     <taskbody>
         <section>
-            <title>Comparing the methodologie</title>
+            <title>Comparing the methodologies</title>
             <p>DITA doesn't exist in a vacuum - there are other related techniques and technologies
                 that are worth being aware of.</p>
             <p>DITA has a big advantage in that it has a truly heavyweight heritage: Created by IBM,
                 maintained by OASIS, and based-on (corporate-friendly) XML which will at least give
                 it a chance to be accepted by an organisation.</p>
             <table frame="all" id="table_fj3_5dx_f3">
-                <title>Compring the methodologies</title>
+                <title>Comparing the methodologies</title>
                 <tgroup cols="3">
-                    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
-                    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
-                    <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+                    <colspec colname="c1" colnum="1" colwidth="1.02*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.03*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
                     <thead>
                         <row>
-                            <entry>Publication</entry>
+                            <entry>Publication or tool</entry>
                             <entry>What's useful</entry>
                             <entry>What's less useful and not useful</entry>
                         </row>
@@ -37,25 +37,36 @@
 
                         <row>
                             <entry><cite>STOP (Sequential Thematic Organization of
-                                    Publications)</cite>, the Huhes Aircraft Approach</entry>
+                                    Publications)</cite>, the Hughes Aircraft Approach</entry>
                             <entry>Excellent introduction to topic-based writing. Aimed at solving
-                                problems with collaboratively-written document.</entry>
+                                problems with collaboratively-written documents.</entry>
                             <entry>Scissors and wall technique. Focus on page layout as well as
                                 content.</entry>
                         </row>
                         <row>
-                            <entry>Edmund Weiss, <cite>How to Write Usuble User Documentation</cite>
+                            <entry>John Carroll, <cite>The Nurnberg Funnel: Designing Minimalist
+                                    Instruction for Practical Computer Skill</cite></entry>
+                            <entry>Encourages writing that is focussed on the reader. Forerunner of
+                                modern technical writing practice.</entry>
+                            <entry>Computer documentation tradition - not directly relevant to
+                                policy and procedures. Minimalism is not directly applicable to
+                                standards. Minimalism encourages experimentation - standards mandate
+                                requirements.</entry>
+                        </row>
+                        <row>
+                            <entry>Edmund Weiss, <cite>How to Write Usable User Documentation</cite>
                             </entry>
                             <entry>Relates John Carrolls' minimalism to topic-based writing
-                                directly. Excellemt example of STOP approach in practise. Bridges
+                                directly. Excellent example of STOP approach in practice. Bridges
                                 the gap between STOP and DITA.</entry>
                             <entry>Computer documentation tradition - not directly relevant to
                                 policy and procedures.</entry>
                         </row>
                         <row>
                             <entry morerows="1">Standards house style</entry>
-                            <entry>Mature consultation process. Have formal review meetings than
-                                achieves buy-in and consensus.</entry>
+                            <entry>World-wide standard practice for drafting standards. Mature
+                                consultation process. Have formal review meetings than achieves
+                                buy-in and consensus.</entry>
                             <entry>BSI and ISO sell big documents for a living. Process generates
                                 large documents</entry>
                         </row>
@@ -72,7 +83,7 @@
                         </row>
                         <row>
                             <entry>Help authoring tools (HATs)</entry>
-                            <entry>Tools that generate sotware help. Often similar in approach to
+                            <entry>Tools that generate software help. Often similar in approach to
                                 DITA.</entry>
                             <entry>Computer documentation tradition - not directly relevant to
                                 policy and procedures.</entry>
@@ -87,14 +98,14 @@
                         <row>
                             <entry>LibreOffice</entry>
                             <entry>Open source alternative to Word. Has conditional text and
-                                relibble modularity.</entry>
+                                modularity.</entry>
                             <entry>Not likely to get corporate buy-in. Word processing habits likely
                                 to be retained.</entry>
                         </row>
                         <row>
                             <entry>GNU Texinfo</entry>
-                            <entry>GNU project documentation. Uses friendly @ signs insted of ugly
-                                XML angle brackets. Single source. Topic-based writing. .Conditional
+                            <entry>GNU project documentation. Uses friendly @ signs instead of ugly
+                                XML angle brackets. Single source. Topic-based writing. Conditional
                                 text. Excellent documentation. Can generate very high quality
                                 LaTeX.</entry>
                             <entry>Niche. Not likely to get corporate buy-in.</entry>
@@ -117,8 +128,8 @@
             <p>In fact, if you create a series of short self-contained documents, each with a
                 helpful headline style title and a useful thesis sentence, you can create a very
                 good basis for managing procedure and policy documentation. It is easy to, say,
-                convert <i>Word </i> documents written this way to PDF using Adobe Acrobat, and
-                compile the PDF documents into custom manuals as required. You can mange the source
+                convert <i>Word</i> documents written this way to PDF using Adobe Acrobat, and
+                compile the PDF documents into custom manuals as required. You can manage the source
                     <i>Word</i> documents and PDF outputs using your existing systems.</p>
             <p>You can, this way, get much of the value of using DITA with none of the learning
                 curves associated with learning XML mark up and new kinds of software.</p>

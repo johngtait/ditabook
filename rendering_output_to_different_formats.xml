@@ -20,12 +20,32 @@
                 view. If you are viewing a topic rather than a map, you'll just render the topic
                 with a choice of only PDF or XHTML (plus other projects that you've made
                 yourself).</p>
+            <p>As well as writing in mark up (where the effects of the mark up might not be very
+                apparent), you will also have little direct control of the appearance of the output.
+                This includes important aspects line page breaks and the appearance of tables.It can
+                be difficult to adjust to this, particulary when you are used to having easy control
+                of document presentation with a word processor, and especially when the output is
+                less satisfactory than you can acheive with one.Nevertheless, after time, it does
+                become much simpler to just open a map and start work without being bothered by page
+                layout, margins, and font size....advantages cond porf and transIn DITA, there is
+                still some presentational structure to consider. Italics and bold are there, and
+                images need to be given a (e.g width) size for PDF output (or they can spill over
+                the page). It's still much, much less than you will find with a word processor.</p>
         </section>
         <section>
             <title>PDF output</title>
             <p>PDF output is quite poor, and is somewhat controversial. Lookng at the rendering for
-                the first time, it doesn't seem so bad. Problems start if you want to improve
-                it.</p>
+                the first time, it doesn't seem so bad. Problems start if you want to improve it.
+                Nevertheless, It's easy to emphasise how you or your writers will spend less time
+                worrying about structure and more time worrying about appearance. In fact, DITA
+                users are very interested in the appearance of their documents.You can have some
+                direct control of the appearance of XHTML output (and by extention EPUB and oXygen's
+                WebHelp by configuring the appearance with cascading style sheets (CSS). CSS
+                provides a template-like way of altering the appearance. It's fairly easy to learn
+                the basics (the web is not short of CSS tutorials) and it's well integrated woth
+                DITA and oXygen.PDF output is much, much harder to customise. You can add some
+                images to flag up parts of text in conditional processing, but that's about it for
+                the DITA-OT unless you are or can call upon the skills of a developer.</p>
             <p>Tables are particularly poor.</p>
             <p>Changing font size, putting text in the header, and putting a logo on the front page
                 are all very difficult, and will need involvement.</p>
@@ -84,13 +104,13 @@
                 tradition. This means that it will have the unfortunate flavour of other
                 WebHelp.</p>
             <p>WebHelp is the kind of computer help that you find when you press F1 on otherwise
-                acces web on a computer application. It usually has a disagreeably, choppy feel.
-                Help that connects to a well-written, up-to-date web-site is usually much
+                access webhelp on a computer application. It usually has a disagreeably, choppy
+                feel. Help that connects to a well-written, up-to-date web-site is usually much
                 better.</p>
             <p>Even WebHelp displayed using the Suite Soft HTML5 plug-in (link) still looks like
                 DITA content. There are lots of small, disconnected topics, and the results feel
                 much like other minimalist, ultra-topicised content.</p>
-            <p>It can actually be quite satidifiing to generate WebHelp with complex structure for
+            <p>It can actually be quite satisfying to generate WebHelp with complex structure for
                 the first time by nesting a complex arramgement of topics. Few readers really want
                 to read information like that though, and you might just be building an unusable toy
                 if you do.</p>

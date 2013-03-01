@@ -1,65 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_ckg_pjy_f3">
-    <title>Writing standards on a structured way</title>
-    <shortdesc>Structure can mean the assembly of documents from small building blocks called
+    <title>Writing standards in a structured way</title>
+    <shortdesc>"Structure" can mean the assembly of documents from small building blocks called
         "topics", and also a consistent internal structure using a text mark-up
         language.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
-            <copyryear year="2012"/>
+            <copyryear year="2012-2012"/>
             <copyrholder>John Gordon Tait</copyrholder>
         </copyright>
     </prolog>
     <taskbody>
         <section>
-            <title>Mark up separates meaning from presentation</title>
-            <p>As well as writing in mark up (where the effects of the mark up might not be very
-                apparent), you will also have little direct control of the appearance of the output.
-                This includes important aspects line page breaks and the appearance of tables.</p>
-            <p>It can be difficult to adjust to this, particulary when you are used to having easy
-                control of document presentation with a word processor, and especially when the
-                output is <i>less</i> satisfactory than you can acheive with one.</p>
-            <p>Nevertheless, after time, it does become much simpler to just open a map and start
-                work without being bothered by page layout, margins, and font size.</p>
-            <p>In DITA, there is still some presentational structure to consider. Italics and bold
-                are there, and images need to be given a (e.g <codeph>width</codeph>) size for PDF
-                output (or they can spill over the page). It's still much, much less than you will
-                find with a word processor.</p>
-            <p>Nevertheless, It's easy to emphasise how you or your writers will spend less time
-                worrying about structure and more time worrying about appearance. In fact, DITA
-                users are very interested in the appearance of their documents.</p>
-            <p>You can have some direct control of the appearance of XHTML output (and by extention
-                EPUB and oXygen's WebHelp by configuring the appearance with cascading style sheets
-                (CSS). CSS provides a template-like way of altering the appearance. It's fairly easy
-                to learn the basics (the web is not short of CSS tutorials) and it's well integrated
-                woth DITA and oXygen.</p>
-            <p>PDF output is much, much harder to customise. You can add some images to flag up
-                parts of text in conditional processing, but that's about it for the DITA-OT unless
-                you are or can call upon the skills of a developer.</p>
-            <p>Large Word documents are unwieldly, inconsistent, and tend to die after 50 pages.</p>
-            <p>A real problem with Word documents is that they just don't scale. There's many way to
-                achieve the same thing.</p>
-            
+            <title>External structure: Writing upward from small parts rather than dividing
+                downwards</title>
+            <p>The critical conceptual difference between writing using a word-processor and DITA is
+                that word-processed documents start from the idea of a medium or large document that
+                is divided <i>down</i> into clauses and subclauses. In direct contrast, DITA content
+                is built <i>up</i> from topics.</p>
+            <p>Understanding this is the key to understanding the design of DITA and the advantages
+                it can bring.</p>
+            <p>When a word-processed document is divided down, it is the author's or editor's
+                judgment as to when a clause should be split into subclauses or when a new clause
+                should be taken. No two authors or editors can really make the same decision.</p>
+            <p>A clause or subclause produced in this way is then "locked" into the document. Its
+                content and even its title can depends on its neighbouring (sub)clauses. The title
+                of a subclause might not make sense unless it is read in conjunction with the title
+                of parent clause(s).</p>
+            <p>This is the primary reason why families of standards documents are very hard to
+                revise and update, and why moving material between them is very difficult. The whole
+                conceptual model makes it difficult.</p>
+            <p>In contrast, DITA is quite different. DITA content is written as a series of<i>
+                    topics</i>. Topics are assembled to produce the output. This is called
+                "topic-based" authoring.</p>
+            <p>A document written from the bottom up like this can <i>look</i> similar to a document
+                split into clauses and subclauses, but they are quite different regarding their
+                maintainability and (less visibly but not less true), sometimes their ability to be
+                understood by their reader.</p>
         </section>
         <section>
-            <title>Authors can use different <i>Word</i> template and can have different
-                styles</title>
+            <title>Internal structure: Mark up separates meaning from presentation</title>
+            <p>DITA is based on XML. This means that topics are written as text marked up with XML
+                tags (elements). These elements define the meaning and internal structure of the
+                topic. Further information is contains in XML's attributes, which are inside element
+                tags.</p>
+            <p>DITA's mark up contains very little infiormation about presentation. It instead
+                describes what the text in the topic is for.</p>
+            <p>Mark up allows the following to be achieved cleanly and consistently:<ol
+                    id="ul_uqy_2mf_l3">
+                    <li>Content is built up in a clean way using <i>maps</i> from a selection of
+                        topics. The mark up is very simple and allows the topics to be assembled
+                        just by referring to them. Maps can be assembled by referring to other maps
+                        as well. This is much easier than manipulating documents, even documents
+                        consisting of a single topic.</li>
+                    <li>Selections from the maps can be filtered in or out in a technique called
+                            <i>conditional profiling.</i> The mark up allows conditional profiling
+                        attributes to be added to elements.</li>
+                    <li>You can pull text from other topics into your topics using <i>content
+                            references</i>. (The technical word for this is "transclusion".)
+                        Transcluded text is much neater and helpful than just cutting and pasting
+                        because, if the transcluded text changes, all instances where the text
+                        appears will change when new content is produced.</li>
+                </ol></p>
+            <p>None of these is truly unique to DITA, but DITA's XML mark up was designed for these
+                goals. When used in combination, these three mechanisms given an excellent basis for
+                managing standards.</p>
         </section>
-        <section>
-            <title>Authors manage sequential numbering as well as the content and appearance</title>
-        </section>
-        <section>
-            <title>Structural writing means the <i>computer</i> takes some of the strain</title>
-        </section>
-        <section>
-            <title>Write upward from small parts rather than divide downwards</title>
-            <p>A document written from the bottom up can <i>look</i> similar to a document split
-                into sections and subsections ("clauses" and "subclauses" in standards), but they
-                are quite different regarding their maintainabilty and (less visibly but not less
-                true), sometimes their ability to be understood by their reader.</p>
-            <p>(STOP technique)</p>
-        </section>
+
     </taskbody>
 </task>

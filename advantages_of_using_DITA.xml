@@ -1,72 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_smw_dhg_23">
-    <title>Advantages of using DITA for policy and procedure documents</title>
-    <shortdesc>Many companies have a vast number of documents, many of which have significantly
-        overlapping concepts. Efforts to write a policy or procedure the traditional ("bottom down")
-        way can be thwarted by questions like “where does this information really belong?” It’s a
-        question that just goes away when you can reassemble a document using a disposable map, then
-        assemble another manual later using some of the same bits.</shortdesc>
+    <title>1. Assembling maps and topics</title>
+    <shortdesc>DITA is useful for technical documents in general, and standards in
+        particular.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
-            <copyryear year="2012"/>
+            <copyryear year="2012-2013"/>
             <copyrholder>John Gordon Tait</copyrholder>
         </copyright>
     </prolog>
     <taskbody>
-        
         <section>
-            <p>Specific subject areas can fundamentally cut across disciplines. For example,
-                engineering standards can be presented according to the asset owner, or the asset
-                lifecycle, or from a systems view, or from the perspective of risk. None of these is
-                definitively better than another. It would be a simple (very big, but simple)
-                exercise to cut this kind of material up and reassemble it cleanly into manuals
-                using DITA.</p>
-            <p>The point is this you <i>don't</i> need to know in advance how to best present it,
-                and you can change your mind. Or, if you team or organisation changes and has
-                different priorities, you can create a new map without rewriting (much). </p>
-            <p>Most reference works to DITA have a slant towards localisation and translation costs.
-                Localisation and translation isn’t usually of interest when writing policy and
-                procedure documents. Other DITA reference works expect the content to be in the
-                genre of product information, where DITA’s core support and communities seems to
-                reside. </p>
-            <p>I personally suspect that there a vast underworld of unmaintained policy and
-                procedure documents in lots of big companies and government organisations that I
-                think a structured approach could make a real diference to.</p>
-            <p>DITA is actually designed as a general purpose information interchange format.
-                Structured documents is just one of the things it can be applied to. It is probably
-                the most future-proof format you can write documents in, and is a safe format for
-                long-lived documents.</p>
-            <p>DITA has three, powerful features that make it worth considering.<ul
-                    id="ul_uqy_2mf_l3">
-                    <li>Documents can be assembled from smaller parts called <i>topics</i>. This
-                        feature is hardly unique to DITA, but DITA has been explicitly designed to
-                        support it. Documents are built up in a clean way using <i>maps</i> from a
-                        selection of your topics, and can include other smaller <i>maps</i> as
-                        well.</li>
-                    <li>Selections from the maps can be filtered in or out in a technique called
-                            <i>conditional profiling.</i> Again, this isn't at all unique to DITA.
-                        There are three general ways to approach this, all of them useful:<ol
-                            id="ol_tsz_xmf_l3">
-                            <li>You can display only certain pieces of text in a custom document
-                                aimed at a particular audience (or other profiling attribute). You
-                                do this by hiding all the text aimed at different audiences then
-                                pulling forward the text aimed at the audience you want. This allows
-                                you to produce multiple documents from a single map.</li>
-                            <li>You can just hide text aimed at audiences you want to miss out.</li>
-                            <li>You can flag up (display an image or use a particular piece of text
-                                beside) text aimed at a particular audience. This is useful if you
-                                want to produce a general document that different audiences can use
-                                easily.</li>
-                        </ol></li>
-                    <li>You can pull text from other topics into your topics using <i>content
-                            references</i> or <i>conrefs</i>. This is very powerful and is probably
-                        DITA's killer feature. (The technical word for this is "transclusion".)
-                        Transcluded text is much neater and help than just cutting and pasting
-                        because, if the transcluded text changes, all instances where the text
-                        appears will change too. </li>
-                </ul></p>
+            <title>A topic-based approach allows information to belong in more than one
+                place</title>
+            <p>Organisations of all kinds can have vast number of documents to maintain. Many will
+                need to be written and managed for regulatory or quality reasons. A structured
+                approach can make a difference.</p>
+            <p>Many documents will have significantly overlapping concepts. Efforts to write a
+                policy or procedure the traditional ("bottom down") way can be thwarted by hard
+                questions like “where does this information really belong?” This is a very difficult
+                question to answer when information is contained in traditional documents.</p>
+            <p>It’s a question that can go away when it is possible to reassemble a document from
+                topics using a <i>map</i>, then assemble another document later using some of the
+                same topics. The same information can live in more than one place, but can be
+                managed as just one topic.</p>
+            <p>In standards, specific subject areas can fundamentally cut across disciplines. For
+                example, engineering standards can be presented according to an asset owner, the
+                asset lifecycle, from a systems view, or from the perspective of risk. None of these
+                is definitively better than another.</p>
+            <p>It would be a simple exercise to cut this kind of material up and reassemble it
+                cleanly into manuals using DITA. The same information could be presented in more
+                than one manual without the problem of deciding where it should best be placed.</p>
+            <p>When you manage content like this (topics and maps), you don't need to know in
+                advance how to best to arrange it, and you can change your mind. Or, if your team or
+                organisation changes and has different priorities from before, you can create a new
+                map without rewriting (much). Assembling maps for output and writing topics can be
+                kept entirely separate.</p>
+        </section>
+        <section>
+            <title>Writing topics</title>
+            <p>Topics are written to be self-contained, within reason. They have useful, informative
+                titles. A short summary, called the "short description", is often written under the
+                title. Essential information, like tables or drawings, are kept in the topic where
+                they are needed by the reader.</p>
+            <p>Packets of information like this can then be far more easily assembled for
+                publication. A topic can be used in different publications with the minimum (ideally
+                no) rewriting.</p>
+            <p>This approach was covered in great detail by an influential document <cite>STOP
+                    (Sequential Thematic Organization of Publications)</cite>, by the Hughes
+                Aircraft Company, from 1965. It's a genuine classic, witty and very readable. STOP
+                calls the divided-down document a "river raft" document. Some of its ideas, like
+                putting topics ("storyboards") on two facing pages, have dated only because
+                technical standards can no longer be expected to be published only in print. Many of
+                its other approaches are still highly useful. </p>
+        </section>
+        <section>
+            <title>Cross-linking topics together with relationship tables</title>
+            <p>DITA's maps allow topics to be listed and nested, like a table of contents. A map of
+                topics for a publication will also contain a "relationship table". Cross-linking
+                topics from one part of the publication to another is achieved by these relationship
+                tables.</p>
+            <p>Relationship tables are written inside maps, not topics. The relationship table
+                explains how the topics link together, and allows cross-references to be produced.
+                They show how a topic (in one column of a table) links to another (in the next
+                column).</p>
+            <p>Cross-reference made directly from inside topic to other topic ("in-line links") are
+                not used or are kept to a minimum.</p>
+            <p>There are different ways to design relationship tables. What they all do is allow
+                cross-references to be managed <i>without amending the topics</i>. Therefore, the
+                author or the publications manager doesn't have to be concerned about managing
+                complicated links. They can just list the required topics in the map in sequence,
+                then add the links with the relationship table.</p>
+            <p>If a new map for publication is designed and it uses some of the old topics and some
+                new ones, no links will be broken because links will be added with a new
+                relationship table.</p>
+            <p>In published output, the cross-links are usually listed at the end of the topic. DITA
+                topics are usually only a few hundred words long, so this is usually convenient for
+                the reader.</p>
         </section>
     </taskbody>
 </task>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map chunk="by-document to-content">
+ <!--<map collection-type="sequence">-->
  <title>Maintaining structured policy and procedure standards the easy way using DITA XML: a
   manifesto</title>
  <topicmeta>
   <author>John Gordon Tait</author>
   <copyright>
-   <copyryear year="2012"/>
+   <copyryear year="2012-2013"/>
    <copyrholder>John Gordon Tait</copyrholder>
   </copyright>
   <keywords>
@@ -27,23 +28,19 @@
   </keywords>
  </topicmeta>
  <topicref href="preface.xml"/>
- <topicref href="introduction.xml"/>  
-  <topicref href="source_material_for_this_book.xml"/>
-  <topicref href="solving_using_structure.xml"/>
- <topicref href="looking_at_XML.xml"/>
-  <topicref href="two_meanings_of_structure.xml"/>
+ <topicref href="introduction.xml"/>
+ <topicref href="source_material_for_this_book.xml"/>
+ <topicref href="solving_using_structure.xml"/>
+ <topicref href="two_meanings_of_structure.xml"/>
  <topicref href="advantages_of_using_DITA.xml"/>
-
-  <topicref href="rendering_output_to_different_formats.xml"/>
-  <topicref href="related_techniques_to_DITA.xml"/>
-  <topicref href="content_management_systems.xml"/>
-  <topicref href="working_groups.xml"/>
-  <topicref href="converting_legacy_content_into_DITA_topics.xml"/>
-  <topicref href="cross-referencing_content.xml"/>
-  <topicref href="terms_and_definitions_conrefs.xml"/>
-  <topicref href="conditional_profiling.xml"/>
-  <topicref href="simple_CSS_stylesheet_customizations.xml"/>
- 
+ <topicref href="conditional_profiling.xml"/>
+ <topicref href="terms_and_definitions_conrefs.xml"/>
+ <topicref href="looking_at_XML.xml"/>
+ <topicref href="related_techniques_to_DITA.xml"/>
+ <topicref href="working_groups.xml"/>
+ <topicref href="converting_legacy_content_into_DITA_topics.xml"/>
+ <topicref href="rendering_output_to_different_formats.xml"/>
+ <topicref href="simple_CSS_stylesheet_customizations.xml"/>
  <!-- <topicref href="GNU_free_document_licence.xml"/>-->
  <!-- <reltable title="Links">
   <relrow>
@@ -55,4 +52,22 @@
    </relcell>
   </relrow>
  </reltable>-->
+ <reltable title="CSS">
+  <relheader>
+   <relcolspec linking="sourceonly">
+    <title>Source</title>
+   </relcolspec>
+   <relcolspec linking="targetonly">
+    <title>Add CSS numbering:</title>
+   </relcolspec>
+  </relheader>
+  <relrow>
+   <relcell>
+    <topicref href="advantages_of_using_DITA.xml"/>
+   </relcell>
+   <relcell>
+    <topicref href="simple_CSS_stylesheet_customizations.xml"/>
+   </relcell>
+  </relrow>
+ </reltable>
 </map>

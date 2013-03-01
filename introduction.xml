@@ -14,34 +14,12 @@
  <conbody>
   <p>This book is written for someone writing or managing policy and procedure documents, and
    standards documents of any kind. (I will use these terms interchangeably.)</p>
-  <p>These documents are usually managed by small dedicated teams. The content comes from experts in
-   their fields. These subject matter experts usually don't care too much about documentation
-   because their expertise lies in other areas.</p>
-  <p>Standards are designed to be <i>complied</i> with, or they specify that a process or item
-    <i>conforms</i> to it. They are usually written as instructions, or might use the words "shall"
-   and "should" to specify a requirement or guidance, respectively.</p>
-  <p>It is the nature of this type of work to go out of date as organisations and roles change, and
-   new processes need documented. Because standards are complex (made of many parts) and complicated
-   (full of specialist technical material), maintaining these documents is difficult and time
-   consuming.</p>
-  <p>Standards can have multiple authors for their different parts, and the different parts can be
-   updated at different times. The entire document will usually need to be reviewed formally by
-   multiple stakeholders, and their comments somehow incorporated into this complex document.</p>
-  <p>To help navigate these documents, they usually contain cross-references to other parts of the
-   document. These cross-references will themselves need to be updated manually, or at least checked
-   manually because, as different authors add and remove different sections, there to no guarantee
-   that the document will still hang together. Cross-references, while useful to the reader, also
-   bring their own burden of page-turning and sense-making.</p>
-  <p>Standards documents are also usually part of a wider set or family of other documents which can
-   cite each other using references. Standards authors will need to check these each time.
-   References <i>to</i> other standards can be checked by following the reference, and refererence
-    <i>from</i> other standards will require some knowledge of the subject matter.</p>
-  <p>Standards processes work because they are collaborative and tested with their stakeholders. But
-   the traditional processes for developing them is labour intensive and prone to mistakes without a
-   diligent manager and editorial team.</p>
   <p>Can the technology and technique called DITA help? Well, perhaps. There are some very real
-   advantages to trying DITA for this purpose, and some problems. If you are involved in managing
+   advantages to trying DITA for this purpose, and some challenges. If you are involved in managing
    standards, I think it could be well worth trying.</p>
+  <p>DITA is actually designed as a general purpose information interchange format.  It is probably
+   the most future-proof format you can write documents in, and is a safe format for long-lived
+   documents.</p>
   <p>The existing literature on DITA seems to be written by<ul id="ul_tdm_4xr_h3">
     <li>originators and implementators of the DITA specification, who are perhaps not aware of the
      specific needs of <i>standards</i> authors</li>
@@ -49,14 +27,17 @@
      less of the disadvantages, and who also might try to solve unnecessary technical problems</li>
     <li>technical writers in the specific fields of product documentation and, more especially,
      computer software documentation. This is a quite different genre from standards. These writers
-     might be focussed on less relevant and (controversially) unhelpful techniques when applied
-     specifically to standards.</li>
+     might be focused on less relevant techniques when applied specifically to standards.</li>
    </ul></p>
-  <p>This book argues the case for using DITA. It doesn't contain many technical details, because
-   these are available elsewhere by people far better qualified than me.</p>
+  <p>Most reference works to DITA have a slant towards localisation and translation costs.
+   Localisation and translation isn’t usually of interest when writing policy and procedure
+   documents. Other DITA reference works expect the content to be in the genre of product
+   information, where DITA’s core support and communities seems to reside.</p>
+  <p>This book argues the case for using DITA for standards. It doesn't contain many technical
+   details, because these are available elsewhere by people far better qualified than me.</p>
   <p>It was written in DITA using an XML editor called oXygen Author. It was easy to write using
    DITA. Let's explore how DITA might, or might not help you to write policy and procedure standards
-   documents..</p>
+   documents.</p>
   <p> </p>
  </conbody>
 </concept>
