@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_kdz_nyn_lj">
+  <title>Summary</title>
+  <prolog>
+    <author>John Gordon Tait</author>
+    <copyright>
+      <copyryear year="2012-2013"/>
+      <copyrholder>John Gordon Tait</copyrholder>
+    </copyright>
+  </prolog>
+  <body>
+    <p><image href="DITA_approach.png" id="image_cpq_hzn_lj" width="15cm"/></p>
+  </body>
+</topic>

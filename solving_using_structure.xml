@@ -2,9 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_ayn_d15_w3">
     <title>Solving authoring problems using structured documents</title>
-    <shortdesc>Standards are usually written using common Office tools such as <tm tmtype="tm"
-            >Microsoft Word</tm>. This short book is a manifesto for an alternative approach for
-        standards bodies.</shortdesc>
+    <shortdesc>Standards are usually written using common Office tools such as Microsoft Word. This
+        short article is a manifesto for an alternative approach for standards bodies.</shortdesc>
     
     <taskbody>
         <section>
@@ -39,16 +38,15 @@
                 stakeholders. But the traditional processes for developing them are labour-intensive
                 and prone to mistakes without a diligent manager and editorial team.</p>
         </section>
-        <section><title>Common problems using word-processors such as <tm tmtype="tm">Word</tm></title>
-            <p>Standards are often written using <tm tmtype="tm">Word</tm>. <tm tmtype="tm"
-                    >Word</tm> is easy to use. <tm tmtype="tm">Word</tm> works well with
+        <section><title>Common problems using word-processors such as Word</title>
+            <p>Standards are often written using Word. Word is easy to use. Word works well with
                 medium-sized standalone documents. It doesn't work so well when it is used to
-                maintain a suite of inter-related standards. This is because <tm tmtype="tm"
-                    >Word</tm> documents are unstructured.</p>
+                maintain a suite of inter-related standards. This is because Word documents are
+                unstructured.</p>
             <p>There are several common problems:<ul id="ul_lfn_hb5_w3">
-                    <li>It's hard to combine <tm tmtype="tm">Word</tm> documents. They are not meant
-                        to be easily combined. Because authors can easily override default styles,
-                        combining them is haphazard and can provide unpredictable results.</li>
+                    <li>It's hard to combine Word documents. They are not meant to be easily
+                        combined. Because authors can easily override default styles, combining them
+                        is haphazard and can provide unpredictable results.</li>
                     <li>There's no means of filtering content for different uses. (This is called
                         "conditional profiling".) This means that content will need to be re-written
                         for different audiences.</li>
@@ -59,9 +57,8 @@
                         distress after 50 pages. They just don't scale. There's too many way to
                         achieve the same thing.</li>
                 </ul></p>
-            <p>These aren't really faults with <tm tmtype="tm">Word</tm>. It's just isn't designed
-                for technical documentation. Document authors and managers often really need
-                something else.</p></section>
+            <p>These aren't really faults with Word. It's just isn't designed for technical
+                documentation. Document authors and managers often really need something else.</p></section>
         <section>
             <title>Using a structured authoring technique: DITA</title>
             <p>DITA (DITA Information Typing Architecture) is an open standard based on XML
@@ -69,9 +66,8 @@
                 form a much better basis for maintaining a suite of inter-related technical
                 material.</p>
             <p>DITA files are <i>highly</i> structured. Authoring in DITA is quite different from
-                authoring in <tm tmtype="tm">Word</tm> and comes with a steep learning curve. It
-                provides a very sound basis for technical standards because it has:<ul
-                    id="ul_ell_4d5_w3">
+                authoring in Word and comes with a steep learning curve. It provides a very sound
+                basis for technical standards because it has:<ul id="ul_ell_4d5_w3">
                     <li>an <i>assembly</i> mechanism, which allow you to combine material in many
                         ways and allows the same material to appear in more than one document</li>
                     <li>a <i>conditional profiling</i> mechanism, which allows you to adapt content
@@ -89,9 +85,8 @@
             <title>Using oXygen Author to produce DITA content</title>
             <p>DITA is a standard, not a product, and there are many ways to produce and manage DITA
                 content. Some of these would require considerable investment and configuration.</p>
-            <p>This book has "the easy way" in the title. Rather than explore all the options
-                available, I'll limit it to a single product: &lt;oXygen/> XML Author (which I'll
-                call "oXygen").</p>
+            <p>Rather than explore all the options available, I'll limit it to a single product:
+                &lt;oXygen/> XML Author (which I'll call "oXygen").</p>
             <p>oXygen comes bundled and preconfigured which the DITA-OT, which is an open source
                 package that serves as a reference implementation for DITA (i.e. it follows the DITA
                 specification closely). It also comes with the DITA for Publishers EPUB plug-in,
@@ -109,10 +104,11 @@
                 <ul id="ul_orv_djb_x3">
                     <li><cite>DITA Best Practices</cite>, produced by DITA-originators IBM, contains
                         an excellent introduction and examples specifically aimed at authors. It
-                        assumes you are writing product help, but otherwise is very helpful. It is
-                        an excellent, portable summary and is an essential purchase.</li>
-                    <li><cite>DITA for Practitioners Volume 1</cite> (sp.) is an advanced DITA book
-                        by Eliot Kimber, and serves as natural further reading after <cite>DITA Best
+                        does assume you are writing computer product tri-pane help, but otherwise is
+                        very helpful. It is an excellent, portable summary and is an essential
+                        purchase.</li>
+                    <li><cite>DITA for Practitioners Volume 1</cite> is an advanced DITA book by
+                        Eliot Kimber, and serves as natural further reading after <cite>DITA Best
                             Practices</cite>. I also used Eliot Kimber's <cite>"DITA Configuration
                             and Specialization Tutorials</cite>, available from <xref
                             href="http://www.xiruss.org/tutorials/dita-specialization/"

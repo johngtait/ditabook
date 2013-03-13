@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map chunk="by-document to-content">
- <!--<map collection-type="sequence">-->
- <title>Maintaining structured policy and procedure standards the easy way using DITA XML: a
-  manifesto</title>
+<!-- <map chunk="by-document to-content">-->
+<map>
+ <title>Using DITA XML for standards: a manifesto</title>
  <topicmeta>
   <author>John Gordon Tait</author>
   <copyright>
@@ -29,7 +28,6 @@
  </topicmeta>
  <topicref href="preface.xml"/>
  <topicref href="introduction.xml"/>
- <topicref href="source_material_for_this_book.xml"/>
  <topicref href="solving_using_structure.xml"/>
  <topicref href="two_meanings_of_structure.xml"/>
  <topicref href="advantages_of_using_DITA.xml"/>
@@ -37,21 +35,11 @@
  <topicref href="terms_and_definitions_conrefs.xml"/>
  <topicref href="looking_at_XML.xml"/>
  <topicref href="related_techniques_to_DITA.xml"/>
- <topicref href="working_groups.xml"/>
  <topicref href="converting_legacy_content_into_DITA_topics.xml"/>
  <topicref href="rendering_output_to_different_formats.xml"/>
+ <topicref href="summary.xml"/>
  <topicref href="simple_CSS_stylesheet_customizations.xml"/>
- <!-- <topicref href="GNU_free_document_licence.xml"/>-->
- <!-- <reltable title="Links">
-  <relrow>
-   <relcell>
-    <topicref href="preface.xml"/>
-   </relcell>
-   <relcell>
-    <topicref href="GNU_free_document_license.xml"/>
-   </relcell>
-  </relrow>
- </reltable>-->
+ <topicref href="WTFPL.xml"/>
  <reltable title="CSS">
   <relheader>
    <relcolspec linking="sourceonly">

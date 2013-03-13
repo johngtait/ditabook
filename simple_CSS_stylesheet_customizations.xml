@@ -7,27 +7,42 @@
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
-            <copyryear year="2012"/>
+            <copyryear year="2012-2013"/>
             <copyrholder>John Gordon Tait</copyrholder>
         </copyright>
     </prolog>
     <taskbody>
         <section>
-            <title>Emphasising the Short Description</title>
-            <p>It's often worth emphasising the Short Description if you are using it as a STOP
-                thesis sentence. Add something like this to your custom CSS:</p>
+            <title>Emphasising the short description</title>
+            <p>It's often worth emphasising the short description, especially if you are using it as
+                a STOP thesis sentence. Add something like this to your custom CSS:</p>
             <codeblock>p.shortdesc { font-weight: bold; color: blue; }</codeblock>
             <p>This will emphasise the text in the topic itself. It will appear as plain text as
                 usual under titles on nested topics.</p>
         </section>
         <section>
             <title>Using the Outputclass attribute for additional styling</title>
+            <p>Highlighting text in EPUB and other XHTML-based output can be done with the
+                    <codeph>outputclass</codeph> attribute. This is useful for, say, the styling
+                text flagged with the <codeph>importance</codeph> attribute, which isn't currently
+                styled by the DITA Open Toolkit.</p>
+            <p>Even though it makes no difference to the rendering, I have used the importance
+                attribute <i>as well</i> as the <codeph>outputclass</codeph> attribute to give it
+                some semantic meaning.</p>
+            
+<codeblock>
+&lt;p outputclass="highlight" importance="required">This requirement will be styled by your CSS.&lt;/p>
+</codeblock>
+            <p>Here is the CSS:</p>
+
+            <codeblock>.highlight { font-weight: bold ; color: red; }</codeblock>
+
         </section>
         <section>
             <title>Adding numberings to clause and subclause headings</title>
-        <p>Numbering can be added to EPUB and other XHTML-based out by adding the following to
-            the CSS.
-            <codeblock>body { counter-reset: H1; } 	/* Create the counter for H1 */
+        <p>Numbering can be added to EPUB and other XHTML-based output by adding the following to
+                the CSS.
+                <codeblock>body { counter-reset: H1; } 	/* Create the counter for H1 */
 h1:before {
   content: counter(H1) ". "; 	/* Print the H1 number */
   counter-increment: H1; 	/* Add 1 to next H1 */

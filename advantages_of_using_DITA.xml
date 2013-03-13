@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_smw_dhg_23">
-    <title>1. Assembling maps and topics</title>
-    <shortdesc>DITA is useful for technical documents in general, and standards in
-        particular.</shortdesc>
+    <title>Assembling maps and topics</title>
+    <shortdesc>DITA is useful for technical documents in general, and standards in particular.
+        Standards can be assembled from topics in a disciplined manner.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
@@ -26,6 +26,9 @@
                 topics using a <i>map</i>, then assemble another document later using some of the
                 same topics. The same information can live in more than one place, but can be
                 managed as just one topic.</p>
+            <p>In regulated industries, where it is essential that information is correct, this will
+                allow you to manage overlapping content while being sure that there is no unwanted
+                duplication or contradiction between different documentation sets.</p>
             <p>In standards, specific subject areas can fundamentally cut across disciplines. For
                 example, engineering standards can be presented according to an asset owner, the
                 asset lifecycle, from a systems view, or from the perspective of risk. None of these
@@ -66,8 +69,8 @@
                 explains how the topics link together, and allows cross-references to be produced.
                 They show how a topic (in one column of a table) links to another (in the next
                 column).</p>
-            <p>Cross-reference made directly from inside topic to other topic ("in-line links") are
-                not used or are kept to a minimum.</p>
+            <p>Cross-references made directly from inside topic to other topic ("in-line links") are
+                not usually used or are kept to a minimum.</p>
             <p>There are different ways to design relationship tables. What they all do is allow
                 cross-references to be managed <i>without amending the topics</i>. Therefore, the
                 author or the publications manager doesn't have to be concerned about managing
@@ -77,8 +80,8 @@
                 new ones, no links will be broken because links will be added with a new
                 relationship table.</p>
             <p>In published output, the cross-links are usually listed at the end of the topic. DITA
-                topics are usually only a few hundred words long, so this is usually convenient for
-                the reader.</p>
+                topics are usually only a few hundred words long, so this is usually somewhat
+                convenient for the reader.</p>
         </section>
     </taskbody>
 </task>

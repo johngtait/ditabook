@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_ccf_tt3_f3">
-    <title>Rendering output to PDF, EPUB, XHTML and oXygen's WebHelp</title>
-    <shortdesc>OXygen Author comes with the open source DITA Open Toolkit (DITA-OT). The DITA-OT
-        (with the DITAforPublishers plug in) can render to common formats out of the box. At the
-        time of writing, the PDF output is underwhelming. EPUB files are suitable for ereaders, and
-        web-based output are suitable for browsers.</shortdesc>
+    <title>Rendering output to PDF, EPUB, XHTML and WebHelp</title>
+    <shortdesc>oXygen Author comes with the open source DITA Open Toolkit (DITA-OT). The DITA-OT
+        (with the DITAforPublishers plug in) can render to common formats out of the box. EPUB files
+        are suitable for ereaders, and web-based output is suitable for browsers.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
@@ -16,64 +15,21 @@
     <taskbody>
         <section>
             <title>How to render different output formats</title>
-            <p>To generate the output, make sure you have displayed the top elvle map in the Author
+            <p>To generate the output, make sure you have displayed the top level map in the Author
                 view. If you are viewing a topic rather than a map, you'll just render the topic
                 with a choice of only PDF or XHTML (plus other projects that you've made
                 yourself).</p>
             <p>As well as writing in mark up (where the effects of the mark up might not be very
                 apparent), you will also have little direct control of the appearance of the output.
-                This includes important aspects line page breaks and the appearance of tables.It can
-                be difficult to adjust to this, particulary when you are used to having easy control
-                of document presentation with a word processor, and especially when the output is
-                less satisfactory than you can acheive with one.Nevertheless, after time, it does
-                become much simpler to just open a map and start work without being bothered by page
-                layout, margins, and font size....advantages cond porf and transIn DITA, there is
-                still some presentational structure to consider. Italics and bold are there, and
-                images need to be given a (e.g width) size for PDF output (or they can spill over
-                the page). It's still much, much less than you will find with a word processor.</p>
-        </section>
-        <section>
-            <title>PDF output</title>
-            <p>PDF output is quite poor, and is somewhat controversial. Lookng at the rendering for
-                the first time, it doesn't seem so bad. Problems start if you want to improve it.
-                Nevertheless, It's easy to emphasise how you or your writers will spend less time
-                worrying about structure and more time worrying about appearance. In fact, DITA
-                users are very interested in the appearance of their documents.You can have some
-                direct control of the appearance of XHTML output (and by extention EPUB and oXygen's
-                WebHelp by configuring the appearance with cascading style sheets (CSS). CSS
-                provides a template-like way of altering the appearance. It's fairly easy to learn
-                the basics (the web is not short of CSS tutorials) and it's well integrated woth
-                DITA and oXygen.PDF output is much, much harder to customise. You can add some
-                images to flag up parts of text in conditional processing, but that's about it for
-                the DITA-OT unless you are or can call upon the skills of a developer.</p>
-            <p>Tables are particularly poor.</p>
-            <p>Changing font size, putting text in the header, and putting a logo on the front page
-                are all very difficult, and will need involvement.</p>
-            <p>Also, currently, no index is generated.</p>
-            <p>It seems likely that the DITA-OT's PDF rendering will improve in the future and, if
-                you will stick with DITA over a long time period, you'll be better served. On the
-                other hand, companies offering propriatory PDF rendering produce output that is
-                somewhat similar.</p>
-            <p>To be honest, if you need PDFoutput and you doesn't have a team of developers working
-                for you, I'd probably not use DITA at all.</p>
-        </section>
-        <section>
-            <title>EPUB output and ereaders</title>
-            <p>You can picture EPUB files as little bundles of html code that can be read like a
-                book.</p>
-            <p>You can read them with Adobe's Digital Editions, Firefox's EPUBreader add-on, tablets
-                computers and ereaders.</p>
-            <p>Currently, <keyword>ereaders</keyword> are pretty primitive. At the time of writting,
-                a new generation with a built-in lights has been introduced. They are really quite
-                nice.The display refresh is still a bit slow, but they're light, portable and can be
-                read mostly anywhere. They might be a good choice for staff working outdoors. You'll
-                need one with EPUB support if you want to use oXygen's ebook output
-                out-of-the-box.</p>
-            <p>When generating EPUB files, avoid using the <codeph>collection-type=sequence</codeph>
-                attribute, as that will create highly annoying <systemoutput>Previous
-                    topic</systemoutput> and <systemoutput>Next topic</systemoutput> links, which
-                are horrible in linarly-presented material like an ebook. You'll lose the nice
-                numbering of any nested topics, unfortunately.</p>
+                This includes important aspects line page breaks and the appearance of tables.</p>
+            <p>It can be difficult to adjust to this, particularly when you are used to having easy
+                control of document presentation with a word processor, and especially when the
+                output is less satisfactory than you can achieve with one.</p>
+            <p>Nevertheless, after time, it does become much simpler to just open a map and start
+                work without being bothered by page layout, margins, and font size.</p>
+            <p>Renderings (HTML, PDF, etc.) are necessarily static, but that is what is expected with
+                published standards: they are relied on to have stable content and simple versioning
+                and publication dates. </p>
         </section>
         <section>
             <title>XHTML output</title>
@@ -81,42 +37,59 @@
                 technique to produce vanilla hypertext.</p>
             <p>It is suitable for passing onto professional web developers for further processing
                 and professional styling.</p>
+            <p>You can have some direct control of the appearance of XHTML output (and by extension
+                EPUB and oXygen's WebHelp) by configuring the appearance using cascading style
+                sheets (CSS). CSS provides a template-like way of altering the appearance. It's
+                fairly easy to learn the basics of CSS (the web is not short of CSS tutorials) and
+                it's well integrated with DITA and oXygen.</p>
         </section>
         <section>
             <title>oXygen's WebHelp output</title>
-            <p><indexterm>WebHelp</indexterm>An additonal rendering provided by oXygen is its own
-                "WebHelp" rendering.</p>
+            <p><indexterm>WebHelp</indexterm>An additional rendering provided by oXygen is its own
+                "WebHelp" rendering. oXygen's WebHelp is possibly the easiest and simplest way to
+                build a maintainable process and policy web-site.</p>
             <p>This gives a contents list, a word search (which also picks up keywords you add in
                 topic metadata) and, if you add index entries to the metadata, an index. These three
                 cover most kinds of search very well. (Only some kind of faceted browsing is
-                missing.)</p>
-            <p>It's also improved a lot of the last couple of years, with the addition of an index
-                (improved over v14.0 to 14.1). The appearance of the WebHelp has changed over the
-                years, showing it's under active development.</p>
-            <p>"WebHelp" suggests shows Syncro Soft are competing against Flare, RoboHelp and the
-                likes, and it brings DITA back to computer application help. However, what is
-                actually provided is a very useful, low cost way of building quite sophisticated
-                web-sites out of the box.</p>
-            <p>I'd consider investigating this if your content will be based online only. Okay, they
-                    <i>do</i> put a "WebHelp output generated by oXygen" message on every page, but
-                you could always edit the html to get rid of it. I'd just leave it.</p>
+                missing.) It is a low cost way of building quite sophisticated web-sites out of the
+                box.</p>
             <p>The main problem with WebHelp is that is clearly comes from the computer help
-                tradition. This means that it will have the unfortunate flavour of other
-                WebHelp.</p>
-            <p>WebHelp is the kind of computer help that you find when you press F1 on otherwise
-                access webhelp on a computer application. It usually has a disagreeably, choppy
-                feel. Help that connects to a well-written, up-to-date web-site is usually much
-                better.</p>
-            <p>Even WebHelp displayed using the Suite Soft HTML5 plug-in (link) still looks like
-                DITA content. There are lots of small, disconnected topics, and the results feel
-                much like other minimalist, ultra-topicised content.</p>
-            <p>It can actually be quite satisfying to generate WebHelp with complex structure for
-                the first time by nesting a complex arramgement of topics. Few readers really want
-                to read information like that though, and you might just be building an unusable toy
-                if you do.</p>
-            <p>OXygen's WebHelp is probably the easiest and simplest way to build a maintainable
-                process and policy web-site. Be aware of WebHelp's origin, and you should be
-                okay.</p>
+                tradition. This means that it will have the unfortunate flavour of other WebHelp. It
+                usually has a disagreeably, choppy feel and is clearly constructed from small
+                parts.</p>
+        </section>
+        <section>
+            <title>PDF output</title>
+            <p>PDF output is quite poor. Looking at the rendering for the first time, it doesn't
+                seem so bad but problems start if you want to improve it. PDF output is much, much
+                harder to customise than XHTML. You can add some images to flag up parts of text in
+                conditional processing, but that's about it for the DITA-OT unless you are or can
+                call upon the skills of a developer.</p>
+            <p>Changing font size, putting text in the header, and putting a logo on the front page
+                are all very difficult. No index is generated using the DITA-OT. </p>
+            <p>It seems likely that the DITA-OT's PDF rendering will improve in the future and, if
+                you will stick with DITA over a long time period, you'll be better served.</p>
+            <p>An alternative approach is to render a map as XHTML (chunked to a single document
+                rather than render it as individual topics) and then convert the page to PDF. </p>
+        </section>
+        <section>
+            <title>EPUB output and ereaders</title>
+            <p>You can picture EPUB files as little bundles of XHTML code that can be read like a
+                book. You can read them with Adobe's Digital Editions, Firefox's EPUBreader add-on,
+                tablets computers and ereaders.</p>
+            <p>Ereaders are a bit slow, but they're light, portable and can be read mostly anywhere.
+                They might be a good choice for staff working outdoors. You'll need one with EPUB
+                support if you want to use oXygen's ebook output out-of-the-box.</p>
+            <p>When your output is primarily going to be EPUB files, avoid using the
+                    <codeph>collection-type=sequence</codeph> attribute, as that will create
+                annoying <systemoutput>Previous topic</systemoutput> and <systemoutput>Next
+                    topic</systemoutput> links, which don't work well in linearly-presented material
+                like an ebook.</p>
+        </section>
+        <section>
+            <title>Alternatives to the DITA Open Toolkit</title>
+            <p>There are commercial solutions to the DITA Open Toolkit. These can be integrated with
+                a component content management system.</p>
         </section>
     </taskbody>
 </task>

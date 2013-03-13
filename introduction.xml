@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_gpb_hwf_23">
- <title>About this book</title>
+ <title>About this article</title>
  <shortdesc>Structured documents can provide a simple and reliable way to write and manage policy
   and procedure documents.</shortdesc>
  <prolog>
@@ -12,7 +12,7 @@
   </copyright>
  </prolog>
  <conbody>
-  <p>This book is written for someone writing or managing policy and procedure documents, and
+  <p>This article is written for someone writing or managing policy and procedure documents, and
    standards documents of any kind. (I will use these terms interchangeably.)</p>
   <p>Can the technology and technique called DITA help? Well, perhaps. There are some very real
    advantages to trying DITA for this purpose, and some challenges. If you are involved in managing
@@ -33,7 +33,7 @@
    Localisation and translation isn’t usually of interest when writing policy and procedure
    documents. Other DITA reference works expect the content to be in the genre of product
    information, where DITA’s core support and communities seems to reside.</p>
-  <p>This book argues the case for using DITA for standards. It doesn't contain many technical
+  <p>This article argues the case for using DITA for standards. It doesn't contain many technical
    details, because these are available elsewhere by people far better qualified than me.</p>
   <p>It was written in DITA using an XML editor called oXygen Author. It was easy to write using
    DITA. Let's explore how DITA might, or might not help you to write policy and procedure standards

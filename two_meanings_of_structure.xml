@@ -46,7 +46,7 @@
                 tags (elements). These elements define the meaning and internal structure of the
                 topic. Further information is contains in XML's attributes, which are inside element
                 tags.</p>
-            <p>DITA's mark up contains very little infiormation about presentation. It instead
+            <p>DITA's mark up contains very little information about presentation. It instead
                 describes what the text in the topic is for.</p>
             <p>Mark up allows the following to be achieved cleanly and consistently:<ol
                     id="ul_uqy_2mf_l3">

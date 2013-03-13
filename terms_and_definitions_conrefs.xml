@@ -1,137 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_ov2_kzj_f3">
-    <title>3. Using content references</title>
-    <shortdesc>Use content references to manage lists of terms and definitions.</shortdesc>
+    <title>Using content references</title>
+    <shortdesc>DITA's content references ("conrefs") allow you to pull small pieces of text from a
+        topic into another topic. This is very powerful and is probably a "killer feature". </shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
-            <copyryear year="2012"/>
+            <copyryear year="2012-2013"/>
             <copyrholder>John Gordon Tait</copyrholder>
         </copyright>
     </prolog>
     <taskbody>
         <section>
             <title>Introduction to content references</title>
-            <p>I think content references ("conrefs") are DITA's killer feature. This is very
-                powerful and is probably a "killer feature".</p>
+            <p>Conrefs are used when you want to reuse pieces of text or other material from a topic
+                in another topic. As long as the content reference pulls in an element that would
+                ordinarily be allowed if it was written the topic directly (and you give it an
+                    <codeph>id</codeph> number), you can pull elements over rather than using
+                cutting and pasting.</p>
+            <p>This is very useful for keeping consistency in your standards material. If material
+                is pasted over between traditional documents, the connection between the documents
+                is lost at that point. It is very easy to modify one of the documents and not
+                another. The content will diverge over time even if it is meant to be the same.</p>
+            <p>To avoid creating a kind of spaghetti, it is a good idea to create topics designed as
+                a resource banks for conrefs. If one resource topic is included in a topic map, you
+                identify this bank as <codeph>resource-only</codeph>, meaning it will not appear in
+                the rendered output, except where its material is used in a content reference in
+                another topic.</p>
+            <p>Examples for this in standards are:<ul id="ul_fbc_zjk_hj">
+                    <li>a bank of terms and definitions</li>
+                    <li>standard "boilerplate" text that is supposed to be the same in all
+                        standards</li>
+                    <li>any chunk of text that is smaller than a topic but can be used as a block,
+                        e.g. a commonly used figure that has a title, an image and some notes under
+                        it.</li>
+                </ul></p>
+            <p>You can conref whole <codeph>section</codeph> elements (where these elements are
+                used). This probably isn't the canonical way of using conrefs, but it is easy and
+                convenient.</p>
+            <p>Even small groups of words can be used in a conref: wrapping a
+                    <codeph>phrase</codeph> element around words and using conref to pull it across
+                allows you to modify a sentence. The advantage to this is that if the
+                    <codeph>phrase</codeph> element changes in the resouce bank, you will change the
+                word in all of your content when it is rendered.</p>
         </section>
         <section>
-            <title>Are lists of terms and definitions actually needed?</title>
-            <p>Don't add abbreviations to these lists.</p>
+            <title>Example creating a glossary</title>
+            <p>I'll demonstrate how conrefs can be helpful in producing policy and procedure
+                documents. Standards have, say, a life of three years. This is short enough that
+                they might not warrant publishing professionally, but long enough that they will be
+                referred to by other documents, and eventually be cannibalised by successor
+                documents. One typical casualty of this arrangement is the lack of a consistent list
+                of organisational terms and definitions.</p>
+            <p>It's hard to keep everything current with this kind of churn using traditional
+                documents. Conrefs can help manage these.</p>
+            <p>Rather than copy or write terms and definitions in a document, they could be held in
+                a DITA glossary topic reserved for this purpose, called "glossary_bank.dita". It
+                could be hundreds of entries long and would be a global list for use throughout the
+                organisation.</p>
+            <p>A map for a document would include this bank as a resource-only topic. Our map could
+                then contain another glossary. This second glossary pulls the required terms over
+                from the global bank using a conref.</p>
+            <p>The main advantage is that the glossary bank can be shared with all documents.
+                Corrections and updates made to the glossary bank will feed through to all
+                documents. When writing a document, you can just pick the term you want from the
+                bank and you will be confident that it's correct and up to date.</p>
+            <p>(You would use another glossary topic rather than pull the terms directly into a
+                different kind of topic because glossentry elements belong to the glossgroup topic
+                specialisation, and this approach is necessary to work within DITA's own rules.)</p>
         </section>
         <section>
-            <title>What to conref</title>
-            <p>You can conref whole <codeph>section</codeph> elements. This probably isn't te
-                canonical way of using conrefs, because the computer documentation tradition seems
-                to require much more of the alteration of sentence and meaning rather than pulling
-                whole paragraphs across.</p>
-            <p>For standards, this mechanism allows simple and predictable transclusion for smallish
-                packets of text, with might or might not have titles.</p>
-            <p>Conref <codeph>phrase</codeph> elements.</p>
-            <p><codeph>Resource-only</codeph> attribute</p>
-            <p>6 DITA content references – tutorial: how to manage a centralised glossary I'll
-                demonstrate how conrefs can be helpful in producing policy and procedure documents.
-                These kind of documents can typically have a life of three years.</p>
-            <p>This is short enough that they might not warrant publishing professionally, but long
-                enough that they will be referred to by other documents, and eventually be
-                cannibalised by successor documents. One typical casuality of this arrangement is
-                the lack of a consistent list of organisational terms and definitions.</p>
-            <p>It's just hard to keep everything current with this kind of churn. Conrefs can help
-                manage these. Rather than copy or write terms and definitions in a document, they
-                could be held in a DITA glossary topic reserved for this purpose, called
-                "glossary_bank.dita". It could be hundreds of entries long.</p>
-            <p>Global glossary: &lt;?xml version="1.0" encoding="UTF-8"?> &lt;!DOCTYPE glossgroup
-                PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd"> &lt;glossgroup
-                id="gemstone_glossary"> &lt;title>Bank of gemstone terms and definitions&lt;/title>
-                &lt;glossentry id="diamond"> &lt;glossterm>diamond&lt;/glossterm>
-                &lt;glossdef>gemstone, clear and colourless with renowned physical properties, that
-                is a metastable allotrope of carbon&lt;/glossdef> &lt;/glossentry> &lt;glossentry
-                id="emerald"> &lt;glossterm>emerald&lt;/glossterm> &lt;glossdef>gemstone, coloured
-                green by trace amounts of chromium and sometimes vanadium, that is a variety of the
-                mineral beryl&lt;/glossdef> &lt;/glossentry> &lt;glossentry id="ruby">
-                &lt;glossterm>ruby&lt;/glossterm> &lt;glossdef>gemstone, coloured pink to blood-red,
-                that is a variety of the mineral corundum (aluminium oxide)&lt;/glossdef>
-                &lt;/glossentry> &lt;glossentry id="sapphire"> &lt;glossterm>sapphire&lt;/glossterm>
-                &lt;glossdef>gemstone, coloured blue, yellow, pink, purple, orange, or greenish by
-                trace amounts of elements such as iron, titanium, chromium, copper, or magnesium,
-                that is a variety of the mineral corundum (aluminium oxide)&lt;/glossdef>
-                &lt;/glossentry> &lt;/glossgroup></p>
-            <p>This is our global list for use throughout the organisation. A map for a document
-                would include this bank as a resource-only topic. Our map could then contain another
-                glossary. This second glossary pulls the required terms over from the global
-                bank.</p>
-            <p>The main advantage here is that the glossary bank can be shared with all documents.
-                Corrections made to the glossary bank will feed through to all documents. When
-                writing a document, you can just pick the term you want from the bank and you will
-                be confident that it's correct and up to date. I'm using another glossary topic
-                (rather than pull the terms directly into a, say, task topic) because glossentry
-                elements belong to the glossgroup topic specialisation. Our glossary, using a conref
-                to pull the emerald and the ruby terms from the glossary bank: &lt;?xml
-                version="1.0" encoding="UTF-8"?> &lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA
-                Glossary Group//EN" "glossgroup.dtd"> &lt;glossgroup
-                id="cut_gemstones_glossary_using_conrefs"> &lt;title>Glossary for this cut gemstones
-                specification&lt;/title> &lt;glossentry id="emerald_in_manual"
-                conref="glossary_bank.dita#emerald"> &lt;glossterm/>&lt;/glossentry> &lt;glossentry
-                id="ruby_in_manual" conref="glossary_bank.dita#ruby">
-                &lt;glossterm/>&lt;/glossentry> &lt;/glossgroup> Map, containing the following: the
-                glossary bank, marked as "resource-only" (so we don't render it) our manual's
-                glossary, which pulls over two terms ("emerald" and "ruby") using conrefs the
-                emerald and ruby topics a relationship table, which will allow the reader to jump
-                between the two topics. &lt;?xml version="1.0" encoding="UTF-8"?> &lt;!DOCTYPE map
-                PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> &lt;map chunk="by-document
-                to-content"> &lt;title>Glossary tutorial&lt;/title> &lt;topicref
-                href="glossary_bank.dita" processing-role="resource-only"/> &lt;topicref
-                href="glossary.dita"/> &lt;topicref href="requirements_for_emeralds.dita"/>
-                &lt;topicref href="requirements_for_rubies.dita"/> &lt;reltable title="Cut gemstone
-                specification"> &lt;relheader> &lt;relcolspec/> &lt;relcolspec/> &lt;/relheader>
-                &lt;relrow> &lt;relcell> &lt;topicref href="requirements_for_emeralds.dita"/>
-                &lt;/relcell> &lt;relcell> &lt;topicref href="requirements_for_rubies.dita"/>
-                &lt;/relrow> &lt;/reltable> &lt;/map> The "requirements_for_emeralds.dita" topic
-                looks like this. (The ruby topic is its equivalent.) I added a cross-reference. DITA
-                practitioners generally don't like cross-references, preferring to use relationship
-                tables exclusively (which link topics together and where the links are usually
-                rendered at the end of their topics). I usually agree with this, but topics
-                containing long lists might be better served by links to the item rather than the
-                whole topic. &lt;?xml version="1.0" encoding="UTF-8"?> &lt;!DOCTYPE task PUBLIC
-                "-//OASIS//DTD DITA General Task//EN" "task.dtd"> &lt;task
-                id="requirements_emeralds"> &lt;title>Requirements for cut emeralds&lt;/title>
-                &lt;shortdesc>All cut emeralds are required to conform to this
-                standard.&lt;/shortdesc> &lt;taskbody> &lt;section>&lt;title>Introduction&lt;/title>
-                &lt;p>Here is the specification for a cut &lt;xref
-                href="glossary.dita#emerald_in_manual"/>.&lt;/p> &lt;/section> &lt;/taskbody>
-                &lt;/task> Files Cut gemstone requirements with glossary</p>
-            <p>Psychic editing using DITA's conref push</p>
+            <title>Conref push: content references in reverse</title>
             <p>Normal conref allows you to pull text in from a resource. Conref push works in
-                reverse, and allows you to push your new text into existing content without
-                modifying that content!</p>
-            <p>You can modify text without going anywhere near it! It's like telekinesis. There are
-                untold uses for this magic.</p>
-            <p>Map: &lt;?xml version="1.0" encoding="UTF-8"?> &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD
-                DITA Map//EN" "map.dtd"> &lt;map chunk="by-document to-content"> &lt;title>Doctor
-                Who test&lt;/title> &lt;topicref href="doctor_who_subject.ditamap" format="ditamap"
-                type="subjectScheme"/> &lt;topicref href="first_serials.dita"/> &lt;topicref
-                href="resources.dita" processing-role="resource-only"/> &lt;/map> Here's the
-                original text. Note that you do need id numbers to give the conref push feature
-                something to look for: &lt;?xml version="1.0" encoding="UTF-8"?> &lt;!DOCTYPE topic
-                PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> &lt;topic id="web">
-                &lt;title>List of First Doctor serials&lt;/title> &lt;body> &lt;section>
-                &lt;title>The Web Planet&lt;/title> &lt;p id="here">This is a peculiar story. There
-                are no humanoid monsters. The &lt;ph id="target"/>Zarbi runs into the camera.&lt;/p>
-                &lt;/section> &lt;/body> &lt;/topic> The text renders to this: List of First Doctor
-                serials The Web Planet This is a peculiar story. There are no humanoid monsters. The
-                Zarbi runs into the camera. Okay. I'm going to modify this beautiful passage wih
-                conref push.</p>
-            <p>This is the resource: &lt;?xml version="1.0" encoding="UTF-8"?> &lt;!DOCTYPE topic
-                PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> &lt;topic id="bank">
-                &lt;title>Resources&lt;/title> &lt;body> &lt;p conaction="pushbefore">Here's the
-                facts.&lt;/p> &lt;p conaction="mark" conref="first_serials.dita#web/here">&lt;/p>
-                &lt;p>&lt;ph conaction="pushbefore">bloody &lt;/ph>&lt;/p> &lt;p>&lt;ph
-                conaction="mark" conref="first_serials.dita#web/target">&lt;/ph>&lt;/p> &lt;p
-                conaction="mark" conref="first_serials.dita#web/here">&lt;/p> &lt;p
-                conaction="pushafter">And those were the facts.&lt;/p> &lt;/body> &lt;/topic> </p>
-            <p>These pieces are injected into the original text. The original file does not change.
-                New rendering of the text: </p>
+                reverse, and allows you to push new text into existing content without modifying
+                that DITA content.</p>
+            <p>You can render different versions of text without modifying the topic that it is
+                based on. An example of where this is useful is injecting text into templates. The
+                template does not change but you could push titles, dates and organisational
+                information into it and include this in your map. The template can be kept
+                secure.</p>
+            <p> </p>
         </section>
     </taskbody>
 </task>

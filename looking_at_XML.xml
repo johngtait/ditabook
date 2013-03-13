@@ -16,7 +16,7 @@
         <section>
             <title>Learning to use markup</title>
             <p>Producing content in DITA will require the author or editor to write XML mark-up.
-                This is probably an instant  deal-breaker for some writers, but at least it's one
+                This is probably an instant deal-breaker for some writers, but at least it's one
                 that can be confronted early on.</p>
             <p>
                 <codeblock>  &lt;p>This is an introduction to a list&lt;ul id="my_list">
@@ -25,8 +25,6 @@
     &lt;li>here is the last list item.&lt;/li>
    &lt;/ul>&lt;/p></codeblock>
             </p>
-
-
             <p>Not everyone can tolerate writing using mark up tags (elements). It can disrupt an
                 authors sense of "flow" when writing. (I find managing closing
                     <codeph>&lt;/p></codeph> distracting.)</p>
@@ -35,57 +33,58 @@
                     <i>future-proofs</i> your work.</p>
             <p>I believe there a huge <i>cultural</i> divide between computer programmers (who code
                 using plain text) and most authors and ordinary office workers (who use tools such
-                as Microsoft <tm tmtype="service">Office</tm>). I assert that it's worth it for
-                authors and documentation managers to skill up at bit and use some of the tools and
-                techniques that are routine when developing code.</p>
-            <p>Using DITA requires straddling these two different, often completely unconnected
-                worlds. The cultural differences are greater than the technological differences.</p>
+                as Microsoft Office. I assert that it's worth it for authors and documentation
+                managers to skill up at bit and use some of the tools and techniques that are
+                routine when developing code. Using DITA requires straddling these two different,
+                often completely unconnected worlds. The cultural differences are greater than the
+                technological differences.</p>
         </section>   
         
         <section>
             <title>oXygen Author is a deservedly popular XML editor</title>
-            <p>XML authoring programs, like oXygen, allow authors and editors to work using XML
-                content by providing features to ease the additional work. oXygen has an "author"
-                mode, which hides the tags (or optionally some part of the tags). "Author" mode
-                makes oXygen look much more like a word processor, but it will behave completely
-                unlike one, because the content is still highly structured.</p>
+            <p>XML authoring programs, like oXygen Author, allow authors and editors to work using
+                XML content by providing features to ease the additional work. (There are many other
+                tools but oXygen Author is the one I've tested.)</p>
+            <p>oXygen Author has an "author" mode, which hides the tags (or optionally some part of
+                the tags). "Author" mode makes oXygen look much more like a word processor, but it
+                will behave completely unlike one, because the content is still highly
+                structured.</p>
             <p>It also has a "text" mode which displays the XML code. At times, it's simpler to drop
-                into the raw XML when the editor doesn't behave as expected, or it's just
-                simpler.</p>
-            <p>For example, editing file extensions in DITA's maps is much easier using the "text"
-                view rather than the "author" mode. Checking and amending attributes can be easier.
-                Sometimes, "author" mode just doesn't seem to provide the expected results. Swapping
-                between the "text" and "author" modes becomes as routine as swapping between the
-                different document views in <i>Word</i>.</p>
+                into the raw XML when the editor doesn't behave as expected, or it's just simpler.
+                Checking and amending attributes can be easier. Sometimes, "author" mode just
+                doesn't seem to provide the expected results. Swapping between the "text" and
+                "author" modes becomes as routine as swapping between the different document views
+                in Word.</p>
             <p>(oXygen has an additional "grid" view for managing database material in an XML
-                format, though it's not really of interest for writers using DITA.)</p>
+                format, though it's not really of interest for standards writers using DITA.)</p>
             <p>Using an XML editor like oXygen can be unsettling for a technical author. There are
                 many open windows displaying lots of technical options.</p>
             <p>I would probably resist using a <i>Word</i>-based tool or any other tools that
                 purportedly makes the author's life easier by generating DITA code using old
-                fashioned writer's tools.</p>
+                fashioned writer's tools. Nevertheless, DITA tools are changing and improving and
+                this approach might be tenable in the future.</p>
             <p>At the time of writing, oXygen is available on a cheap academic/personal license,
-                which is invaluable if you want to assess the produce or self-train. The Syncro Soft
-                team are also happy to send a no-charge time-limited license. I've also found the
-                Syncro Soft team very helpful in responding directly to technical queries, which
-                I've never experienced before outside of free and open source communities..</p>
+                which is invaluable if you want to assess the produce or self-train. I've also found
+                the Syncro Soft team very helpful in responding directly to technical queries, which
+                I've never experienced before outside of free and open source communities.</p>
             <p>oXygen works with Windows and Ubuntu (I've tried both, the license permits this) and
                 more. (For some reason, I was able to install oXygen on a Windows work laptop
                 without the usual administrator rights prompts.)</p>
             <p>There are two other versions of oXygen, but Author is the one to get for writing.
                 It's got Author mode, comes integrated with the DITA-OT (see later), and doesn't
-                have too many unnecessary developer features that'll make you feel like a "n00b"
+                have too many unnecessary developer features that'll make you feel like a newbie
                 forever.</p>
         </section>
         <section>
             <title>Using a programmer's text editor like Emacs for small edits and
                 corrections</title>
-            <p>Even when I'm using oXygen, I often perform quick corrections and other edits using a
-                programmer's text editor, Emacs. Because DITA files are text-based XML, you're free
-                to work on them using any tool that you are comfortable with.</p>
+            <p>Even when I'm using oXygen, I often perform quick edits using a programmer's text
+                editor, Emacs. Because DITA files are text-based XML, you're free to work on them
+                using any tool that you are comfortable with.</p>
             <p>For example, I use Emacs to edit topics unrelated to the main project that I'm
-                working on, as the opened file won't get jumbled with your project files in
-                oXygen.</p>
+                working on, as the opened file won't get jumbled with your project files in oXygen.
+                I also use it to carry out quick corrections that don't need any of oXygen's
+                advanced features.</p>
         </section>
     </taskbody>
 </task>

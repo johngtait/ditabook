@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_f41_vzd_f3">
-    <title>2: Conditional profiling</title>
-    <shortdesc>DITA allows conditional profiling, which means you can assemble one manual and
-        process it so that it changes for differnent audiences. This means you have less unique
-        content to manage.</shortdesc>
+    <title>Producing different versions with conditional profiling</title>
+    <shortdesc>DITA allows conditional profiling, which means you can assemble one manual from
+        topics and then process it so that it changes for different audiences. This means you have
+        less unique content to manage.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
@@ -13,145 +13,79 @@
         </copyright>
     </prolog>
     <taskbody>
-        <section><title>Conditional profiling attributes</title>DITA allows to to flag up elements
-            (tags) with "profiling attributes". You can then make these flagged elements appear or
-            not in your output.<p> There are three general ways to approach this, all of them
-                    useful:<ul id="ol_tsz_xmf_l3">
-                    <li>You can display only certain pieces of text in a custom document aimed at a
-                        particular audience (or other profiling attribute). You do this by hiding
-                        all the text aimed at different audiences then pulling forward the text
-                        aimed at the audience you want. This allows you to produce multiple
-                        documents from a single map.</li>
-                    <li>You can just hide text aimed at audiences you want to miss out.</li>
-                    <li>You can flag up (display an image or use a particular piece of text beside)
-                        text aimed at a particular audience. This is useful if you want to produce a
-                        general document that different audiences can use easily.</li>
-                </ul></p></section>
         <section>
-            <title>Use the DITA Map Manager</title>
-            <p>It's possible to use conditional profiling "out of the box" using the computer
-                documentation defaults. Any more advanced profiling will require specialization of
-                the DITA Open Toolkit.</p>
-            <p>To enable integration with Subject Scheme maps (and other features like "Search
-                References" for conrefs, keep your top level map open in DITA Maps Manager. (Open
-                the window is <menucascade>
-                    <uicontrol>Window</uicontrol>
-                    <uicontrol>Show View</uicontrol>
-                    <uicontrol>DITA Maps Manager</uicontrol>
-                </menucascade>. (You'll need to do this even if you've opened up the top level map
-                in Author mode.</p>
+            <title>Tagging your content with conditional profiling attributes</title>
+            <p>Imagine you have to maintain a long, complex manual. Your organisation is going to
+                split into 10 divisions. This means that you now have 10 manuals to maintain,
+                because the divisions have slightly different needs. You would have more than 10
+                times as much work, because the manuals have a lot of common material as well as a
+                lot of differences.</p><p>This means a lot of checking. Assuming you can only compare two documents at once, how many
+                checks? Well, Metcalfe's Law says that you'll have 45 checks to do for every change,
+                each time.</p>
+            <p>Using traditional tools, the usual way to manage this is to record all the
+                quadratically-expanding variations in a spreadsheet. This can easily become too big
+                to manage successfully. In a practical environment, this kind of checking will not
+                really happen. The manuals would be handled independently. This will result in a
+                lack of co-ordination and consistency.</p>
+            <p>DITA offers a different approach. DITA allows you to identify elements (tags) with
+                "profiling attributes". You can then make these elements appear or not in your
+                output. You can create one manual, then create 10 different varieties from it.</p>
+            <p>There are three general ways to approach this, all of them useful:</p>
+            <ul id="ol_tsz_xmf_l3">
+                <li>You can display only certain pieces of text in a custom document aimed at a
+                    particular audience (or other profiling attribute). You do this by hiding all
+                    the text aimed at different audiences then pulling forward the text aimed at the
+                    audience you want. This allows you to produce multiple documents from a single
+                    map.</li>
+                <li>You can just hide text aimed at audiences you want to miss out.</li>
+                <li>You can flag up (display an image or use a particular piece of text beside) text
+                    aimed at a particular audience so that it is easier to pick out. This is useful
+                    if you want to produce a general document that different audiences can use
+                    easily.</li>
+            </ul><p>Rendering is done using very simple filter files called DITAVAL files. You can
+                easily generate all kinds of different material from a single version of the manual
+                source code, plus tiny little DITAVAL files.</p><p>You don't have to know in advance what you need, because you can create new DITAVAL files when
+                you want.</p></section>
+        <section>
+            <title>Adding new profiling attributes</title>
+            <p>It's possible to use DITA's built-in conditional profiling attributes "out of the
+                box" using its computer documentation defaults. These have been designed for
+                computer help documentation: any more kinds of profiling will require
+                "specialisation" of the DITA Open Toolkit.</p>
+            <p>This kind of specialisation is (reasonably) easy to do. For example, you could add a
+                profiling attribute for different geographic areas ("route"), or for different kinds
+                of requirement ("status"), or for roles and responsibilities ("roles"). You can
+                create as many specialised profiling attributes as you need.</p>
+            <p>You can then assign these to any elements inside a topic, or add them to a topic map
+                references inside a map. Once to have done this, you can render different versions
+                of the same map, or flag these attributes up using images or colours.</p>
         </section>
         <section>
             <title>Populating lists of values with subject scheme maps</title>
-            <p>Imagine you have to maintain a long, complex manual. Your organisation is going to
-                split into 10 routes. This means that you now have 10 manuals to maintain, because
-                the routes have slightly different needs. You will have more than 10 times as much
-                work, because the manuals have a lot of common material as well as a lot of
-                differences. This means a lot of checking. Assuming you can only compare two
-                documents at once, how many checks? Well, node theory says that you'll have 45
-                checks to do. For every change, each time. You can try to be a hero and record all
-                the quadratically-expanding variations in a spreadsheet. For me, this is way too
-                much to manage, so we are going to need a technique. DITA has profiling text
-                attributes, which provides just that. I'll use oXygen Author. First, you need a
-                "route_test.ditamap" map. It contains a another map and a topic. Open it in the
-                oXygen's DITA Maps Manager (it's easy to overlook that part!) &lt;?xml version="1.0"
-                encoding="UTF-8"?> &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-                &lt;map> &lt;title>Route tests&lt;/title> &lt;topicref href="routes.ditamap"
-                format="ditamap" format="subjectScheme"/> &lt;topicref
-                href="route_test_topic.dita"/> &lt;/map> The "routes.ditamap" is a subject scheme
-                ditamap, not a topic ditamap. We are going to define the routes.</p>
-            <p>I created that new attribute called "routes" according to Eliot Kimber's book. The
-                subject scheme map defines the possible values for "all_routes", then links it to
-                the specialised new "route" attribute. (You can re-use one of the existing "computer
-                documentation" profiling attributes already there, but there are only a few of them
-                and it's much nicer to do it correctly.) The route code is below, in a new file
-                called "routeAttDomain.ent" (buried within the DITA Open Toolkit). You only ever
-                have to do this once, which is just as well because I have no idea what it means. I
-                also modified the topic dtd files, according to Eliot Kimber's book. </p>
-            <p>Now we apply the route attribute to the relevant text. For example, the route
-                attribute will have the value of "anglia" when the text is relevant to the Anglia
-                route. oXygen will helpfully provide a list of possible values, because the subject
-                scheme map is included in a map that is open in the Maps Manager.</p>
-            <p>This tests the new route attribute!&lt;/shortdesc> &lt;taskbody> &lt;section>
-                &lt;title>Lines of text</p>
-            <p> Now we can process the file. oXygen has profiling options under the DITA menu, but
-                I've found it better to use DITAVAL files, which give you way more control and it's
-                actually easier. "Let's automate the manual" There are two broad approaches. You
-                could produce a "Scotland" manual that only has material labelled with "Scotland",
-                and the common text, which isn't profiled. In that case, the DITAVAL file will look
-                something like this: </p>
-            <p> This will draw a little picture beside the relevant text. Note that we can easily
-                generate all kinds of different material from a single version of the manual source
-                code, plus tiny little DITAVAL files. We don't have to know in advance what we need,
-                because we can create new DITAVAL files when we want. Rather than alter source
-                files, subject scheme maps can be assembled on the fly to create different
-                deliverables, and these can be combined with topic maps to achieve complete command
-                over our technical material. Problem solved! 'll demonstrate the control that can be
-                achieved with DITA subject scheme maps. Modifying individual topic maps with
-                profiling attributes to generate different types of content is almost as inefficient
-                as just modifying the text itself. What else can we do with subject scheme maps and
-                DITAVAL files? As an example, I've created a very simple topic map called
-                "shapes_and_colours.ditamap" and opened it in oXygen Author's Maps Manager.</p>
-            <p>This is very similar to the previous example. We have a subject scheme map
-                "shapes_and_colours_scheme.ditamap", plus a dita topic "shapes_and_colours.dita"
-                that will contain our actual text. The subject scheme map
-                "shapes_and_colours_scheme.ditamap" looks like this: </p>
-            <p>Now, this is similar to the previous example. I have defined a list of controlled
-                values, then associated the values with the attribute "platform". Because
-                "shapes_and_colours.ditamap" is open in oXygen's Maps Manager, when I edit the topic
-                "shapes_and_colours.dita", oXygen will suggest the controlled values from the
-                subject scheme map. What's interesting is that the &lt;subjectdef> elements are
-                nested in a taxonomy: there are three shapes under "shapes", and three colours under
-                "colours". (I'm using the existing "platform" profiling attribute in this example
-                because it's available for use immediately, and I'm too chicken to specialise my
-                own.) oXygen Author will suggest the following controlled values for "platform" (in
-                an alphabetical list): blue, circle, colours, green, red, shapes, square, triangle.
-                Here is the topic "shapes_and_colours.dita": </p>
-            <p>>This is just ordinary untagged text.&lt;/p> &lt;/conbody> &lt;/concept> To the
-                title, I have added the phrase element to tag the word "Shapes" with the "shapes"
-                value, and the word "Colours" with the "colours" attribute. I've also tagged each of
-                the six pieces of text with their correct values circle, triangle, square, red,
-                green, blue). But what I haven't done is apply the "shapes" attribute to any of the
-                three named shapes, or the "colours" attribute to any of the three named colours.
-                Rendering the topic as HTML produces the following: Shapes Colours This is a test
-                for subject scheme maps. This is a circle. This is a triangle. This is a square.
-                This is red. This is green. This is blue. This is just ordinary untagged text. Now,
-                let's use the following DITAVAL file to filter the content: </p>
-            <p> This will produce the following: Shapes Colours This is a test for subject scheme
-                maps. This is a triangle. This is a square. This is red. This is green. This is
-                blue. This is just ordinary untagged text. The circle text has obligingly
-                disappeared. Good. Now let's try another DITAVAL file: </p>
-            <p>This will produce the following. Shapes This is a test for subject scheme maps. This
-                is a circle. This is a triangle. This is a square. This is just ordinary untagged
-                text.</p>
-            <p>The word "Colours" disappears from the title, because that word was tagged with the
-                value "colours" in the &lt;ph> phrase element. That's neat as of itself, because you
-                can wrap the &lt;ph> element around almost anything and you can have control over
-                individual words. The paragraphs with the text "This is red.", "This is green." and
-                "This is blue." have been excluded as well. But hang on! We didn't tag any of the
-                colours as being colours in the topic file itself. What's going on?</p>
-            <p>We created a taxonomy in the subject scheme map. The subject scheme has established
-                this relationship between the subjects. What's really important (and exciting) for a
-                technical documentation manager is that we can now control content by modifying the
-                subject scheme maps only. The topics can be tagged with a solid, controlled set of
-                values that are unlikely to change, while subject scheme maps can be created,
-                modified, combined, and disposed of as needed to present the content to meet
-                changing requirements.</p>
-            <p>You could alternatively highlight all of the shape material with: &lt;?xml
-                version="1.0" encoding="UTF-8"?> &lt;val> &lt;prop action="flag" att="platform"
-                val="shapes" color="red"/> &lt;/val> Which would give you: Shapes Colours This is a
-                test for subject scheme maps. This is a circle. This is a triangle. This is a
-                square. This is red. This is green. This is blue. This is just ordinary untagged
-                text. To add text as well, try:</p>
-            <p>&lt;?xml version="1.0" encoding="UTF-8"?> &lt;val> &lt;prop action="flag"
-                att="platform" val="shapes" color="red"> &lt;startflag> &lt;alt-text>SHAPE:
-                &lt;/alt-text> &lt;/startflag> &lt;/prop> &lt;/val> </p>
-            <p>or, with an image (here in the same directory as the DITAVAL file): &lt;?xml
-                version="1.0" encoding="UTF-8"?> &lt;val> &lt;prop action="flag" att="platform"
-                val="shapes"> &lt;startflag imageref="shape_flag.png"/> (image101) &lt;/prop>
-                &lt;/val> </p>
-            <p>(In practice, I like to create just one DITAVAL file containing different varieties
-                of &lt;prop> elements that are commented out, and uncomment them as needed.) </p>
+            <p>A specialisation of DITA's topic maps are <i>subject scheme maps</i>. Subject scheme
+                maps can contain lists or taxonomies (nested lists) of controlled values that you
+                can define. These controlled values can be linked to a profiling attribute.</p>
+            <p>If you refer to a subject scheme map in your topic map, your XML editor can suggest
+                these controlled values from a pick list when you assign a profiling attribute.
+                These keep things orderly and under your control. For example, if you have a
+                profiling attribute called "division", you can be offered a list of the 10 possible
+                divisions to choose from.</p>
+            <p>Because the controlled values can be in a taxonomy, you can filter topics in
+                sophisticated ways. For example, say you have a profiling attribute called
+                "colours". You can put a controlled value of "all_colours", then define three
+                colours "red", "green" and "blue" under it.</p>
+            <p>If you tag any elements with the individual values "red", "green" "blue", you can
+                filter or flag up the text with any of these colours in the DITAVAL file. You can
+                also filter on "all_colours" even though you haven't tagged any text as being
+                "all_colours". The subject scheme has established this relationship between the
+                subjects.</p>
+            <p>You can control content by modifying the subject scheme maps only. The topics can be
+                tagged with a solid, controlled set of values that are unlikely to change, while
+                subject scheme maps can be created, modified, combined, and disposed of as needed to
+                present the content to meet changing requirements.</p>
+            <p>Rather than alter source files, subject scheme maps can be assembled on the fly to
+                create different deliverables, and these can be combined with topic maps to achieve
+                complete command over your technical material.</p>
         </section>
     </taskbody>
 </task>

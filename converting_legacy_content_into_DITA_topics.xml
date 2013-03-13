@@ -1,270 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "task.dtd">
 <task id="task_zlj_wv3_f3">
-    <title>Converting legacy documents into DITA</title>
-    <shortdesc>Creating DITA topics from existing content is best done by hand rather than machine
-        tools. This is because a "content analysis" step needs to be done, and it can be done at the
-        same time as conversion to XML.</shortdesc>
+    <title>Working with DITA content</title>
+    <shortdesc>Analysing and structuring your content is essential.</shortdesc>
     <prolog>
         <author>John Gordon Tait</author>
         <copyright>
-            <copyryear year="2012"/>
+            <copyryear year="2012-2013"/>
             <copyrholder>John Gordon Tait</copyrholder>
         </copyright>
-        <metadata>
-            <keywords>
-                <indexterm>naming<indexterm>files</indexterm><indexterm>folders</indexterm></indexterm>
-                <indexterm>folders<indexterm>naming</indexterm></indexterm>
-                <indexterm>files<indexterm>naming</indexterm></indexterm>
-                <indexterm/>
-            </keywords>
-        </metadata>
     </prolog>
     <taskbody>
         <section>
-            <title>Topic type matters less in policy and procedure documents</title>
-            <p>Texinfo, DITA and DocBook assume you are writing about some form of computer
-                application. Although theey can all be used for any purpose, all have cultural
-                baggage.</p>
+            <title>Analysing your content</title>
+            <p>Creating DITA topics from existing content can be done by hand in your organisation,
+                by some specialised tools, or by outsourcing the work. Even if you will use a
+                contractor to convert content into DITA XML code, consider an in-house "content
+                analysis" step to be essential.</p>
+            <p>If you are converting material by hand, you can analyse the content at the same stage
+                as converting it to DITA, or do the content analysis step first. Consider retiring
+                or archiving older material rather than converting it to DITA, unless there is an
+                identified business need to convert it.</p>
+            <p>Dated standards are not fixed by topicising them because they are unlikely to make
+                sense when split up. Documents are always a product of their time, and are written
+                for and by a particular organisation with needs that might no longer be relevant.
+                Take care before attempting to build or update a complete body of standards,
+                especially when based on existing documents. If your readers are familiar with
+                existing standards, you could confuse them if you present them with the same
+                requirements in a different format with few important changes.</p>
         </section>
         <section>
-            <title>General task topics contact section titles, which are every useful for migrating
-                content</title>
-        </section>
-        <section>
-            <title>Section titles allow looser writing like the STOP Report</title>
-            <p>In fact, consider the Texinfo generated copy lie [scheme-manual], which puts
-                everything on one page.</p>
-        </section>
-        <section>
-            <title>You only need to specialise the one topic type you will use the most</title>
-            <p>Your specialised topic for profiling will need to be maintained if you update your
-                version of oXygen (always a good idea, since the features and the webhelp options
-                are continually improving. Although specialising the topic type is a
-                straightforward, mechanical experience, it's still unpleasant and will involve
-                testing. It's just unecessary work to specialise topics that you won't use, and
-                neater and cheaper not to as well.</p>
-        </section>
-        <section>
-            <title>Make a topic about 1000 words, the length of a couple of pages, or the length of
-                a couple of screens</title>
-        </section>
-        <section>
-            <title>Avoid minimalism</title>
-            <lq>This uses the "topic" topic, because the specialised topics are associated with the
-                computer document tradition. The computer document tradition incorporates ideas like
-                minimalism. Minimalism is unsuitable for our procedures and policies because it
-                actively encourages experimentation rather than compliance. It has a different
-                purpose.</lq>
-            <lq>We will use the "topic" topic until such time as we write out own specialised
-                topic.</lq>
-        </section>
-        <section>
-            <title>Follow the STOP report</title>
-            <p>Written half a century ago, created for technical proposal in large teams, and using
-                physical cut-and-paste methods, the STOP Reoprt still provides the best "topicising"
-                instructions I've seen.</p>
-        </section>
-        <section><title>Tiny topics <i>don't</i> help readers</title><p/>
+            <title>Structuring topics</title>
             <p>DITA proponents will stress topicising into small topics, when in fact can make
-                managing things harder. Conditional text is one idea that DITA really gets right,
-                because it reduces the number of files you'll need to manage.</p>
-            <p>Small topics will mean a small amount of information is displayed on a web page
-                rendering. This won't help the reader <i>one bit</i>, and will likely irritate them.
-                Following STOP, common sense, and common experience of reading all kinds of
-                web-sites and blogs, what really works is a coherent and complete two or three
-                screens of text.</p>
-            <p>Resist the urge to topicise everything down to the smallest chunks you can. It
-                doesn't really help anyone (including writers and reviewer), gives you more to
-                manage, and doesn't serve the reader. Why do it?</p>
-            <p>It's important to realise that the literature on DITA usually assumes that you are
-                managing a team of writers to manage documentation to a product. There might be
-                variants to the product, and the products might need to be documented in different
-                lanaguages. Because translation is expensive, there is a move towards translating as
-                little unique content as possible. That is, DITA can be used to keep <i>costs</i>
-                down.</p>
-            <p> DITA content written this way has an unsettling look and feel that is quite apart
-                from the DITA-OT. It seems choppy, disconnected, and somehow inauthentic, like spam
-                email.</p>
-            <p>None of this is needed or necessary when writtng policies and
-                procedures.</p><p>Consider using the <codeph>chunk</codeph> attribute with
-                    <codeph>select branch</codeph> to group topics together in DiTA-OT XHTML
-                renderings. This works well with topics grouped under a <codeph>topichead</codeph>
-                element.</p><p>Even consider grouping a whole map on a single web page, no matter
-                how large, using <codeph>&lt;map chunk="by-document
-            to-content"></codeph></p>
-            <p>Documents are of their time. Cultural. COnsider retiring. COnsider
-                reinterpreting.</p></section>
-        <section>
-            <title>Every page is not really page one</title>
-            <p>An expression "every page is page one" refers to the idea that a reader can read any
-                part of the document first. It's an idea applicable to the web (and hypertext in
-                general), and actually to any reference material that can be searched by a page
-                turn, word search, index, tag, or search engine reference.</p>
-            <p>It's a good idea to some extent, because expecting a reader to sit down with a
-                standard (even a mandatory one) and read it in sequence is unrealistic. Like many
-                ideas, though, it starts to break down when taken beyond practical or common sense
-                limits.</p>
-            <p>There is always going to be an inevitable gap between a comprehensive and complete
-                documentation set, and one that is easily usable. There needs to be some kind of
-                management decision backed up with any combination of search tools, briefing
-                material, and training to bridge this. It needs to be an ongoing question.</p>
-            <p>It isn't solved by fragmenting the content to such an extent that <i>no</i> prior
-                knowldege is assumed, or that there isn't some kind of progression to the
-                material.</p>
-            <p>Whether your material is in a sequence of process steps, conceptual understanding,
-                technical difficulty, importance (e.g. with guidance material appearing after
-                mandatory), etc. your material is going to be in <i>some</i> kind of order. It will
-                most likely be in a mixture.</p>
+                managing things harder. Resist the urge to topicise everything down to the smallest
+                chunks you can. It doesn't really help anyone (including writers and reviewers),
+                gives you more items to manage, and doesn't serve the reader.</p>
+            <p>Excessive topicising is not needed when writing policies and procedures. The
+                literature on DITA sometimes assumes that you are managing a team of writers to
+                manage documentation to a product. There could be variants to the product, and the
+                products might need to be documented in different languages. Because translation is
+                expensive, there is a move towards translating as little unique content as possible.
+                That is, DITA can be used to keep <i>costs</i> down.</p>
+            <p>Unfortunately, DITA content written this way can have a choppy look and feel. Small
+                topics can mean a small amount of information is displayed on a screen when it is
+                rendered as a webpage. This won't help the readers very much and could irritate
+                them.</p>
+            <p>Following the STOP Report and the common experience of reading all kinds of web-sites
+                and blogs, what really works is a coherent and complete two or three screens of text
+                of about 1000 words. Written half a century ago, created for technical proposal in
+                large teams, and using physical cut-and-paste methods, the STOP Report still
+                provides the best "topicising" instructions I've seen.</p>
+            <p>You can use DITA to put everything (a single DITA topic map) on a single web page.
+                Consider using the <codeph>chunk</codeph> attribute with <codeph>select
+                    branch</codeph> to group topics together in DITA-OT XHTML renderings. This works
+                well with topics grouped under a <codeph>topichead</codeph> element. Even consider
+                grouping a whole map on a single web page, no matter how large, using
+                    <codeph>&lt;map chunk="by-document to-content"></codeph></p>
+            <p>Readers can read any part of a document first, particularly when searched for on the
+                web or by a page turn, word search, index, tag, or search engine reference. It's a
+                good idea to bear this in mind because expecting a reader to sit down with a
+                standard (even a mandatory one) and read it in sequence is unrealistic.
+                Nevertheless, readers' understanding isn't helped by fragmenting content to an
+                extent that <i>no</i> prior knowledge is assumed, or that there isn't any kind of
+                progression to the material. Context helps the reader make sense of it.</p>
+            <p>Whether your material is arranged in a sequence of process steps, conceptual
+                understanding, technical difficulty, importance (e.g. with guidance material
+                appearing after mandatory), etc. your standards are going to be in <i>some</i> kind
+                of order. It will most likely be a mixture.</p>
             <p>This might seem obvious if you are an experienced writer, but it's different to some
                 of the expectations that technical writers working on product documentation are used
-                to dealing with.</p>
-            <p>As before, "reasonably self-contained topics that could be read out-of-sequence" is
-                probably the most practical and realistic approach.</p>
+                to dealing with. Keep topics reasonably self-contained and keep in mind that they
+                could be read out of sequence.</p>
         </section>
-        <section>
-            <title>Use lower case rather than upper case and use the underscore character rather
-                than a space</title>
-            <p>In DITA file names, use lower case except when it would be perverse not to do so,
-                e.g. in organization names. Use an underscore character.</p>
-            <p>For example, an example is <codeph>naming_files_and_folders.dita</codeph>.</p>
-        </section>
-        <section>
-            <title>Put legacy structural features at the end of titles, in brackets</title>
+        <section><title>Migrating content</title>
             <p>In migration projects, it's quite possible that you will want to keep a record of
-                original titles. This might help to to complete a migration, or it might help
-                existing readers who are used to referring to a document called "PROC 1234", or an
-                appendix called "Appendix A".</p>
-            <p>Try to be helpful to your readers.</p>
-            <p>For example, as a topic title or the title of a map.</p>
-            <lq>How to clear a spill (PROC 1234)</lq>
-            <p>For example, in an appendix:</p>
-            <lq>How to apply for a deviation (Appendix A)</lq>
-            <p>This has the triple purpose of:<ul id="ul_icl_f1x_f3">
+                original titles. This might help to complete a migration, or it might help existing
+                readers who are used to referring to a document called "PROC 1234" or an appendix
+                called "Appendix A". The following forms could help:</p><p>For example, as a topic
+                title or the title of a map.</p><lq>How to clear a spill (PROC 1234)</lq><p>For
+                example, in an appendix:</p><lq>How to apply for a deviation (Appendix
+                A)</lq><p>This style has the triple purpose of:<ul id="ul_icl_f1x_f3">
                     <li>deprecating these structural elements, when all you really want to worry
                         about is topic title and maps</li>
-                    <li>maintain a record of where the topic or section element came from, visible
-                        even in the map (for topic titles)</li>
+                    <li>maintaining a record of where the topic or section element came from,
+                        visible even in the map (for topic titles)</li>
                     <li>allowing you to quietly drop the structural elements in the future without
                         significantly altering the title.</li>
-                </ul></p>
-        </section>
-        <section>
-            <title>Always analyse the content first</title>
-            <p>Before attempting to migrate existing content into DITA, always do a content analysis
-                step first. </p>
-        </section>
-        <section>
-            <title>Export the content without line breaks</title>
-        </section>
-        <section>
-            <p>Most policy and procedure documents are extensively numbered. This provides for
-                simple cross-referencing, but creates a massive overhead for maintainability of the
-                whole document and, particularly, reuse of the smaller parts in other related
-                documents. Without numbering, or where final numbering isn't going to be available
-                to you as an author, focus on the names of elements you will refer to and reference
-                those.Refer to cross-referenced tables and figures by name.</p>
-            <p>There is an obvious cost in ease of reference for particular sections. This might
-                cause some difficulty with claiming compliance with particular sections. This is a
-                difference between policy and procedure documents, and the more typical use case for
-                DITA. DITA content typically is designed as help, not as mandatory requirements
-                within a regulatory framework. Therefore, adding numbering is more important for
-                policy and procedure documents.CSS heading is contained at the end of this
-                document.Note that, although the number resembles in appearance a typical standard,
+                </ul></p><p>Refer to cross-referenced tables and figures by name. Give tables and
+                figures useful, long, unique names.</p><p>Most policy and procedure documents are
+                extensively numbered. This provides for simple cross-referencing, but creates an
+                overhead for maintainability of the whole document and, particularly, reuse of the
+                smaller parts in other related documents. Without numbering, or where final
+                numbering isn't going to be available to authors, focus on the names of elements you
+                will refer to and reference those.</p><p>There is an obvious cost in ease of
+                reference for particular sections. This might cause some difficulty with claiming
+                compliance with particular sections. This is a difference between policy and
+                procedure documents mandating requirements within a regulatory framework, and the
+                more typical use case for DITA. Adding numbering is more important for policy and
+                procedure documents.</p><p>Numbering using CSS is contained in the appendix.
+                Although numbering produces output that resembles the appearance a typical standard,
                 we haven't returned to the method of splitting a large document down into small
-                pieces, with all the problems that causes. We are still building up from coherent,
-                reusable and maintainable units.</p>
-            <p>Give tables and figures useful, long, unique names.</p>
-            <p>Content reuse is  <i>not</i>  is an intrinsic good in and of itself. It adds its own
-                management burden, and can sometimes lead to choppy, directionless content. </p>
+                pieces. We are still building upwards from coherent and maintainable
+                topics.</p><p>DITA has three main topics types: general task, concept and reference,
+                plus the unspecialised "topic" topic. The choice of these is less important in
+                standards than it is in computer help. The "topic" topic is the most forgiving, and
+                the general task topic is flexible as well (it can contain multiple "sections" each
+                with titles).</p></section>
+
+        <section>
+            <title>Working groups</title>
+            <p>Policy and procedure documents are often written by working groups composed of
+                subject matter experts. Even if you alone are responsible for writing content,
+                putting working groups together is the most effective way of getting correct
+                content. Unlike computer help or product information, policy and procedure documents
+                will almost always need to be formally discussed and reviewed.</p>
+            <p>In standards development projects, bring documents along to short, informal meetings
+                that are focused on actual content. Use a large screen or a projector to permit a
+                working group to focus on the content, or bring hard copies. Resist discussing
+                content by email, because it's hard to make decisions on content that way.</p>
+            <p>Reviewers (sometimes called stakeholders) can't really be expected to understand DITA
+                code or work within a content management system. The <i>ad hoc</i> nature of
+                standards, which means that new writers are always involved, is amplified when
+                stakeholders are involved. New stakeholders will probably be uninterested in
+                DITA.</p>
+            <p>Possibly the simplest way to review a standard is to circulate a draft with an
+                editable comments form. Comments forms can be easily collated (with comments
+                arranged in sequence) to allow comments to be reviewed in order.</p>
+            <p>This isn't different from the conventional way of drafting standards, i.e. the
+                underlying DITA code ought to be invisible to all but the core writing team. Try to
+                drop the barrier to entry as low as possible for the stakeholders to get as many
+                contributions as possible. If the authors and stakeholders are drawn from the same
+                small team, it might be achievable to get a technological solution working
+                instead.</p>
         </section>
-        <section><title>Locking metadata safely inside the topics</title>
-            <p>The existing DITA literature assumes a solid IT support network. If you are a member
-                of a small team managing standards, it's unlikely that you'll have one that is
-                optimised for DITA. Corporate content mamagement  systems are usually based around
-                the content of the document, not the file.</p><p>Most content management systems have some kinds of metadata associated with each file such as
-                    owner, permissions, audience, creation and review dates, etc. These are generally
-                    held in a database and are not part of the file itself.</p>
-            <p>Content management systems built around DITA will modify metadata inside the DITA
-                maps and topics, where the metadata will be held, i.e. you use the CMS interface to
-                change the file.</p>
-            <p>However, it's very easy to just add the metadata in yourself using oXygen or another
-                text editor. The metadata will be held inside the file, will be permenently
-                associated with it, and will be easily adjustable and visible.</p>
-            <p>A CMS can report where DITA topic files are referred to in maps. If you use your map
-                in oXygen's DITA Maps Manager, you can do much this same thing by opening the
-                context menu ("right clicking" and choosing "Search References". In you've referred
-                to this by a conref, oXygen will report this at the bottom of the screen. This gives
-                you an excellent two-way view of the material, i.e. you can see in your topics the
-                transcluded material, and you can view where transcluded material is used.</p>
-            <p>(This is simillar functionality to the requirements tool IBM DOORS, but DITA has far
+        <section>
+            <title>Content management systems</title>
+            <p>The existing DITA literature assumes a solid IT support network with a
+                    <i>component</i> content management system (CCMS). If you are a member of a
+                small team managing standards, it's unlikely that you'll have one that is optimised
+                for DITA. Corporate content management systems are usually based around
+                documents.</p>
+            <p>Most content management systems have some kinds of metadata associated with each file
+                such as owner, permissions, audience, creation and review dates, etc. These are
+                generally held in a database and are not part of the file itself. Content management
+                systems built around DITA will modify metadata inside the DITA maps and topics,
+                where the metadata will be held, i.e. you use the CCMS interface to change the
+                file.</p>
+            <p>It's very easy to just add the metadata in yourself using oXygen or another text
+                editor. The metadata will be held inside the file, will be permanently associated
+                with it, and will be easily adjustable and visible.</p>
+            <p>A CCMS can report where DITA content is using by a conref. If you use your map in
+                oXygen's DITA Maps Manager, you can do much the same thing by opening the context
+                menu ("right clicking" and choosing "Search References". If you've referred to it by
+                a conref, oXygen will report this at the bottom of the screen. This gives you a
+                two-way view of the material, i.e. you can see the transcluded material, and you can
+                view where transcluded material is used.</p>
+            <p>(This is similar functionality to the requirements tool IBM DOORS, but DITA has
                 better publishing abilities. DOORS can't transclude text; it can just link to
                 it.)</p>
             <p>oXygen's has an excellent "Find/Replace in files" tool which can quickly search
                 through your entire content.</p>
-            <p>I'm not yet totally convinced that a dedicated CMS is really needed for say, around
-                100 documents constructed of a few hundred topics. The combination of oXygen and
-                DITA is <i>itself</i> a content management system, albeit one that needs some kind
-                of file back-up.</p>
-            <p>The advantage with an open standard like DITA is that if you want to introduce a
-                formal web-based CMS later, or if an amazing product comes on the market or is
-                available on the web, your content will already be prepared to be imported.</p>
-            <p>Try out a CMS if a time-limited trial is available to you. But also consider if the
-                sum of learning XML, DITA, modular writing and single sourcing is enough to handle
-                without introducing a major software project like a CMS as well.</p>
-            <p>if you are on a corporate shared drive, they are usually backed up anyway and you can
-                recover lost folders if you happen to ruin your work. It might be worth checking
-                what data recovery processes your organisation already has.</p>
-            <p>Many organisations that use DITA are computer product documentation companies. The
-                product engineers, managers and documentation team is the orgnisation would likely
-                have some degree of technical skill of managing techincal inforation using a content
-                management system.</p>
-            <p>Organisations that produce standards can be expected to have working group memeber
-                and stakeholders who do not necessarity belong to the organisation, nor have the
-                required technical skill to use a new content mangement system to review a draft
-                standard.</p>
-            <p>If this is the case, it is worth considering whether an orgnaisation-wide content
-                management system is really suitable. Producing standards is complex: project scope,
-                draft, revising, putting out for review, reviewing and compiling comments, reviewing
-                and incorporating comments, sign off, production editing and typesetting,
-                publication. A content management system can help with this, but perhaps only it is
-                used by the core standards team.  </p></section>
-        <section>
-            <title>Viewing DITA as a text-based database</title>
-            <p>Another reason why a CMS might not be necessary is that you can consdier DITA files
-                to be a plain text database. This is, you can build a complex document populated
-                with various types of data without going near a scripting language (PHP, etc.) on a
-                web server, and without a traditional database. This very much lowers the barrier to
-                entry for arranging your material in a database-like way and puts this control in
-                the hands of the writer and manager.</p>
-            <p>(Emacs' excellent Org-mode proudly discusses its plain text sources, and I think DITA
-                could easily do the same.)</p>
-            <p>The renderings of the files (html, PDF, etc.) are necessarily static, but that is
-                what is expected with published standards anyway: they are relied on to have stable
-                content and simple versioning and publication dates.</p>
+            <p>You will need some kind of file back-up. If you are using a corporate shared drive,
+                you can usually recover lost files and folders. Check what data recovery processes
+                your organisation already has.</p>
+            <p>Try out a CCMS if a time-limited trial is available to you. Consider if the sum of
+                learning XML, DITA, modular writing and single sourcing is enough to handle without
+                introducing a major software project like a CCMS at the same time.</p>
+            <p>The advantage with an open standard like DITA is that if you want to introduce a CCMS
+                later, or if an amazing product comes on the market or is available on the web, your
+                content will already be prepared to be imported.</p>
+            <p>Many organisations that use DITA are computer product documentation companies. Their
+                product engineers, managers and documentation team is the organisation would likely
+                have some degree of technical skill of managing technical information using a
+                complex content management system. Organisations that produce standards can be
+                expected to have working group members and stakeholders who do not necessarily
+                belong to the organisation, nor have the required technical skill to use a new
+                component content management system to review a draft standard.</p>
+            <p>Consider whether an organisation-wide content management system is really suitable.
+                Producing standards is complex: project scope, draft, revising, putting out for
+                review, reviewing and compiling comments, reviewing and incorporating comments, sign
+                off, production editing and typesetting, publication. A component content management
+                system will help with this, but perhaps only if it is used by the core standards
+                team.</p>
+            <p>A dedicated CCMS might not be needed for, say, around 100 documents constructed of a
+                few hundred topics. The combination of oXygen and DITA is <i>itself</i> a kind of
+                content management system. You can regard DITA files as a plain text database. You
+                can arrange your material in a database-like way.</p>
         </section>
-        <section>
-            <title>DITA are just text files, so consider a coder's solution</title>
+        <section><title>Considering a version control system</title>
             <p>DITA files are plan text XML files and are the type of files that software developers
-                are used to managing. Often, coders have deveoped better solutions to mamaging
+                are used to managing. Often, coders have developed more direct solutions to managing
                 content than the corporate documentation world.</p>
             <p>I project managed this book using a program called git. Git is probably the most
-                powerful software I know of for managing a book, and it's overkill, but it's also
+                powerful software I know of for managing a book, and it is overkill, but it's also
                 easy to use if you can use the command line.</p>
-            <p>In your project file, type</p>
-            <codeblock>git init</codeblock>
-            <p>This creates a file called <codeph>.git</codeph> that tracks all the changes. You can
-                delete whole subfolders and files, and switch new ones in, and git will work it all
-                out on your behalf. (Great when on the move.)</p>
-            <p>When you want to commit ("save") your work, type:</p>
-            <codeblock>git add .</codeblock>
-            <p>where the dot means everything in the folder, then</p>
-            <codeblock>git commit -m 'write a small message about the changes'</codeblock>
-            <p>then, to get it online</p>
-            <codeblock>git push origin master</codeblock>
-            <p>Then you just type in username and password and it's done. You can use git with
-                online project control software like GitHub, and have a world-class solution at low
-                cost.</p>
-        </section>
+            <p>In your project file, type</p><codeblock>git init</codeblock><p>This creates a file
+                called <codeph>.git</codeph> that tracks all the changes. You can delete whole
+                subfolders and files, and switch new ones in, and git will work it all out on your
+                behalf. (Great when on the move.)</p><p>When you want to commit ("save") your work,
+                type:</p><codeblock>git add .</codeblock><p>where the dot means everything in the
+                folder,
+                then</p><codeblock>git commit -m 'write a small message about the changes'</codeblock><p>then,
+                to get it online</p><codeblock>git push origin master</codeblock><p>Then you just
+                type in username and password and it's done. You can use git with online project
+                control software like GitHub, and have a world-class solution at low
+            cost.</p></section>
     </taskbody>
 </task>
