@@ -45,8 +45,7 @@
         </section>
         <section>
             <title>oXygen's WebHelp output</title>
-            <p><indexterm>WebHelp</indexterm>An additional rendering provided by oXygen is its own
-                "WebHelp" rendering. oXygen's WebHelp is possibly the easiest and simplest way to
+            <p>An additional rendering provided by oXygen is its own "WebHelp" rendering. oXygen's WebHelp is possibly the easiest and simplest way to
                 build a maintainable process and policy web-site.</p>
             <p>This gives a contents list, a word search (which also picks up keywords you add in
                 topic metadata) and, if you add index entries to the metadata, an index. These three
@@ -57,6 +56,10 @@
                 tradition. This means that it will have the unfortunate flavour of other WebHelp. It
                 usually has a disagreeably, choppy feel and is clearly constructed from small
                 parts.</p>
+        </section>
+        <section>
+            <title>oXygen's mobile WebHelp output</title>
+            <p>Starting from version 15, oXygen has a new mobile WebHelp rendering that is optimised for touchscreen devices (iPads, etc.)</p>
         </section>
         <section>
             <title>PDF output</title>
