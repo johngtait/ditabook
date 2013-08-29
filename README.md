@@ -14,7 +14,7 @@ The book source is itself DITA code. Please create a working copy for yourself i
 Files
 -----
 
-I'm using the file extension .xml rather than .dita for the topic files to enable Github to present the files in a more readable way. I might switch in the future.
+I'm using the file extension .xml rather than .dita for the topic files to enable GitHub to present the files in a more readable way. I might switch in the future.
 
 License
 -------
