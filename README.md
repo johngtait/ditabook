@@ -11,6 +11,8 @@ It doesn't deal with any technical aspects because that information is widely av
 
 The book source is itself DITA code. Please create a working copy for yourself if you like. The DITA source will remain online after publication.
 
+A mobile webhelp rendering is here: www.johntait.org/ditabook
+
 Files
 -----
 
