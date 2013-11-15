@@ -21,5 +21,5 @@ I'm using the file extension .xml rather than .dita for the topic files to enabl
 License
 -------
 
-(C) 2013 John Gordon Tait. Licensed under the WTFPL: http://www.wtfpl.net
+(C) 2013 John Gordon Tait. Licensed under the WYLPL, Version 1.
 
