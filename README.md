@@ -3,7 +3,7 @@ Using DITA XML for standards: a manifesto
 
 by John Tait
 
-This is the source of a article about using DITA XML to create procedure and policy documents (standards).
+This is the source of an article about using DITA XML to create procedure and policy documents (standards).
 
 DITA is usually used to create product documentation or software user guides. This is for you if you write standards of any kind instead of those. It's intended for authors and decision-makers faced with (or considering) using DITA for both new documents and migrating legacy content.
 
