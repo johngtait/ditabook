@@ -74,6 +74,18 @@
                 you will stick with DITA over a long time period, you'll be better served.</p>
             <p>An alternative approach is to render a map as XHTML (chunked to a single document
                 rather than render it as individual topics) and then convert the page to PDF. </p>
+            <p>One method of this alternative approach which can be scripted to be called as part of
+                a DITA-OT transformation or from within oXygen is the <xref
+                    href="http://wkhtmltopdf.org/" format="html" scope="external">wkhtmltopdf</xref>
+                project from Google which utilises Web Kit and Qt to create PDFs from HTML or XHTML
+                files as they appear in a browser (and better than a print to PDF function which
+                injects other data about the page being printed).  This program is sophisticated
+                enough to accept custom CSS and XSL files as <xref
+                    href="http://wkhtmltopdf.org/usage/wkhtmltopdf.txt" format="html"
+                    scope="external">command line parameters</xref> as well as instructions for page
+                sizes, generate a TOC, enable PDF forms and run javascript needed to render the
+                output.  The same project also installs a wkhtmltoimage program to convert the same
+                output to a PNG, GIF or JPEG.</p>
         </section>
         <section>
             <title>EPUB output and ereaders</title>
