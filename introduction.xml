@@ -17,9 +17,6 @@
   <p>Can the technology and technique called DITA help? Well, perhaps. There are some very real
    advantages to trying DITA for this purpose, and some challenges. If you are involved in managing
    standards, I think it could be well worth trying.</p>
-  <p>DITA is actually designed as a general purpose information interchange format.  It is probably
-   the most future-proof format you can write documents in, and is a safe format for long-lived
-   documents.</p>
   <p>The existing literature on DITA seems to be written by<ul id="ul_tdm_4xr_h3">
     <li>originators and implementators of the DITA specification, who are perhaps not aware of the
      specific needs of <i>standards</i> authors</li>
